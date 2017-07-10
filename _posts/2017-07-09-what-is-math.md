@@ -69,9 +69,9 @@ published: true
 
 对于很多抽象的数学观念，几何意义上的理解更为直观，比如实数乘法的交换性可以理解为几何学上长方形面积不变。在有些系统中，元素运算并不一定是可交换的，比如群。代数和几何对应了时间和空间的两种抽象概念，他们分属于大脑的不同区域。很多伟大的数学家都利用几何帮助自己快速掌握数学的核心观念，如19岁即证明希尔伯特第十三题的V.I. Arnold [论数学教育](https://book.douban.com/subject/3202119/discussion/1364384/)。
 
-![求导链式法则](/img/link.png)
-
 近些年随着计算机的发展，几何图形更容易显示出来。斯坦福数学系毕业的[3blue1brown](http://www.3blue1brown.com/about/)就刚刚在bilibili上利用几何直观地讲解了"[微积分的本质](http://space.bilibili.com/88461692/#!/channel/detail?cid=13407)"和"[线性代数](http://space.bilibili.com/88461692/#!/channel/detail?cid=9450)"等一系列课程，实在是非常棒的学习材料，有种相见很晚的感觉。甚至高度抽象的群论/近世代数，Youtube上也有教授用图形化的方式来讲解，短时间就能理解群论的很多核心概念: [Visual Group Theory](http://www.math.clemson.edu/~macaule/classes/m17_math4120/index.html)。
+
+![求导链式法则]({{site.baseurl}}/img/link.png)
 
 历史上几何和数学相互交替发展，到二十一世纪克莱因将所有几何统一在代数的群论之下，在更高一级的抽象上形成了统一。《代数的历史》中也涵盖了几何的这一发展趋势。在《代数的历史》中，作者总结了代数的三个阶段:
 
@@ -113,7 +113,7 @@ published: true
 - [应用数学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E6.87.89.E7.94.A8.E6.95.B8.E5.AD.B8)
   - 物理数学，数学流体力学，数值分析，最优化，概率论，统计学，计量金融，博弈论，数理经济学，生物数学，作业研究，控制论
 
-![The Map of Mathematics](/img/map-of-mathmatics.png)
+![The Map of Mathematics]({{site.baseurl}}/img/map-of-mathmatics.png)
 
 参见[维基百科](https://zh.wikipedia.org/zh-cn/%E6%95%B0%E5%AD%A6#.E6.95.B8.E5.AD.B8.E7.9A.84.E5.90.84.E9.A0.98.E5.9F.9F)和Youtube视频[The Map of Mathematics](https://www.youtube.com/watch?v=OmJ-4B-mS-Y)
 
