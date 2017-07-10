@@ -6,13 +6,18 @@
 </description>
     <link>http://sumread.com/blog/</link>
     <atom:link href="http://sumread.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jul 2017 10:07:22 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2017 10:07:22 -0700</lastBuildDate>
+    <pubDate>Mon, 10 Jul 2017 10:15:44 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Jul 2017 10:15:44 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
         <title>什么是数学</title>
-        <description>&lt;h2&gt;数学的定义&lt;/h2&gt;
+        <description>&lt;div style=&quot;margin: 0 auto;width:60%;text-align:center;&quot;&gt;
+&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/21/Euclid.jpg&quot; alt=&quot;欧几里得在雅典学院&quot;  style=&quot;display:block;&quot;&gt;
+欧几里得在《雅典学院》
+&lt;/div&gt;
+
+&lt;h2&gt;数学的定义&lt;/h2&gt;
 
 &lt;p&gt;什么是数学？在希腊语言中，这个词表示的是“学习，掌握，知识”。亚里士多德曾经给数学定义成“&lt;strong&gt;关于数量的科学&lt;/strong&gt;”，这个观点在19世纪以前一直都很盛行。在那个时候，数学主要研究数/未知量，使用的大多数符号与今天没有太多不同。一直以来的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95&quot;&gt;欧几里得几何&lt;/a&gt;学教程，笛卡尔的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95&quot;&gt;解析几何&lt;/a&gt;，卡尔达诺的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;三次方程&lt;/a&gt;/&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;四次方程&lt;/a&gt;通解,牛顿/莱布尼兹的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6&quot;&gt;微积分&lt;/a&gt;是数学发展取得的一系列伟大成就。到19世纪为止，数学完成了对数/未知量的完美抽象。事实上，大多数人的数学知识也停留在这个阶段了。对于普通大众而言，亚里士多德给出的数学的定义依然没有太大偏差。&lt;/p&gt;
 
@@ -65,7 +70,7 @@
 &lt;/code&gt;&lt;/p&gt;
 
 &lt;div style=&quot;margin: 0 auto;width:60%;text-align:center;&quot;&gt;
-&lt;img src=https://upload.wikimedia.org/wikipedia/commons/5/5b/Lorenz_attractor_yb.svg alt=&quot;混沌理论中的洛伦兹变换&quot;  style=&quot;display:block;&quot;&gt;
+&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/5b/Lorenz_attractor_yb.svg&quot; alt=&quot;混沌理论中的洛伦兹变换&quot;  style=&quot;display:block;&quot;&gt;
 混沌理论中的洛伦兹变换子
 &lt;/div&gt;
 
