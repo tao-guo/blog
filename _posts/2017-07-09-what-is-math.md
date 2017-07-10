@@ -51,7 +51,7 @@ published: true
   由于数学是反映现实的，所以他们是不确定的；由于数学是确定的，所以他们又是不现实的。
 ```
 
-可以看到，到最后爱因斯坦的论述，数学作为现实世界的模型已经越来越不确定。后来发展起来的"[混沌论]"也论证了这一点。事实上，与数学密切相关的物理学科，后来也出现了类似的情况--量子物理。量子物理学本身受数学影响颇深，Eugene Wigner曾经发表"[数学在自然科学中不合理的有效性]", 指出了数学如何不可思议地引领自然科学的新发现。最令人惊讶，也最神秘的是，在数学层层嵌套的非物质抽象概念中，包含着物质世界最深层、最本质的秘密。比如π可能出现在人口统计模型中，虚数在量子力学中的存在等。
+可以看到，到最后爱因斯坦的论述，数学作为现实世界的模型已经越来越不确定。始于二十世纪六十年代，由气象预报发展而来的"[混沌理论]"也论证了这一点。事实上，与数学密切相关的物理学科--量子物理，也出现了类似的情况。量子物理学本身受数学影响颇深，Eugene Wigner曾经发表"[数学在自然科学中不合理的有效性]", 指出了数学如何不可思议地引领自然科学的新发现。最令人惊讶，也最神秘的是，在数学层层嵌套的非物质抽象概念中，包含着物质世界最深层、最本质的秘密。比如π可能出现在人口统计模型中，虚数在量子力学中的存在等。
 
 ## 数学的历史
 
@@ -140,7 +140,7 @@ published: true
 [群]: https://zh.wikipedia.org/wiki/%E7%BE%A4
 [射影几何]: https://zh.wikipedia.org/wiki/%E5%B0%84%E5%BD%B1%E5%87%A0%E4%BD%95
 [哥德尔不完备定理]: https://zh.wikipedia.org/zh-hans/%E5%93%A5%E5%BE%B7%E5%B0%94%E4%B8%8D%E5%AE%8C%E5%A4%87%E5%AE%9A%E7%90%86
-[混沌论]: https://en.wikipedia.org/wiki/Chaos_theory
+[混沌理论]: https://en.wikipedia.org/wiki/Chaos_theory
 [数学在自然科学中不合理的有效性]: https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences
 [希尔伯特的23个问题]: https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E7%9A%8423%E4%B8%AA%E9%97%AE%E9%A2%98
 [皮亚诺公理]: https://zh.wikipedia.org/wiki/%E7%9A%AE%E4%BA%9A%E8%AF%BA%E5%85%AC%E7%90%86
