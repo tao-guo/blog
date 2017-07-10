@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tao's Thoughts</title>
+    <description>Some reading notes
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 10 Jul 2017 08:25:35 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Jul 2017 08:25:35 -0700</lastBuildDate>
+    <generator>Jekyll v3.5.0</generator>
+    
+      <item>
+        <title>什么是数学</title>
+        <description>&lt;h2&gt;数学的定义&lt;/h2&gt;
+
+&lt;p&gt;什么是数学？在希腊语言中，这个词表示的是“学习，掌握，知识”。亚里士多德曾经给数学定义成“&lt;strong&gt;关于数量的科学&lt;/strong&gt;”，这个观点在19世纪以前一直都很盛行。在那个时候，数学主要研究数/未知量，使用的大多数符号与今天没有太多不同。一直以来的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95&quot;&gt;欧几里得几何&lt;/a&gt;学教程，笛卡尔的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95&quot;&gt;解析几何&lt;/a&gt;，卡尔达诺的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;三次方程&lt;/a&gt;/&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;四次方程&lt;/a&gt;通解,牛顿/莱布尼兹的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6&quot;&gt;微积分&lt;/a&gt;是数学发展取得的一系列伟大成就。到19世纪为止，数学完成了对数/未知量的完美抽象。事实上，大多数人的数学知识也停留在这个阶段了。对于普通大众而言，亚里士多德给出的数学的定义依然没有太大偏差。&lt;/p&gt;
+
+&lt;p&gt;但是从19世纪开始，数学开始研究更为抽象的“&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E7%BE%A4&quot;&gt;群&lt;/a&gt;”和“&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%B0%84%E5%BD%B1%E5%87%A0%E4%BD%95&quot;&gt;射影几何&lt;/a&gt;”，这些新的数学对象都不能直接被度量。数学家和哲学家们开始尝试给数学新的定义来适应这些变化。他们的定义侧重各不相同，比如有些强调演绎推理，有些强调&amp;quot;抽象&amp;quot;，有些侧重于包含数学的某些课题。由于更为抽象概念的引入，关于数学定义的争论至今没有达成一致: 数学本身是被&amp;quot;发明&amp;quot;,还是被&amp;quot;发现&amp;quot;?　数学到底是&amp;quot;艺术&amp;quot;还是&amp;quot;科学&amp;quot;? 有些人干脆就说了，&amp;quot;数学嘛，就是数学家干的那些事情&amp;quot;。&lt;/p&gt;
+
+&lt;h2&gt;数学的研究内容&lt;/h2&gt;
+
+&lt;p&gt;那么数学家主要研究哪些方面的问题呢? 主要可以分为三大块:
+- 理论数学: 即纯数学，按维基百科分为数量, 结构, 空间, 变化等方面的内容
+- 应用数学: 将数学应用到具体问题中，如物理，化学，计算机，金融，博弈等
+- 数学基础: 公理化的基础如集合论，范畴论，还有计算机中的可计算性理论(P=NP?)等&lt;/p&gt;
+
+&lt;p&gt;研究这些问题是为了找寻客观世界的&amp;quot;模式&amp;quot;出来，总结成公式，并且作出合理的猜想。一个好的数学结构是现实世界的模型，依据数学推导证明可以对现实世界作出预测。有些看似完全无用的理论数学/纯数学，日后可能在某一应用领域大放异彩，比如数论在密码学的应用。而数学基础是为了找出各种理论的基石，让数学理论可以稳固的发展。
+　&lt;/p&gt;
+
+&lt;h2&gt;数学的研究方法&lt;/h2&gt;
+
+&lt;p&gt;如何能知道哪些数学猜想是正确的呢？数学采用了两大武器: &lt;strong&gt;抽象&lt;/strong&gt;和&lt;strong&gt;逻辑推理&lt;/strong&gt;，公理化的方式建构一系列命题。&lt;/p&gt;
+
+&lt;p&gt;公理在传统的思想中是“不证自明的真理”，但这种想法是有问题的。在形式上，公理只是一串符号，其只对可以由公理系统导出的公式之内容有意义。希尔伯特计划即是想将所有的数学放在坚固的公理基础上，但依据&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E5%93%A5%E5%BE%B7%E5%B0%94%E4%B8%8D%E5%AE%8C%E5%A4%87%E5%AE%9A%E7%90%86&quot;&gt;哥德尔不完备定理&lt;/a&gt;，每一相容且能蕴涵皮亚诺公理的公理系统必含有一不可决定的公式；因而所有数学的最终公理化是不可能的。尽管如此，数学常常被想像成只是某种公理化的集合论，在此意义下，所有数学叙述或证明都可以写成集合论的公式。&lt;/p&gt;
+
+&lt;p&gt;事实上，自然数四则运算的公理化--&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E7%9A%AE%E4%BA%9A%E8%AF%BA%E5%85%AC%E7%90%86&quot;&gt;皮亚诺公理&lt;/a&gt;系统，一直到二十世纪才建立起来。因此，自然数(假设包含0)运算里面\( 1+1=2, 3\times7=7\times3 \)(交换律)这些都是可以在皮亚诺公理系统下证明的。有兴趣的可以看一下陶哲轩数学大神写的《实分析》,里面就是从皮亚诺自然数公理系统开始的。&lt;/p&gt;
+
+&lt;h2&gt;作为现实世界的模型&lt;/h2&gt;
+
+&lt;p&gt;关于数学作为现实世界的模型，不同阶段数学家的期望也大为不同:&lt;/p&gt;
+
+&lt;p&gt;伽利略 (1564–1642):
+&lt;code&gt;
+  我们需要掌握宇宙的语言并熟悉它写下的字符，否则我们无法解读宇宙。它是用数学语言编写的，字母是三角
+  形、圆形和其他几何图形。没有这些，我们无法理解哪怕其中一个单词。没有这些，人类就如同在黑暗的迷宫
+  里徘徊。
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;高斯 (1777–1855):
+&lt;code&gt;
+  数学是科学的皇后(，数论是数学的皇后)。
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;希尔伯特 (1862-1943):
+&lt;code&gt;
+  “我们绝不是在这里任意胡说。数学并不像一个任意指定规则的游戏，而是一个具有内在必要性的概念体系，只
+  能如此，没有其他方式。  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;爱因斯坦 (1879–1955):
+&lt;code&gt;
+  由于数学是反映现实的，所以他们是不确定的；由于数学是确定的，所以他们又是不现实的。
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;可以看到，到最后爱因斯坦的论述，数学作为现实世界的模型已经越来越不确定。后来发展起来的&amp;quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Chaos_theory&quot;&gt;混沌论&lt;/a&gt;&amp;quot;也论证了这一点。事实上，与数学密切相关的物理学科，后来也出现了类似的情况--量子物理。量子物理学本身受数学影响颇深，Eugene Wigner曾经发表&amp;quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences&quot;&gt;数学在自然科学中不合理的有效性&lt;/a&gt;&amp;quot;, 指出了数学如何不可思议地引领自然科学的新发现。最令人惊讶，也最神秘的是，在数学层层嵌套的非物质抽象概念中，包含着物质世界最深层、最本质的秘密。比如π可能出现在人口统计模型中，虚数在量子力学中的存在等。&lt;/p&gt;
+
+&lt;h2&gt;数学的历史&lt;/h2&gt;
+
+&lt;p&gt;数学由&amp;quot;数数&amp;quot;和&amp;quot;测量土地&amp;quot;两大生产活动演变而来，由此形成了代数和几何两大发展支柱。西方数学注重几何的发展，采用欧几里得公理化和逻辑推导的方式，不仅促进了数学的发展，也深刻地影响了其他自然学科。&lt;/p&gt;
+
+&lt;p&gt;对于很多抽象的数学观念，几何意义上的理解更为直观，比如代数中乘法的交换性可以理解为几何学上长方形面积不变。代数和几何对应了时间和空间的两种抽象概念，他们分属于大脑的不同区域。很多伟大的数学家都利用几何帮助自己快速掌握数学的核心观念，如19岁即证明希尔伯特第十三题的V.I. Arnold &lt;a href=&quot;https://book.douban.com/subject/3202119/discussion/1364384/&quot;&gt;论数学教育&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;历史上几何和数学相互交替发展，到二十一世纪克莱因将所有几何统一在代数的群论之下，在更高一级的抽象上形成了统一。《代数的历史》中也涵盖了几何的这一发展趋势。在《代数的历史》中，作者总结了代数的三个阶段:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;第一次抽象: 数值
+
+&lt;ul&gt;
+&lt;li&gt;实例到数值的转变&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;第二次抽象: 文字符号体系，即用字母符号来表示任意数(未知数x)
+
+&lt;ul&gt;
+&lt;li&gt;牛顿称之为”泛算术“&lt;/li&gt;
+&lt;li&gt;核心为求解方程&lt;/li&gt;
+&lt;li&gt;和几何概念中的符号缓慢分化&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;第三次抽象: 新数学对象--群，矩阵，流形...
+
+&lt;ul&gt;
+&lt;li&gt;新的抽象层次&lt;/li&gt;
+&lt;li&gt;研究逻辑，抽象代数(近世代数),群论等&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;大数学家陈省身先生也有一篇&lt;a href=&quot;http://blog.sina.com.cn/s/blog_51cb8a0f01009j2v.html&quot;&gt;《什么是几何》&lt;/a&gt;精彩讲演，总结了几何的发展历程，现在读来仍深受启发。&lt;/p&gt;
+
+&lt;!--![几何](chen-geo1.png)
+
+![几何](chen-geo2.png)
+
+![几何](chen-geo3.png)
+
+![几何](chen-geo4.png)
+
+![几何](chen-geo5.png)
+
+![几何](chen-geo6.png)
+
+![几何](chen-geo7.png)--&gt;
+
+&lt;h2&gt;数学各领域&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E5.9F.BA.E7.A4.8E.E8.88.87.E5.93.B2.E5.AD.B8&quot;&gt;基础与哲学&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E7.BA.AF.E7.B2.B9.E6.95.B0.E5.AD.A6&quot;&gt;纯粹数学&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数量: 自然数，整数，有理数，实数，复数等&lt;/li&gt;
+&lt;li&gt;结构: 数论，群论，图论，序理论&lt;/li&gt;
+&lt;li&gt;空间: 几何，三角学，微分几何，拓扑学,分形，测度论&lt;/li&gt;
+&lt;li&gt;变化: 微积分，矢量分析，微分方程，动力系统，混沌理论，复分析&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E9.9B.A2.E6.95.A3.E6.95.B8.E5.AD.B8&quot;&gt;离散数学&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;组合数学，计算理论，密码学，图论&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E6.87.89.E7.94.A8.E6.95.B8.E5.AD.B8&quot;&gt;应用数学&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;物理数学，数学流体力学，数值分析，最优化，概率论，统计学，计量金融，博弈论，数理经济学，生物数学，作业研究，控制论&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/map-of-mathmatics.png&quot; alt=&quot;The Map of Mathematics&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;参见&lt;a href=&quot;https://zh.wikipedia.org/zh-cn/%E6%95%B0%E5%AD%A6#.E6.95.B8.E5.AD.B8.E7.9A.84.E5.90.84.E9.A0.98.E5.9F.9F&quot;&gt;维基百科&lt;/a&gt;和Youtube视频&lt;a href=&quot;https://www.youtube.com/watch?v=OmJ-4B-mS-Y&quot;&gt;The Map of Mathematics&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;华人数学家&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;菲尔兹奖
+
+&lt;ul&gt;
+&lt;li&gt;1982 丘成桐&lt;/li&gt;
+&lt;li&gt;2006 陶哲轩&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;阿贝尔奖
+
+&lt;ul&gt;
+&lt;li&gt;暂无 (2016获得者为费马大定理证明者怀尔斯)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;沃尔夫奖
+
+&lt;ul&gt;
+&lt;li&gt;1983 陈省身&lt;/li&gt;
+&lt;li&gt;2010 丘成桐&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;科尔代数奖和数论奖
+
+&lt;ul&gt;
+&lt;li&gt;2014 张益唐&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;影响力最大的两大华人数学家:华罗庚(1910-1985)和陈省身(1911-2004), 两人同在清华大学数学系，并且在西南联大同宿舍。
+杨振宁曾经这样比较华罗庚与陈省身:
+&lt;code&gt;
+  华罗庚和陈省身都是我国重要的数学家，是我们中华民族聪明睿智的代表。假如有一个老师， 把两个人叫来，
+  出一道题目，华罗庚一听就做出来了，陈省身要一个月才能做出来，但是他把这个问题开拓为一个学科。
+&lt;/code&gt;
+&lt;code&gt;
+  伯林(Isaiah Berlin，1900-1997)普及了希腊关于哲学家的两种不同类型的观念： “狐狸掌握多门技艺，
+  而刺猬则精通一门绝技。” 我想这是一种极好的方式来描述华罗庚与陈省身的不同： 华罗庚兴趣广泛，对数
+  学的几个不同分支做出了重要贡献；而陈省身则专注于微分几何一个分支， 但他革新了这个分支，并且这个
+  革新后来对20世纪的几何、代数、分析、拓扑各个主要分支都有深远的影响，甚至深入影响了近40年来理论物
+  理学的发展。
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;类同于弗里曼•戴森(1923-)的“&lt;a href=&quot;http://news.sciencenet.cn/htmlnews/2011/8/251096-1.shtm&quot;&gt;鸟和青蛙&lt;/a&gt;”的比喻,和二十世纪伟大的
+希尔伯特类似，陈省身更注重全局观，组建MSRI美国数学研究所，拓展了二十世纪的微分几何。&lt;/p&gt;
+
+&lt;h2&gt;数学的关键发展阶段人物&lt;/h2&gt;
+
+&lt;p&gt;近代数学的核心概念“群”，却是由年仅二十岁即决斗而死的&lt;strong&gt;伽罗瓦&lt;/strong&gt;发展而来的。《无法解出的方程》中对于这一悲情英雄人物作了深刻的描写，也普及了作为&amp;quot;对称&amp;quot;的描述语言&amp;quot;群&amp;quot;，是如何渗透到物理，几何，生物等其他领域，具体可见&lt;a href=&quot;&quot;&gt;读书笔记&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;二十世纪&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E7%9A%8423%E4%B8%AA%E9%97%AE%E9%A2%98&quot;&gt;希尔伯特的23个问题&lt;/a&gt;，至今仍然是数学家梦想攀登的高峰。&lt;strong&gt;哥德尔&lt;/strong&gt;对其中数学完全公理化的否证，在《哥德尔的证明》中作了通俗的讲解，在现在到处都在讨论人工智能和创造力的今天，其中的很多见解依然深刻独到。读书笔记正在整理中。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/math/2017/07/09/what-is-math.html</link>
+        <guid isPermaLink="true">http://localhost:4000/math/2017/07/09/what-is-math.html</guid>
+        
+        
+        <category>math</category>
+        
+      </item>
+    
+  </channel>
+</rss>
