@@ -6,8 +6,8 @@
 </description>
     <link>http://sumread.com/blog/</link>
     <atom:link href="http://sumread.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jul 2017 14:17:31 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2017 14:17:31 -0700</lastBuildDate>
+    <pubDate>Mon, 10 Jul 2017 14:32:20 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Jul 2017 14:32:20 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -107,21 +107,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;大数学家陈省身先生也有一篇&lt;a href=&quot;http://blog.sina.com.cn/s/blog_51cb8a0f01009j2v.html&quot;&gt;《什么是几何》&lt;/a&gt;精彩讲演，总结了几何的发展历程，现在读来仍深受启发。&lt;/p&gt;
-
-&lt;!--![几何](chen-geo1.png)
-
-![几何](chen-geo2.png)
-
-![几何](chen-geo3.png)
-
-![几何](chen-geo4.png)
-
-![几何](chen-geo5.png)
-
-![几何](chen-geo6.png)
-
-![几何](chen-geo7.png)--&gt;
+&lt;p&gt;大数学家陈省身先生也有一篇&lt;a href=&quot;/blog/math/1987/04/21/what-is-geometry.html&quot;&gt;《什么是几何》&lt;/a&gt;精彩讲演，总结了几何的发展历程，现在读来仍深受启发。&lt;/p&gt;
 
 &lt;h2&gt;数学各领域&lt;/h2&gt;
 
@@ -199,6 +185,31 @@
         <pubDate>Sun, 09 Jul 2017 00:00:00 -0700</pubDate>
         <link>http://sumread.com/blog/math/2017/07/09/what-is-math.html</link>
         <guid isPermaLink="true">http://sumread.com/blog/math/2017/07/09/what-is-math.html</guid>
+        
+        
+        <category>math</category>
+        
+      </item>
+    
+      <item>
+        <title>什么是几何</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo1.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo2.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo3.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo4.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo5.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo6.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo7.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 21 Apr 1987 00:00:00 -0700</pubDate>
+        <link>http://sumread.com/blog/math/1987/04/21/what-is-geometry.html</link>
+        <guid isPermaLink="true">http://sumread.com/blog/math/1987/04/21/what-is-geometry.html</guid>
         
         
         <category>math</category>

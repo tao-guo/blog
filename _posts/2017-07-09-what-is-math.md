@@ -3,6 +3,8 @@ layout: post
 title: 什么是数学
 categories: math
 published: true
+author: Tao
+date: 2017-07-09
 ---
 
 ## 数学的定义
@@ -83,21 +85,7 @@ published: true
     - 新的抽象层次
     - 研究逻辑，抽象代数(近世代数),群论等
 
-大数学家陈省身先生也有一篇[《什么是几何》](http://blog.sina.com.cn/s/blog_51cb8a0f01009j2v.html)精彩讲演，总结了几何的发展历程，现在读来仍深受启发。
-
-<!--![几何](chen-geo1.png)
-
-![几何](chen-geo2.png)
-
-![几何](chen-geo3.png)
-
-![几何](chen-geo4.png)
-
-![几何](chen-geo5.png)
-
-![几何](chen-geo6.png)
-
-![几何](chen-geo7.png)-->
+大数学家陈省身先生也有一篇[《什么是几何》]({{site.baseurl}}/math/1987/04/21/what-is-geometry.html)精彩讲演，总结了几何的发展历程，现在读来仍深受启发。
 
 ## 数学各领域
 - [基础与哲学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E5.9F.BA.E7.A4.8E.E8.88.87.E5.93.B2.E5.AD.B8)
