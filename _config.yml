@@ -3,7 +3,7 @@ title: Tao's Thoughts
 email: glorioustao@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Some reading notes
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://sumread.com" # the base hostname & protocol for your site
 github_username:  tao-guo
 
