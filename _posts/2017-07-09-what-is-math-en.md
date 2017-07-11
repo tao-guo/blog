@@ -33,9 +33,9 @@ How can i know which mathematical guesses are correct? Mathematics uses two majo
 
 Axiom in the traditional thought is "self-evident truth", but this idea is problematic. In form, axiom is just a string of symbols that only make sense for the content of formulas that can be derived from axiomatic systems. The Hilbert plan is intended to put all the mathematics on a solid axiom basis, but according to [the Gödel's incomplete theorem], every axiom system that is compatible with and can contain the Piano's axiom must have an unresolvable So the final axiom of all mathematics is impossible. In spite of this, mathematics is often thought of as an axiomatic set theory, in which all mathematical narratives or proofs can be written as a set theory.
 
-In fact, the axiomization of the four operations of nature - [the Piano Conception] system was established until the twentieth century. Therefore, the natural number of four operations inside the \\(1 + 1 = 2 \\), \\(3 \times7 = 7 \times3 \\) (exchange law) These can be in the Piagio axiom system to prove. Interested can look at Tao Zexang math gods wrote "real analysis", which is from the Piano natural number of the beginning of the system.
+In fact, the axiomization of the four operations of nature - [Picano axiom] system was established until the twentieth century. Therefore, the natural number of four operations inside the \\(1 + 1 = 2 \\), \\(3 \times7 = 7 \times3 \\) (exchange law) These can be in the Piagio axiom system to prove. Interested can look at Tao Zexang math gods wrote "real analysis", which is from the Piano natural number of the beginning of the system.
 
-## as a model of the real world
+## As a model of the real world
 With regard to mathematics as a model of the real world, the expectations of mathematicians at different stages are quite different:
 
 Galileo (1564-1642):
@@ -79,7 +79,7 @@ The history of algebra and geometric alternation of development, to the twenty-f
 
 A large number of mathematicians, Mr. Chen also has a ["what is geometry"] ({{site.baseurl}} / math / 1987/04/21 / what-is-geometry.html) wonderful lectures, summed up the geometric development process, Now read is still deeply inspired.
 
-## math fields
+## Math fields
 - [Fundamentals and Philosophy] (https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E5.9F.BA.E7.A4.8E.E8.88.87.E5 .93.B2.E5.AD.B8)
   - Mathematical logic, set theory, category theory
 - [pure mathematics] (https://www.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E7.BA.AF.E7.B2.B9.E6.95.B0.E5.AD.A6)
