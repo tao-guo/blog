@@ -244,7 +244,7 @@ author: Tao
   - 诺特环定理,交换环
   - 爱因斯坦讣告:
 
-    ![环小姐]({{base.baseurl}}/img/ring.png)
+    ![环小姐]({{site.baseurl}}/img/ring.png)
 
 ### 数学知识: 代数几何
   - 从圆锥截面开始

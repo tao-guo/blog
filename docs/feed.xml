@@ -6,8 +6,8 @@
 </description>
     <link>http://sumread.com/blog/</link>
     <atom:link href="http://sumread.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jul 2017 17:26:01 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2017 17:26:01 -0700</lastBuildDate>
+    <pubDate>Mon, 10 Jul 2017 17:37:44 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Jul 2017 17:37:44 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -285,7 +285,7 @@
 &lt;li&gt;根的置换
 
 &lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;x1x2.png&quot; alt=&quot;x1x2&quot;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;/blog/img/x1x2.png&quot; alt=&quot;x1x2&quot;&gt;&lt;/li&gt;
 &lt;li&gt;拉格朗日和范德蒙&lt;/li&gt;
 &lt;li&gt;高斯证明了代数基本定理，5次方程必有5个解&lt;/li&gt;
 &lt;li&gt;保罗·鲁非尼&lt;/li&gt;
@@ -989,7 +989,7 @@
 &lt;li&gt;诺特环定理,交换环&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;爱因斯坦讣告:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/ring.png&quot; alt=&quot;环小姐&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/img/ring.png&quot; alt=&quot;环小姐&quot;&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;数学知识: 代数几何&lt;/h3&gt;
