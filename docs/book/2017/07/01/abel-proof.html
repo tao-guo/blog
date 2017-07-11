@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>读书笔记--《阿贝尔的证明》</title>
+  <meta name="description" content="5次方程不可解的描述二次方程配平方的思想韦达定理，包含了根的置换思想，后来的群理论发展很重要的一环三次方程包含了卡尔达诺(1545)的解法和例子四次方程包含了费拉里(卡尔达诺的学生)的解法核心思想是配成完全平方数，转化为三次方程的解法Abel–Ruffini theorem基于后来的伽罗瓦群理论重新阐述http:...">
+
+  <link rel="stylesheet" href="/blog/css/main.css">
+  <link rel="canonical" href="http://sumread.com/blog/book/2017/07/01/abel-proof.html">
+  <link rel="alternate" type="application/rss+xml" title="Tao's Thoughts" href="http://sumread.com/blog/feed.xml" />
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/blog/">Tao's Thoughts</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/blog/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">读书笔记--《阿贝尔的证明》</h1>
+    <p class="post-meta">Jul 1, 2017 • Tao</p>
+  </header>
+
+  <article class="post-content">
+    <h2>5次方程不可解的描述</h2>
+
+<ul>
+<li><a href="https://zh.wikipedia.org/wiki/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B">二次方程</a>
+
+<ul>
+<li>配平方的思想</li>
+<li>韦达定理，包含了根的置换思想，后来的群理论发展很重要的一环</li>
+</ul></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B">三次方程</a>
+
+<ul>
+<li>包含了卡尔达诺(1545)的解法和例子</li>
+</ul></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B">四次方程</a>
+
+<ul>
+<li>包含了费拉里(卡尔达诺的学生)的解法</li>
+<li>核心思想是配成完全平方数，转化为三次方程的解法</li>
+</ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Abel%E2%80%93Ruffini_theorem">Abel–Ruffini theorem</a>
+
+<ul>
+<li>基于后来的伽罗瓦群理论重新阐述</li>
+<li><a href="http://www.math.caltech.edu/%7Ejimlb/abel.pdf">http://www.math.caltech.edu/~jimlb/abel.pdf</a></li>
+<li><a href="https://www.maa.org/sites/default/files/pdf/upload_library/22/Chauvenet/Rosen.pdf">https://www.maa.org/sites/default/files/pdf/upload_library/22/Chauvenet/Rosen.pdf</a></li>
+<li>Peter Pesic的书本中包含原始未使用群论语言的证明</li>
+</ul></li>
+</ul>
+
+<h2>参考书目</h2>
+
+<h3>《Abel&#39;s Proof》by Peter Pesic</h3>
+
+<ul>
+<li>附录中有阿贝尔原始的6页论文及简要说明</li>
+<li>利用初等代数证明</li>
+</ul>
+
+<h3>《ABEL’S THEOREM IN PROBLEMS AND SOLUTIONS》</h3>
+
+<ul>
+<li>副标题: Based on the lectures of Professor <a href="https://en.wikipedia.org/wiki/Vladimir_Arnold">V.I. Arnold</a>
+
+<ul>
+<li>V.I. Arnold 19岁即证明了<a href="https://en.wikipedia.org/wiki/Hilbert%27s_thirteenth_problem">希尔伯特的第13道数学难题</a>
+
+<ul>
+<li>和七次方程的解有关</li>
+</ul></li>
+</ul></li>
+<li><p>给高中生的暑期数学讲义，介绍基本的群论和黎曼几何</p>
+
+<ul>
+<li>利用几何来直观理解</li>
+<li><p><a href="https://book.douban.com/subject/3202119/discussion/1364384/">V.I. Arnold 论数学教育</a></p>
+
+<ul>
+<li>鼓励数学教育中的几何表示</li>
+<li>警告数学建模解决现实问题的潜在危害(类比于Wigner原理和爱因斯坦的论断)</li>
+<li>复杂公理系统的毒害</li>
+<li>强调概念的直观理解:</li>
+</ul>
+<div class="highlight"><pre><code class="language-" data-lang="">这样的例子并不鲜见，作为数学中最迷人的性质之一，Jacobi曾指出：用同一个函数
+就既可以理解能表示为4个数平方和的整数的性质，又可以描述一个单摆的运动。
+这些不同种类的数学对象之间联系的发现，就好比在物理学中电与磁之间联系的发
+现，也类同于地质学上对美洲大陆的东海岸与非洲大陆的西海岸之间相似性的发现。
+
+这些发现对于教学所具有的令人激动的非凡意义是无法估量的。正是它们指引着我
+们去研究和发现宇宙中和谐而精彩的现象。
+
+然而，数学教育的非几何化以及与物理学的分离却割断了这种联系。例如，不仅仅
+学习数学的学生而且绝大部分的代数几何学家都对以下提及的Jacobi 事实一无所知：一
+个第一类型的椭圆积分表示了相应的哈密顿系统中沿某个椭圆相曲线的运动所走的时间。
+</code></pre></div>
+<ul>
+<li>纯粹公理化推导的弊端:</li>
+</ul>
+<div class="highlight"><pre><code class="language-" data-lang="">试图创造所谓的纯粹推导式的公理化数学的做法，使得我们不再运用物理学中的研究
+方法（观察-建模－模型的研究－得出结论－用更多的观察检验模型）取而代之的是这样的
+方法：定义－定理－证明。人们根本不可能理解一个毫无动机的定义，但我们却无法阻止
+这些有罪的“代数－公理学家”。例如，他们总是想用长乘规则的手段来定义自然数的乘
+积。但用这种方法乘法的交换性却难以证明，不过从一堆的公理中仍有可能推导出这样的
+定理。而且完全可能逼着那些可怜的学生们来学习这个定理以及它的证明（其目的不外乎
+是提升这门学科以及教授它的人的社会地位）。显然，这种定义和这样的证明对教学和实
+际工作有百害而无一益。
+
+理解乘法交换性的唯一可能的方式，打个比方就是分别按行序和列序来数一个方阵里
+士兵的人数，或者说用两种方式来计算长方形的面积。任何试图只做不与物理和现实世界
+打交道的数学都属于宗派主义和孤立主义，这必将损毁在所有敏感的人们眼中把数学创造
+视为一项有用的人类活动的美好印象。
+</code></pre></div></li>
+</ul></li>
+</ul>
+
+<h3>　其他</h3>
+
+<ul>
+<li>基于根置换和复平面几何解释: <a href="https://news.ycombinator.com/item?id=14685466">https://news.ycombinator.com/item?id=14685466</a></li>
+<li>Abel证明中用到的一个柯西1815年证明过的引理: <a href="http://nonagon.org/ExLibris/cauchy-permutations-origin-group-theory">http://nonagon.org/ExLibris/cauchy-permutations-origin-group-theory</a></li>
+</ul>
+
+<h3>群论/近世代数</h3>
+
+<ul>
+<li>Modern Algebra(Visual Group Theory)
+
+<ul>
+<li><a href="http://web.bentley.edu/empl/c/ncarter/vgt/">http://web.bentley.edu/empl/c/ncarter/vgt/</a></li>
+<li><a href="http://www.math.clemson.edu/%7Emacaule/classes/m17_math4120/index.html">http://www.math.clemson.edu/~macaule/classes/m17_math4120/index.html</a>
+
+<ul>
+<li>全课程Youtube讲解和讲义下载</li>
+<li>形象直观，比普通教材更容易理解掌握</li>
+<li>除了环基本学习完毕，很多概念还要再巩固</li>
+</ul></li>
+</ul></li>
+<li>Michael Artion&#39;s <a href="https://book.douban.com/subject/5496239/">《Algebra》</a>也是经典的好教材</li>
+<li>胡冠章的《应用近世代数》也是不错的教材，入门，学习名词和做题</li>
+</ul>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Tao's Thoughts</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Tao's Thoughts</li>
+          <li><a href="mailto:glorioustao@gmail.com">glorioustao@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/tao-guo">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">tao-guo</span>
+            </a>
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Some reading notes
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

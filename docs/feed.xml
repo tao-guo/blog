@@ -6,8 +6,8 @@
 </description>
     <link>http://sumread.com/blog/</link>
     <atom:link href="http://sumread.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jul 2017 22:42:08 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2017 22:42:08 -0700</lastBuildDate>
+    <pubDate>Mon, 10 Jul 2017 22:55:18 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Jul 2017 22:55:18 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -1355,6 +1355,138 @@
         
         
         <category>math</category>
+        
+      </item>
+    
+      <item>
+        <title>读书笔记--《阿贝尔的证明》</title>
+        <description>&lt;h2&gt;5次方程不可解的描述&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;二次方程&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;配平方的思想&lt;/li&gt;
+&lt;li&gt;韦达定理，包含了根的置换思想，后来的群理论发展很重要的一环&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;三次方程&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;包含了卡尔达诺(1545)的解法和例子&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;四次方程&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;包含了费拉里(卡尔达诺的学生)的解法&lt;/li&gt;
+&lt;li&gt;核心思想是配成完全平方数，转化为三次方程的解法&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Abel%E2%80%93Ruffini_theorem&quot;&gt;Abel–Ruffini theorem&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;基于后来的伽罗瓦群理论重新阐述&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.math.caltech.edu/%7Ejimlb/abel.pdf&quot;&gt;http://www.math.caltech.edu/~jimlb/abel.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.maa.org/sites/default/files/pdf/upload_library/22/Chauvenet/Rosen.pdf&quot;&gt;https://www.maa.org/sites/default/files/pdf/upload_library/22/Chauvenet/Rosen.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Peter Pesic的书本中包含原始未使用群论语言的证明&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;参考书目&lt;/h2&gt;
+
+&lt;h3&gt;《Abel&amp;#39;s Proof》by Peter Pesic&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;附录中有阿贝尔原始的6页论文及简要说明&lt;/li&gt;
+&lt;li&gt;利用初等代数证明&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;《ABEL’S THEOREM IN PROBLEMS AND SOLUTIONS》&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;副标题: Based on the lectures of Professor &lt;a href=&quot;https://en.wikipedia.org/wiki/Vladimir_Arnold&quot;&gt;V.I. Arnold&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;V.I. Arnold 19岁即证明了&lt;a href=&quot;https://en.wikipedia.org/wiki/Hilbert%27s_thirteenth_problem&quot;&gt;希尔伯特的第13道数学难题&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;和七次方程的解有关&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;给高中生的暑期数学讲义，介绍基本的群论和黎曼几何&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;利用几何来直观理解&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/3202119/discussion/1364384/&quot;&gt;V.I. Arnold 论数学教育&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;鼓励数学教育中的几何表示&lt;/li&gt;
+&lt;li&gt;警告数学建模解决现实问题的潜在危害(类比于Wigner原理和爱因斯坦的论断)&lt;/li&gt;
+&lt;li&gt;复杂公理系统的毒害&lt;/li&gt;
+&lt;li&gt;强调概念的直观理解:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;这样的例子并不鲜见，作为数学中最迷人的性质之一，Jacobi曾指出：用同一个函数
+就既可以理解能表示为4个数平方和的整数的性质，又可以描述一个单摆的运动。
+这些不同种类的数学对象之间联系的发现，就好比在物理学中电与磁之间联系的发
+现，也类同于地质学上对美洲大陆的东海岸与非洲大陆的西海岸之间相似性的发现。
+
+这些发现对于教学所具有的令人激动的非凡意义是无法估量的。正是它们指引着我
+们去研究和发现宇宙中和谐而精彩的现象。
+
+然而，数学教育的非几何化以及与物理学的分离却割断了这种联系。例如，不仅仅
+学习数学的学生而且绝大部分的代数几何学家都对以下提及的Jacobi 事实一无所知：一
+个第一类型的椭圆积分表示了相应的哈密顿系统中沿某个椭圆相曲线的运动所走的时间。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;纯粹公理化推导的弊端:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;试图创造所谓的纯粹推导式的公理化数学的做法，使得我们不再运用物理学中的研究
+方法（观察-建模－模型的研究－得出结论－用更多的观察检验模型）取而代之的是这样的
+方法：定义－定理－证明。人们根本不可能理解一个毫无动机的定义，但我们却无法阻止
+这些有罪的“代数－公理学家”。例如，他们总是想用长乘规则的手段来定义自然数的乘
+积。但用这种方法乘法的交换性却难以证明，不过从一堆的公理中仍有可能推导出这样的
+定理。而且完全可能逼着那些可怜的学生们来学习这个定理以及它的证明（其目的不外乎
+是提升这门学科以及教授它的人的社会地位）。显然，这种定义和这样的证明对教学和实
+际工作有百害而无一益。
+
+理解乘法交换性的唯一可能的方式，打个比方就是分别按行序和列序来数一个方阵里
+士兵的人数，或者说用两种方式来计算长方形的面积。任何试图只做不与物理和现实世界
+打交道的数学都属于宗派主义和孤立主义，这必将损毁在所有敏感的人们眼中把数学创造
+视为一项有用的人类活动的美好印象。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;　其他&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;基于根置换和复平面几何解释: &lt;a href=&quot;https://news.ycombinator.com/item?id=14685466&quot;&gt;https://news.ycombinator.com/item?id=14685466&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Abel证明中用到的一个柯西1815年证明过的引理: &lt;a href=&quot;http://nonagon.org/ExLibris/cauchy-permutations-origin-group-theory&quot;&gt;http://nonagon.org/ExLibris/cauchy-permutations-origin-group-theory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;群论/近世代数&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Modern Algebra(Visual Group Theory)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://web.bentley.edu/empl/c/ncarter/vgt/&quot;&gt;http://web.bentley.edu/empl/c/ncarter/vgt/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.math.clemson.edu/%7Emacaule/classes/m17_math4120/index.html&quot;&gt;http://www.math.clemson.edu/~macaule/classes/m17_math4120/index.html&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;全课程Youtube讲解和讲义下载&lt;/li&gt;
+&lt;li&gt;形象直观，比普通教材更容易理解掌握&lt;/li&gt;
+&lt;li&gt;除了环基本学习完毕，很多概念还要再巩固&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Michael Artion&amp;#39;s &lt;a href=&quot;https://book.douban.com/subject/5496239/&quot;&gt;《Algebra》&lt;/a&gt;也是经典的好教材&lt;/li&gt;
+&lt;li&gt;胡冠章的《应用近世代数》也是不错的教材，入门，学习名词和做题&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 01 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://sumread.com/blog/book/2017/07/01/abel-proof.html</link>
+        <guid isPermaLink="true">http://sumread.com/blog/book/2017/07/01/abel-proof.html</guid>
+        
+        
+        <category>book</category>
         
       </item>
     
