@@ -6,8 +6,8 @@
 </description>
     <link>http://www.sumread.com/</link>
     <atom:link href="http://www.sumread.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Jul 2017 11:37:31 -0700</pubDate>
-    <lastBuildDate>Tue, 11 Jul 2017 11:37:31 -0700</lastBuildDate>
+    <pubDate>Tue, 11 Jul 2017 12:10:39 -0700</pubDate>
+    <lastBuildDate>Tue, 11 Jul 2017 12:10:39 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -208,10 +208,12 @@
 &lt;ul&gt;
 &lt;li&gt;与人类相同的两侧对称?何为对称?&lt;/li&gt;
 &lt;li&gt;对称的语言--群论，却戏剧性的诞生于方程不可解，而非对称研究上&lt;/li&gt;
-&lt;li&gt;引出本书主人公-伽罗瓦，以及探究创造力的真正本质&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;理性的人让自己适应世界；不理性的人坚持让世界适应自己。因此，所有的进步取决于不理性的人。
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;引出本书主人公-伽罗瓦，以及探究创造力的真正本质&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;理性的人让自己适应世界；不理性的人坚持让世界适应自己。因此，所有的进步取决于不理性的人。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;不发生改变&lt;/p&gt;
 
 &lt;ul&gt;
@@ -322,7 +324,7 @@
 &lt;h2&gt;第五章　浪漫的数学家&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;伽罗瓦
+&lt;li&gt;&lt;p&gt;伽罗瓦&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;早年的伽罗瓦&lt;/li&gt;
@@ -333,12 +335,14 @@
 &lt;li&gt;波澜起伏的生活&lt;/li&gt;
 &lt;li&gt;入狱&lt;/li&gt;
 &lt;li&gt;浪漫的爱&lt;/li&gt;
-&lt;li&gt;神秘的死&lt;/li&gt;
-&lt;li&gt;总结了数学成就，补充了定理&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;我没有时间，我的思想在那个领域未能得到充足的发展--那个领域是巨大的&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;众说纷纭话谋杀&lt;/li&gt;
-&lt;li&gt;浪漫的死&lt;/li&gt;
-&lt;li&gt;身死名扬&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;神秘的死&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;我没有时间，我的思想在那个领域未能得到充足的发展--那个领域是巨大的&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;众说纷纭话谋杀&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;浪漫的死&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;身死名扬&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -465,22 +469,22 @@
         <title>读书笔记--《陈省身文集》</title>
         <description>&lt;h3&gt;求学经历&lt;/h3&gt;
 
-&lt;p&gt;陈生平&lt;a href=&quot;http://m.gzhphb.com/article/26/269042.html&quot;&gt;http://m.gzhphb.com/article/26/269042.html&lt;/a&gt;: &lt;/p&gt;
+&lt;p&gt;陈生平:&lt;a href=&quot;http://m.gzhphb.com/article/26/269042.html&quot;&gt;http://m.gzhphb.com/article/26/269042.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;LOL:
-  &lt;code&gt;
-  陈省身颇受数学系老教授的青睐，常受邀到老教授家做客聊天，特别是家有碧玉的郑桐荪教授对他留有很好的印象。
-&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;陈省身颇受数学系老教授的青睐，常受邀到老教授家做客聊天，特别是家有碧玉的郑桐荪教授对他留有很好的印象。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;杨振宁曾经这样比较华罗庚与陈省身:
-  &lt;code&gt;
-  华罗庚和陈省身都是我国重要的数学家，是我们中华民族聪明睿智的代表。假如有一个老师， 把两个人叫来， 出一道
-  题目，华罗庚一听就做出来了，陈省身要一个月才能做出来，但是他把这个问题开拓为一个学科。
-  伯林(Isaiah Berlin，1900-1997)普及了希腊关于哲学家的两种不同类型的观念： “狐狸掌握多门技艺， 而刺猬
-  则精通一门绝技。” 我想这是一种极好的方式来描述华罗庚与陈省身的不同： 华罗庚兴趣广泛，对数学的几个不同分
-  支做出了重要贡献；而陈省身则专注于微分几何一个分支， 但他革新了这个分支，并且这个革新后来对20世纪的几何、
-  代数、分析、拓扑各个主要分支都有深远的影响，甚至深入影响了近40年来理论物理学的发展。
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;杨振宁曾经这样比较华罗庚与陈省身:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;华罗庚和陈省身都是我国重要的数学家，是我们中华民族聪明睿智的代表。假如有一个老师， 把两个人叫来， 出一道
+题目，华罗庚一听就做出来了，陈省身要一个月才能做出来，但是他把这个问题开拓为一个学科。
+伯林(Isaiah Berlin，1900-1997)普及了希腊关于哲学家的两种不同类型的观念： “狐狸掌握多门技艺， 而刺猬
+则精通一门绝技。” 我想这是一种极好的方式来描述华罗庚与陈省身的不同： 华罗庚兴趣广泛，对数学的几个不同分
+支做出了重要贡献；而陈省身则专注于微分几何一个分支， 但他革新了这个分支，并且这个革新后来对20世纪的几何、
+代数、分析、拓扑各个主要分支都有深远的影响，甚至深入影响了近40年来理论物理学的发展。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;扩展: 类同于弗里曼•戴森的“&lt;a href=&quot;http://news.sciencenet.cn/htmlnews/2011/8/251096-1.shtm&quot;&gt;鸟和青蛙&lt;/a&gt;”的比喻&lt;/p&gt;
 
@@ -583,19 +587,21 @@
 
 &lt;ul&gt;
 &lt;li&gt;机场数学手册 -- 代数是高等数学的一部分，不属于微积分(数学分析)&lt;/li&gt;
-&lt;li&gt;德国数学家&lt;a href=&quot;https://en.wikipedia.org/wiki/Hermann_Weyl&quot;&gt;赫曼·韦尔&lt;/a&gt;(1939): 最近，拓扑天使和抽象代数恶魔正在为争取各个数学领域的幽灵而战。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;  In these days the angel of topology and the devil of abstract algebra fight
-  for the soul of each individual mathematical domain
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;拓扑: 橡胶几何
+&lt;li&gt;&lt;p&gt;德国数学家&lt;a href=&quot;https://en.wikipedia.org/wiki/Hermann_Weyl&quot;&gt;赫曼·韦尔&lt;/a&gt;(1939): 最近，拓扑天使和抽象代数恶魔正在为争取各个数学领域的幽灵而战。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In these days the angel of topology and the devil of abstract algebra fight for the soul of each individual mathematical domain &lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;拓扑: 橡胶几何&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;分辨不出甜甜圈和咖啡杯的人: &lt;a href=&quot;htts://en.wikipedia.org/wiki/Mathematical_joke#Doughnut_and_coffee_mug_topology_joke&quot;&gt;Doughnut and coffee mug topology joke&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;代数的本质: &lt;strong&gt;抽象&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;代数的本质: &lt;strong&gt;抽象&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;也是数学所需要的两大武器之一: &amp;quot;抽象&amp;quot;和&amp;quot;逻辑&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;代数的三个阶段&lt;/p&gt;
 
@@ -813,24 +819,24 @@
 &lt;h3&gt;第6章 狮子的爪子&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;伯努利的难题
+&lt;li&gt;&lt;p&gt;伯努利的难题&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;匿名的答案--&amp;gt;看到了狮子的爪子--牛顿&lt;/li&gt;
-&lt;li&gt;微积分，泛算术，牛顿定理&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;微积分，泛算术，牛顿定理&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;任意n变量对称多项式可以用n变量初等对称多项式表示&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;  任意n变量对称多项式可以用n变量初等对称多项式表示
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;很多成就似乎是从研究二项式开始的:
+&lt;li&gt;&lt;p&gt;很多成就似乎是从研究二项式开始的:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E4%BA%8C%E9%A1%B9%E5%BC%8F%E5%AE%9A%E7%90%86&quot;&gt;二项式定理&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;牛顿的微积分，参见《微积分历史》中牛顿最初的推导&lt;/li&gt;
 &lt;li&gt;棣莫弗公式&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;代数基本定理FTA
+&lt;li&gt;&lt;p&gt;代数基本定理FTA&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;每一个方程都有解&lt;/li&gt;
@@ -862,34 +868,35 @@
 &lt;li&gt;阿贝尔的证明里最开始就引用了这个定理&lt;/li&gt;
 &lt;li&gt;18世纪最伟大的数学天才(高斯-19世纪)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;范德蒙的&amp;quot;恒等置换&amp;quot; 
+&lt;li&gt;&lt;p&gt;范德蒙的&amp;quot;恒等置换&amp;quot; &lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;超越但不及拉格朗日的置换有名&lt;/li&gt;
-&lt;li&gt;范的悲剧:
-&lt;code&gt;
-范德蒙是一个有非法国名字的法国人，而拉格朗日是一个有法国式名字的意大利人
-&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;\(x^3+px^2+q=0\)
+&lt;li&gt;&lt;p&gt;范的悲剧:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;范德蒙是一个有非法国名字的法国人，而拉格朗日是一个有法国式名字的意大利人&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;\(x^3+px^2+q=0\)&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;省略一次项,阿贝尔的证明里运用了同样的处理&lt;/li&gt;
 &lt;li&gt;U,V置换,６种可能结果&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;拉格朗日
+&lt;li&gt;&lt;p&gt;拉格朗日&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;“关于方程代数解的思考”&lt;/li&gt;
 &lt;li&gt;“预解方程”TODO:??&lt;/li&gt;
 &lt;li&gt;拉格朗日定理: 多项式取值的个数整除于n!&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;保罗·拉菲尼的冗长证明
+&lt;li&gt;&lt;p&gt;保罗·拉菲尼的冗长证明&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;引发了柯西的复合置换思想&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;阿贝尔的不可能之证明
+&lt;li&gt;&lt;p&gt;阿贝尔的不可能之证明&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;用到了欧拉，拉格朗日和柯西的置换&lt;/li&gt;
@@ -897,12 +904,12 @@
 &lt;li&gt;\(y^5-ay^4+by^3-cy^2+dy-e=0\)
 &lt;img src=&quot;/img/abel-proof.png&quot; alt=&quot;Abel&amp;#39;s proof&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;1815柯西的复合置换
+&lt;li&gt;&lt;p&gt;1815柯西的复合置换&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://nonagon.org/ExLibris/cauchy-permutations-origin-group-theory&quot;&gt;原始论文&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;19世纪中间的五十年，发现了群,环，域，向量空间，矩阵，布尔代数&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;19世纪中间的五十年，发现了群,环，域，向量空间，矩阵，布尔代数&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;数学知识 向量空间与代数&lt;/h3&gt;
@@ -1043,32 +1050,32 @@
 &lt;ul&gt;
 &lt;li&gt;物理模型演变成计算机图形&lt;/li&gt;
 &lt;li&gt;庞斯列《论图形的射影性质》&lt;/li&gt;
-&lt;li&gt;非欧几何&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;  他们认为哲学的颠覆会带来社会的颠覆。如果庞斯列的射影几何是19世纪几何的第一场革命，那么
-  洛巴切夫斯基和鲍耶的非欧几何就是第二场革命。我们将看到第三场，第四场，第五场革命接踵而至。
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;普吕克的线几何--&amp;gt;年轻助手克莱因--&amp;gt;助手希尔伯特
+&lt;li&gt;&lt;p&gt;非欧几何&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;他们认为哲学的颠覆会带来社会的颠覆。如果庞斯列的射影几何是19世纪几何的第一场革命，那么
+洛巴切夫斯基和鲍耶的非欧几何就是第二场革命。我们将看到第三场，第四场，第五场革命接踵而至。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;普吕克的线几何--&amp;gt;年轻助手克莱因--&amp;gt;助手希尔伯特&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;手绘曲线图&lt;/li&gt;
 &lt;li&gt;环论 &lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;希尔伯特零点定理
+&lt;li&gt;&lt;p&gt;希尔伯特零点定理&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;球面多项式&lt;/li&gt;
 &lt;li&gt;代数簇&lt;/li&gt;
 &lt;li&gt;与代数基本定理类似，都在复数域上成立&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;黎曼的第三次和第四次几何革命
+&lt;li&gt;&lt;p&gt;黎曼的第三次和第四次几何革命&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;黎曼曲面，平方函数&lt;/li&gt;
 &lt;li&gt;教授资格论文中构建了整个现代微分几何和流形的原型&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;几何的革命几乎是纯粹的代数革命--&amp;gt;群论
+&lt;li&gt;&lt;p&gt;几何的革命几乎是纯粹的代数革命--&amp;gt;群论&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;索菲斯·李,克莱因，若当
@@ -1241,17 +1248,17 @@
 &lt;li&gt;用复分析的语言表述&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;丘成桐: &lt;a href=&quot;http://slidesplayer.com/slide/11126276/&quot;&gt;从清末与日本明治维新 到二次大战前后 数学人才培养之比较&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;数学变革(from &lt;a href=&quot;https://en.wikipedia.org/wiki/Mathematics&quot;&gt;wikipedia&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;  Aristotle defined mathematics as &quot;the science of quantity&quot;, and this definition
-  prevailed until the 18th century.[28] Starting in the 19th century, when the study
-  of mathematics increased in rigor and began to address abstract topics such as group
-  theory and projective geometry, which have no clear-cut relation to quantity and
-  measurement, mathematicians and philosophers began to propose a variety of
-  new definitions.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;现代数学不能给出一个精确的定义，对于数学到底属于艺术还是科学没有达成一致意见。最简单粗暴的定义: &amp;quot;数学就是数学家干的事情。&amp;quot;
+&lt;li&gt;&lt;p&gt;数学变革(from &lt;a href=&quot;https://en.wikipedia.org/wiki/Mathematics&quot;&gt;wikipedia&lt;/a&gt;)&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Aristotle defined mathematics as &amp;quot;the science of quantity&amp;quot;, and this definition
+prevailed until the 18th century.[28] Starting in the 19th century, when the study
+of mathematics increased in rigor and began to address abstract topics such as group
+theory and projective geometry, which have no clear-cut relation to quantity and
+measurement, mathematicians and philosophers began to propose a variety of
+new definitions.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;现代数学不能给出一个精确的定义，对于数学到底属于艺术还是科学没有达成一致意见。最简单粗暴的定义: &amp;quot;数学就是数学家干的事情。&amp;quot;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;数学是“被创造”（如艺术）或是“被发现”（如科学）的争议&lt;/li&gt;
@@ -1286,15 +1293,12 @@
 &lt;li&gt;减法非封闭，需要扩充到负数(几何反方向)&lt;/li&gt;
 &lt;li&gt;乘法: 定义了长宽的矩形&lt;/li&gt;
 &lt;li&gt;乘法交换律: 两个全等矩形不同的摆放方式&lt;/li&gt;
-&lt;li&gt;等差数列求和: 
-
-&lt;ul&gt;
-&lt;li&gt;公差为1&lt;/li&gt;
+&lt;li&gt;等差数列求和:&lt;/li&gt;
+&lt;li&gt;公差为1的数列&lt;/li&gt;
 &lt;li&gt;几何上三角形的面积，补全后矩形面积的一半&lt;/li&gt;
 &lt;li&gt;数列个数对应于矩形的高度&lt;/li&gt;
 &lt;li&gt;公差为2的奇数列&lt;/li&gt;
 &lt;li&gt;不停扩大的正方形&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;除法是非封闭的，需要扩充到有理数(几何上的相似)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;有理数的运算
@@ -1308,7 +1312,7 @@
 &lt;li&gt;通用作法可以采用相似三角形，作平行线得出&lt;/li&gt;
 &lt;li&gt;在尺规作图中，平行线公设是最不直观且在５大公理中要步骤最多的&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;而且尺规作图可操作出\(\sqrt 2\)&lt;/li&gt;
+&lt;li&gt;而且尺规作图可操作出\(\sqrt 2, \sqrt 3, \sqrt 5, ...\)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1427,38 +1431,20 @@
 &lt;ul&gt;
 &lt;li&gt;鼓励数学教育中的几何表示&lt;/li&gt;
 &lt;li&gt;警告数学建模解决现实问题的潜在危害(类比于Wigner原理和爱因斯坦的论断)&lt;/li&gt;
-&lt;li&gt;复杂公理系统的毒害&lt;/li&gt;
-&lt;li&gt;强调概念的直观理解:&lt;/li&gt;
+&lt;li&gt;强调概念的直观理解:&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;这样的例子并不鲜见，作为数学中最迷人的性质之一，Jacobi曾指出：用同一个函数
-就既可以理解能表示为4个数平方和的整数的性质，又可以描述一个单摆的运动。
-这些不同种类的数学对象之间联系的发现，就好比在物理学中电与磁之间联系的发
-现，也类同于地质学上对美洲大陆的东海岸与非洲大陆的西海岸之间相似性的发现。
 
-这些发现对于教学所具有的令人激动的非凡意义是无法估量的。正是它们指引着我
-们去研究和发现宇宙中和谐而精彩的现象。
+&lt;blockquote&gt;
+&lt;p&gt;这样的例子并不鲜见，作为数学中最迷人的性质之一，Jacobi曾指出：用同一个函数就既可以理解能表示为4个数平方和的整数的性质，又可以描述一个单摆的运动。 这些不同种类的数学对象之间联系的发现，就好比在物理学中电与磁之间联系的发现，也类同于地质学上对美洲大陆的东海岸与非洲大陆的西海岸之间相似性的发现。&lt;/p&gt;
 
-然而，数学教育的非几何化以及与物理学的分离却割断了这种联系。例如，不仅仅
-学习数学的学生而且绝大部分的代数几何学家都对以下提及的Jacobi 事实一无所知：一
-个第一类型的椭圆积分表示了相应的哈密顿系统中沿某个椭圆相曲线的运动所走的时间。
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;纯粹公理化推导的弊端:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;试图创造所谓的纯粹推导式的公理化数学的做法，使得我们不再运用物理学中的研究
-方法（观察-建模－模型的研究－得出结论－用更多的观察检验模型）取而代之的是这样的
-方法：定义－定理－证明。人们根本不可能理解一个毫无动机的定义，但我们却无法阻止
-这些有罪的“代数－公理学家”。例如，他们总是想用长乘规则的手段来定义自然数的乘
-积。但用这种方法乘法的交换性却难以证明，不过从一堆的公理中仍有可能推导出这样的
-定理。而且完全可能逼着那些可怜的学生们来学习这个定理以及它的证明（其目的不外乎
-是提升这门学科以及教授它的人的社会地位）。显然，这种定义和这样的证明对教学和实
-际工作有百害而无一益。
+&lt;p&gt;这些发现对于教学所具有的令人激动的非凡意义是无法估量的。正是它们指引着我们去研究和发现宇宙中和谐而精彩的现象。&lt;/p&gt;
 
-理解乘法交换性的唯一可能的方式，打个比方就是分别按行序和列序来数一个方阵里
-士兵的人数，或者说用两种方式来计算长方形的面积。任何试图只做不与物理和现实世界
-打交道的数学都属于宗派主义和孤立主义，这必将损毁在所有敏感的人们眼中把数学创造
-视为一项有用的人类活动的美好印象。
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;p&gt;然而，数学教育的非几何化以及与物理学的分离却割断了这种联系。例如，不仅仅学习数学的学生而且绝大部分的代数几何学家都对以下提及的Jacobi 事实一无所知：一个第一类型的椭圆积分表示了相应的哈密顿系统中沿某个椭圆相曲线的运动所走的时间。&lt;/p&gt;
+
+&lt;p&gt;试图创造所谓的纯粹推导式的公理化数学的做法，使得我们不再运用物理学中的研究方法（观察-建模－模型的研究－得出结论－用更多的观察检验模型）取而代之的是这样的方法：定义－定理－证明。人们根本不可能理解一个毫无动机的定义，但我们却无法阻止这些有罪的“代数－公理学家”。例如，他们总是想用长乘规则的手段来定义自然数的乘积。但用这种方法乘法的交换性却难以证明，不过从一堆的公理中仍有可能推导出这样的定理。而且完全可能逼着那些可怜的学生们来学习这个定理以及它的证明（其目的不外乎是提升这门学科以及教授它的人的社会地位）。显然，这种定义和这样的证明对教学和实际工作有百害而无一益。&lt;/p&gt;
+
+&lt;p&gt;理解乘法交换性的唯一可能的方式，打个比方就是分别按行序和列序来数一个方阵里士兵的人数，或者说用两种方式来计算长方形的面积。任何试图只做不与物理和现实世界打交道的数学都属于宗派主义和孤立主义，这必将损毁在所有敏感的人们眼中把数学创造视为一项有用的人类活动的美好印象。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

@@ -13,13 +13,10 @@ author: Tao
     - 机场数学手册 -- 代数是高等数学的一部分，不属于微积分(数学分析)
     - 德国数学家[赫曼·韦尔](https://en.wikipedia.org/wiki/Hermann_Weyl)(1939): 最近，拓扑天使和抽象代数恶魔正在为争取各个数学领域的幽灵而战。
 
-      ```
-      In these days the angel of topology and the devil of abstract algebra fight
-      for the soul of each individual mathematical domain
-      ```
+        > In these days the angel of topology and the devil of abstract algebra fight for the soul of each individual mathematical domain 
 
-      - 拓扑: 橡胶几何
-        - 分辨不出甜甜圈和咖啡杯的人: [Doughnut and coffee mug topology joke](htts://en.wikipedia.org/wiki/Mathematical_joke#Doughnut_and_coffee_mug_topology_joke)
+    - 拓扑: 橡胶几何
+      - 分辨不出甜甜圈和咖啡杯的人: [Doughnut and coffee mug topology joke](htts://en.wikipedia.org/wiki/Mathematical_joke#Doughnut_and_coffee_mug_topology_joke)
     - 代数的本质: **抽象**
       - 也是数学所需要的两大武器之一: "抽象"和"逻辑"
   - 代数的三个阶段
@@ -138,9 +135,7 @@ author: Tao
     - 匿名的答案-->看到了狮子的爪子--牛顿
     - 微积分，泛算术，牛顿定理
 
-  ```
-  任意n变量对称多项式可以用n变量初等对称多项式表示
-  ```
+        >任意n变量对称多项式可以用n变量初等对称多项式表示
 
   - 很多成就似乎是从研究二项式开始的:
     - [二项式定理](https://zh.wikipedia.org/wiki/%E4%BA%8C%E9%A1%B9%E5%BC%8F%E5%AE%9A%E7%90%86)
@@ -166,9 +161,9 @@ author: Tao
   - 范德蒙的"恒等置换" 
     - 超越但不及拉格朗日的置换有名
     - 范的悲剧:
-    ```
-    范德蒙是一个有非法国名字的法国人，而拉格朗日是一个有法国式名字的意大利人
-    ```
+
+        >范德蒙是一个有非法国名字的法国人，而拉格朗日是一个有法国式名字的意大利人
+
     - \\(x^3+px^2+q=0\\)
       - 省略一次项,阿贝尔的证明里运用了同样的处理
       - U,V置换,６种可能结果
@@ -265,10 +260,8 @@ author: Tao
   - 庞斯列《论图形的射影性质》
   - 非欧几何
 
-  ```
-  他们认为哲学的颠覆会带来社会的颠覆。如果庞斯列的射影几何是19世纪几何的第一场革命，那么
-  洛巴切夫斯基和鲍耶的非欧几何就是第二场革命。我们将看到第三场，第四场，第五场革命接踵而至。
-  ```
+      >他们认为哲学的颠覆会带来社会的颠覆。如果庞斯列的射影几何是19世纪几何的第一场革命，那么
+      >洛巴切夫斯基和鲍耶的非欧几何就是第二场革命。我们将看到第三场，第四场，第五场革命接踵而至。
 
   - 普吕克的线几何-->年轻助手克莱因-->助手希尔伯特
     - 手绘曲线图
@@ -374,14 +367,12 @@ author: Tao
   - 丘成桐: [从清末与日本明治维新 到二次大战前后 数学人才培养之比较](http://slidesplayer.com/slide/11126276/)
   - 数学变革(from [wikipedia](https://en.wikipedia.org/wiki/Mathematics))
 
-  ```
-  Aristotle defined mathematics as "the science of quantity", and this definition
-  prevailed until the 18th century.[28] Starting in the 19th century, when the study
-  of mathematics increased in rigor and began to address abstract topics such as group
-  theory and projective geometry, which have no clear-cut relation to quantity and
-  measurement, mathematicians and philosophers began to propose a variety of
-  new definitions.
-  ```
+    >Aristotle defined mathematics as "the science of quantity", and this definition
+    >prevailed until the 18th century.[28] Starting in the 19th century, when the study
+    >of mathematics increased in rigor and began to address abstract topics such as group
+    >theory and projective geometry, which have no clear-cut relation to quantity and
+    >measurement, mathematicians and philosophers began to propose a variety of
+    >new definitions.
 
   - 现代数学不能给出一个精确的定义，对于数学到底属于艺术还是科学没有达成一致意见。最简单粗暴的定义: "数学就是数学家干的事情。"
     - 数学是“被创造”（如艺术）或是“被发现”（如科学）的争议
