@@ -4,10 +4,10 @@
     <title>Summary Reading Notes</title>
     <description>Some reading notes
 </description>
-    <link>http://www.sumread.com/blog/</link>
-    <atom:link href="http://www.sumread.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jul 2017 23:48:20 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2017 23:48:20 -0700</lastBuildDate>
+    <link>http://www.sumread.com/</link>
+    <atom:link href="http://www.sumread.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 11 Jul 2017 00:01:30 -0700</pubDate>
+    <lastBuildDate>Tue, 11 Jul 2017 00:01:30 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -17,7 +17,7 @@
 &lt;p&gt;什么是数学？在希腊语言中，这个词表示的是“学习，掌握，知识”。亚里士多德曾经给数学定义成“&lt;strong&gt;关于数量的科学&lt;/strong&gt;”，这个观点在19世纪以前一直都很盛行。在那个时候，数学主要研究数/未知量，使用的大多数符号与今天没有太多不同。一直以来的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95&quot;&gt;欧几里得几何&lt;/a&gt;学教程，笛卡尔的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95&quot;&gt;解析几何&lt;/a&gt;，卡尔达诺的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;三次方程&lt;/a&gt;/&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;四次方程&lt;/a&gt;通解，牛顿/莱布尼兹的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6&quot;&gt;微积分&lt;/a&gt;是数学发展取得的一系列伟大成就。到19世纪为止，数学完成了对数/未知量的完美抽象。事实上，大多数人的数学知识也停留在这个阶段了。对于普通大众而言，亚里士多德给出的数学的定义依然没有太大偏差。&lt;/p&gt;
 
 &lt;div style=&quot;margin: 0 auto 15px;width:60%;text-align:center;&quot;&gt;
-  &lt;img src=&quot;/blog/img/Euclid.jpg&quot; alt=&quot;欧几里得在雅典学院&quot;  style=&quot;display:block;&quot;&gt;
+  &lt;img src=&quot;/img/Euclid.jpg&quot; alt=&quot;欧几里得在雅典学院&quot;  style=&quot;display:block;&quot;&gt;
   欧几里得在《雅典学院》
 &lt;/div&gt;
 
@@ -107,7 +107,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;大数学家陈省身先生也有一篇&lt;a href=&quot;/blog/math/1987/04/21/what-is-geometry.html&quot;&gt;《什么是几何》&lt;/a&gt;精彩讲演，总结了几何的发展历程，现在读来仍深受启发。&lt;/p&gt;
+&lt;p&gt;大数学家陈省身先生也有一篇&lt;a href=&quot;/math/1987/04/21/what-is-geometry.html&quot;&gt;《什么是几何》&lt;/a&gt;精彩讲演，总结了几何的发展历程，现在读来仍深受启发。&lt;/p&gt;
 
 &lt;h2&gt;数学各领域&lt;/h2&gt;
 
@@ -133,7 +133,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/map-of-mathmatics.png&quot; alt=&quot;The Map of Mathematics&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/map-of-mathmatics.png&quot; alt=&quot;The Map of Mathematics&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;参见&lt;a href=&quot;https://zh.wikipedia.org/zh-cn/%E6%95%B0%E5%AD%A6#.E6.95.B8.E5.AD.B8.E7.9A.84.E5.90.84.E9.A0.98.E5.9F.9F&quot;&gt;维基百科&lt;/a&gt;和Youtube视频&lt;a href=&quot;https://www.youtube.com/watch?v=OmJ-4B-mS-Y&quot;&gt;The Map of Mathematics&lt;/a&gt;。&lt;/p&gt;
 
@@ -178,13 +178,13 @@
 
 &lt;h2&gt;数学的关键发展阶段人物&lt;/h2&gt;
 
-&lt;p&gt;近代数学的核心概念“群”，却是由年仅二十岁即决斗而死的&lt;strong&gt;伽罗瓦&lt;/strong&gt;发展而来的。《无法解出的方程》中对于这一悲情英雄人物作了深刻的描写，也普及了作为&amp;quot;对称&amp;quot;的描述语言&amp;quot;群&amp;quot;，是如何渗透到物理，几何，生物等其他领域，具体可见&lt;a href=&quot;/blog/book/2017/07/08/book-unsolvable-equation.html&quot;&gt;读书笔记&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;近代数学的核心概念“群”，却是由年仅二十岁即决斗而死的&lt;strong&gt;伽罗瓦&lt;/strong&gt;发展而来的。《无法解出的方程》中对于这一悲情英雄人物作了深刻的描写，也普及了作为&amp;quot;对称&amp;quot;的描述语言&amp;quot;群&amp;quot;，是如何渗透到物理，几何，生物等其他领域，具体可见&lt;a href=&quot;/book/2017/07/08/book-unsolvable-equation.html&quot;&gt;读书笔记&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;二十世纪&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E7%9A%8423%E4%B8%AA%E9%97%AE%E9%A2%98&quot;&gt;希尔伯特的23个问题&lt;/a&gt;，至今仍然是数学家梦想攀登的高峰。&lt;strong&gt;哥德尔&lt;/strong&gt;对其中数学完全公理化的否证，在《哥德尔的证明》中作了通俗的讲解，在现在到处都在讨论人工智能和创造力的今天，其中的很多见解依然深刻独到。读书笔记正在整理中。&lt;/p&gt;
 </description>
         <pubDate>Sun, 09 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/blog/math/2017/07/09/what-is-math.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/blog/math/2017/07/09/what-is-math.html</guid>
+        <link>http://www.sumread.com/math/2017/07/09/what-is-math.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/math/2017/07/09/what-is-math.html</guid>
         
         
         <category>math</category>
@@ -285,7 +285,7 @@
 &lt;li&gt;根的置换
 
 &lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;/blog/img/x1x2.png&quot; alt=&quot;x1x2&quot;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;/img/x1x2.png&quot; alt=&quot;x1x2&quot;&gt;&lt;/li&gt;
 &lt;li&gt;拉格朗日和范德蒙&lt;/li&gt;
 &lt;li&gt;高斯证明了代数基本定理，5次方程必有5个解&lt;/li&gt;
 &lt;li&gt;保罗·鲁非尼&lt;/li&gt;
@@ -446,8 +446,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 08 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/blog/book/2017/07/08/book-unsolvable-equation.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/blog/book/2017/07/08/book-unsolvable-equation.html</guid>
+        <link>http://www.sumread.com/book/2017/07/08/book-unsolvable-equation.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/book/2017/07/08/book-unsolvable-equation.html</guid>
         
         
         <category>book</category>
@@ -489,43 +489,43 @@
 
 &lt;ul&gt;
 &lt;li&gt;回忆德国汉堡，法国求学经历
-&lt;img src=&quot;/blog/img/chen-phd.png&quot; alt=&quot;嘉当求学&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/chen-phd.png&quot; alt=&quot;嘉当求学&quot;&gt;&lt;/li&gt;
 &lt;li&gt;进入普林斯顿，研究好的数学
-&lt;img src=&quot;/blog/img/chen-good-math.png&quot; alt=&quot;好的数学1&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/chen-good-math.png&quot; alt=&quot;好的数学1&quot;&gt;&lt;/li&gt;
 &lt;li&gt;数学家和数学学派
-&lt;img src=&quot;/blog/img/chen-insight.png&quot; alt=&quot;数学家和数学学派&quot;&gt;
+&lt;img src=&quot;/img/chen-insight.png&quot; alt=&quot;数学家和数学学派&quot;&gt;
 对比周炜良的淡泊，少为外人所知
 
 &lt;ul&gt;
 &lt;li&gt;南开访问&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;彩票助学
-&lt;img src=&quot;/blog/img/chen-lottery.png&quot; alt=&quot;彩票助学&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/chen-lottery.png&quot; alt=&quot;彩票助学&quot;&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;什么是好的数学
-&lt;img src=&quot;/blog/img/chen-good-math-2.png&quot; alt=&quot;什么是好的数学&quot;&gt;
+&lt;img src=&quot;/img/chen-good-math-2.png&quot; alt=&quot;什么是好的数学&quot;&gt;
 解方程对比拿破仑定理(三角形外接三角形)
-&lt;img src=&quot;/blog/img/chen-good-math.png&quot; alt=&quot;好的数学&quot;&gt;
-&lt;img src=&quot;/blog/img/chen-good-math3.png&quot; alt=&quot;好的数学3&quot;&gt;
-&lt;img src=&quot;/blog/img/chen-good-math4.png&quot; alt=&quot;好的数学4&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/chen-good-math.png&quot; alt=&quot;好的数学&quot;&gt;
+&lt;img src=&quot;/img/chen-good-math3.png&quot; alt=&quot;好的数学3&quot;&gt;
+&lt;img src=&quot;/img/chen-good-math4.png&quot; alt=&quot;好的数学4&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;陶哲轩也专门写过一篇文章分析&amp;quot;&lt;a href=&quot;http://www.changhai.org/articles/translation/mathematics/good_maths1.php&quot;&gt;好的数学&lt;/a&gt;&amp;quot;，本质上也难简单定义:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/tao-good-math.png&quot; alt=&quot;好的数学4&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&quot;/img/tao-good-math.png&quot; alt=&quot;好的数学4&quot;&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;大学数学丛书&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;中国的数学
-&lt;img src=&quot;/blog/img/chen-chinese-math.png&quot; alt=&quot;中国的数学&quot;&gt;
+&lt;img src=&quot;/img/chen-chinese-math.png&quot; alt=&quot;中国的数学&quot;&gt;
 
 &lt;ul&gt;
 &lt;li&gt;对中国数学的展望&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;数学与人口,很有名的数学例子
-&lt;img src=&quot;/blog/img/chen-math-people.png&quot; alt=&quot;数学与人口&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/chen-math-people.png&quot; alt=&quot;数学与人口&quot;&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;研究数学史的重要性
-&lt;img src=&quot;/blog/img/chen-china-math-history.png&quot; alt=&quot;数学史&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/chen-china-math-history.png&quot; alt=&quot;数学史&quot;&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;其他&lt;/p&gt;
 
 &lt;ul&gt;
@@ -538,7 +538,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;关于黎曼猜想
-&lt;img src=&quot;/blog/img/chen-liman.png&quot; alt=&quot;黎曼猜想&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/chen-liman.png&quot; alt=&quot;黎曼猜想&quot;&gt;&lt;/li&gt;
 &lt;li&gt;关于几何
 
 &lt;ul&gt;
@@ -554,12 +554,12 @@
 &lt;li&gt;与理论物理，广义相对论&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/blog/math/1987/04/21/what-is-geometry.html&quot;&gt;什么是几何学&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/math/1987/04/21/what-is-geometry.html&quot;&gt;什么是几何学&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 08 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/blog/book/2017/07/08/book-chen.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/blog/book/2017/07/08/book-chen.html</guid>
+        <link>http://www.sumread.com/book/2017/07/08/book-chen.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/book/2017/07/08/book-chen.html</guid>
         
         
         <category>book</category>
@@ -620,7 +620,7 @@
 &lt;li&gt;本书内容&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/preface.png&quot; alt=&quot;What is this book about&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&quot;/img/preface.png&quot; alt=&quot;What is this book about&quot;&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;数学知识: 数值和多项式&lt;/h2&gt;
@@ -680,7 +680,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;位于现代伊拉克境内:&lt;br&gt;
-&lt;img src=&quot;/blog/img/mesopotamia.png&quot; width=&quot;80%&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/mesopotamia.png&quot; width=&quot;80%&quot;&gt;&lt;/li&gt;
 &lt;li&gt;相比于埃及的中央集权等级制度，美索不达米亚基本处于语言和文化百家争鸣的状态
 
 &lt;ul&gt;
@@ -744,7 +744,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/simple.png&quot; alt=&quot;代数成就&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/simple.png&quot; alt=&quot;代数成就&quot;&gt;&lt;/p&gt;
 
 &lt;h3&gt;数学知识: 三次方程和四次方程&lt;/h3&gt;
 
@@ -888,7 +888,7 @@
 &lt;li&gt;用到了欧拉，拉格朗日和柯西的置换&lt;/li&gt;
 &lt;li&gt;利用反证求得&lt;/li&gt;
 &lt;li&gt;\(y^5-ay^4+by^3-cy^2+dy-e=0\)
-&lt;img src=&quot;/blog/img/abel-proof.png&quot; alt=&quot;Abel&amp;#39;s proof&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/abel-proof.png&quot; alt=&quot;Abel&amp;#39;s proof&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;1815柯西的复合置换
 
@@ -1002,7 +1002,7 @@
 &lt;li&gt;诺特环定理,交换环&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;爱因斯坦讣告:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/ring.png&quot; alt=&quot;环小姐&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&quot;/img/ring.png&quot; alt=&quot;环小姐&quot;&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;数学知识: 代数几何&lt;/h3&gt;
@@ -1086,7 +1086,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;直觉认知论,同时也受限于自己的哲学
-&lt;img src=&quot;/blog/img/ins.png&quot; alt=&quot;直觉认知论&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/ins.png&quot; alt=&quot;直觉认知论&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;代数数论
@@ -1111,7 +1111,7 @@
 &lt;ul&gt;
 &lt;li&gt;韦伊: 利用希尔伯特和诺特的抽象代数重新研究代数几何&lt;/li&gt;
 &lt;li&gt;现代数论代数化的基础，费马大定理的证明基础
-&lt;img src=&quot;/blog/img/19cent.png&quot; alt=&quot;19世纪&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/19cent.png&quot; alt=&quot;19世纪&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1148,7 +1148,7 @@
 &lt;ul&gt;
 &lt;li&gt;p进数中的运算，范畴中的函子&lt;/li&gt;
 &lt;li&gt;忘却函子&lt;br&gt;
-&lt;img src=&quot;/blog/img/forgetful-functor.png&quot; alt=&quot;忘却函子&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/forgetful-functor.png&quot; alt=&quot;忘却函子&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;与计算机科学的联系:&lt;a href=&quot;https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/&quot;&gt;写给程序员的范畴论&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;《美丽心灵》中学生对纳什:&amp;quot;伽罗瓦扩张实际上与覆盖空间一样&amp;quot;在范畴论里面容易得到解答&lt;/li&gt;
@@ -1173,7 +1173,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;尤金维格纳: &lt;a href=&quot;http://chuansong.me/n/1471990046429&quot;&gt;数学在自然科学中不合理的有效性&lt;/a&gt;
-&lt;img src=&quot;/blog/img/inf.png&quot; alt=&quot;代数影响力&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/inf.png&quot; alt=&quot;代数影响力&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;相对论和量子力学的数学基础
 
@@ -1183,7 +1183,7 @@
 &lt;li&gt;量子能级跳跃: 矩阵代数&lt;/li&gt;
 &lt;li&gt;强子的非线性模式: 复数坐标的三维空间中的等价李群&lt;/li&gt;
 &lt;li&gt;弦论: 卡拉比-邱流形1977-黎曼曲线-六维空间
-&lt;img src=&quot;/blog/img/merge.png&quot; alt=&quot;代数融合&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;/img/merge.png&quot; alt=&quot;代数融合&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;代数与几何的统一
 
@@ -1253,8 +1253,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 08 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/blog/book/2017/07/08/book-algebra-history.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/blog/book/2017/07/08/book-algebra-history.html</guid>
+        <link>http://www.sumread.com/book/2017/07/08/book-algebra-history.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/book/2017/07/08/book-algebra-history.html</guid>
         
         
         <category>book</category>
@@ -1350,8 +1350,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 06 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/blog/math/2017/07/06/geo-alg.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/blog/math/2017/07/06/geo-alg.html</guid>
+        <link>http://www.sumread.com/math/2017/07/06/geo-alg.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/math/2017/07/06/geo-alg.html</guid>
         
         
         <category>math</category>
@@ -1482,8 +1482,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 01 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/blog/book/2017/07/01/abel-proof.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/blog/book/2017/07/01/abel-proof.html</guid>
+        <link>http://www.sumread.com/book/2017/07/01/abel-proof.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/book/2017/07/01/abel-proof.html</guid>
         
         
         <category>book</category>
@@ -1492,23 +1492,23 @@
     
       <item>
         <title>什么是几何</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo1.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/img/chen-geo1.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo2.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/chen-geo2.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo3.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/chen-geo3.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo4.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/chen-geo4.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo5.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/chen-geo5.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo6.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/chen-geo6.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo7.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/chen-geo7.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 21 Apr 1987 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/blog/math/1987/04/21/what-is-geometry.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/blog/math/1987/04/21/what-is-geometry.html</guid>
+        <link>http://www.sumread.com/math/1987/04/21/what-is-geometry.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/math/1987/04/21/what-is-geometry.html</guid>
         
         
         <category>math</category>
