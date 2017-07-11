@@ -6,8 +6,8 @@
 </description>
     <link>http://www.sumread.com/</link>
     <atom:link href="http://www.sumread.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Jul 2017 00:01:30 -0700</pubDate>
-    <lastBuildDate>Tue, 11 Jul 2017 00:01:30 -0700</lastBuildDate>
+    <pubDate>Tue, 11 Jul 2017 00:09:34 -0700</pubDate>
+    <lastBuildDate>Tue, 11 Jul 2017 00:09:34 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -112,7 +112,11 @@
 &lt;h2&gt;数学各领域&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E5.9F.BA.E7.A4.8E.E8.88.87.E5.93.B2.E5.AD.B8&quot;&gt;基础与哲学&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E5.9F.BA.E7.A4.8E.E8.88.87.E5.93.B2.E5.AD.B8&quot;&gt;基础与哲学&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数学逻辑，集合论，范畴论&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E7.BA.AF.E7.B2.B9.E6.95.B0.E5.AD.A6&quot;&gt;纯粹数学&lt;/a&gt;
 
 &lt;ul&gt;

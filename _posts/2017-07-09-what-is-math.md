@@ -89,6 +89,7 @@ date: 2017-07-09
 
 ## 数学各领域
 - [基础与哲学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E5.9F.BA.E7.A4.8E.E8.88.87.E5.93.B2.E5.AD.B8)
+  - 数学逻辑，集合论，范畴论
 - [纯粹数学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E7.BA.AF.E7.B2.B9.E6.95.B0.E5.AD.A6)
     - 数量： 自然数，整数，有理数，实数，复数等
     - 结构： 数论，群论，图论，序理论
