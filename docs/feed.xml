@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tao's Thoughts</title>
+    <title>Summary Reading Notes</title>
     <description>Some reading notes
 </description>
-    <link>http://sumread.com/blog/</link>
-    <atom:link href="http://sumread.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jul 2017 23:33:45 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2017 23:33:45 -0700</lastBuildDate>
+    <link>http://www.sumread.com/blog/</link>
+    <atom:link href="http://www.sumread.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 10 Jul 2017 23:48:20 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Jul 2017 23:48:20 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -183,8 +183,8 @@
 &lt;p&gt;二十世纪&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E7%9A%8423%E4%B8%AA%E9%97%AE%E9%A2%98&quot;&gt;希尔伯特的23个问题&lt;/a&gt;，至今仍然是数学家梦想攀登的高峰。&lt;strong&gt;哥德尔&lt;/strong&gt;对其中数学完全公理化的否证，在《哥德尔的证明》中作了通俗的讲解，在现在到处都在讨论人工智能和创造力的今天，其中的很多见解依然深刻独到。读书笔记正在整理中。&lt;/p&gt;
 </description>
         <pubDate>Sun, 09 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://sumread.com/blog/math/2017/07/09/what-is-math.html</link>
-        <guid isPermaLink="true">http://sumread.com/blog/math/2017/07/09/what-is-math.html</guid>
+        <link>http://www.sumread.com/blog/math/2017/07/09/what-is-math.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/blog/math/2017/07/09/what-is-math.html</guid>
         
         
         <category>math</category>
@@ -446,8 +446,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 08 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://sumread.com/blog/book/2017/07/08/book-unsolvable-equation.html</link>
-        <guid isPermaLink="true">http://sumread.com/blog/book/2017/07/08/book-unsolvable-equation.html</guid>
+        <link>http://www.sumread.com/blog/book/2017/07/08/book-unsolvable-equation.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/blog/book/2017/07/08/book-unsolvable-equation.html</guid>
         
         
         <category>book</category>
@@ -558,8 +558,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 08 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://sumread.com/blog/book/2017/07/08/book-chen.html</link>
-        <guid isPermaLink="true">http://sumread.com/blog/book/2017/07/08/book-chen.html</guid>
+        <link>http://www.sumread.com/blog/book/2017/07/08/book-chen.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/blog/book/2017/07/08/book-chen.html</guid>
         
         
         <category>book</category>
@@ -1253,8 +1253,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 08 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://sumread.com/blog/book/2017/07/08/book-algebra-history.html</link>
-        <guid isPermaLink="true">http://sumread.com/blog/book/2017/07/08/book-algebra-history.html</guid>
+        <link>http://www.sumread.com/blog/book/2017/07/08/book-algebra-history.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/blog/book/2017/07/08/book-algebra-history.html</guid>
         
         
         <category>book</category>
@@ -1350,8 +1350,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 06 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://sumread.com/blog/math/2017/07/06/geo-alg.html</link>
-        <guid isPermaLink="true">http://sumread.com/blog/math/2017/07/06/geo-alg.html</guid>
+        <link>http://www.sumread.com/blog/math/2017/07/06/geo-alg.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/blog/math/2017/07/06/geo-alg.html</guid>
         
         
         <category>math</category>
@@ -1482,8 +1482,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 01 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://sumread.com/blog/book/2017/07/01/abel-proof.html</link>
-        <guid isPermaLink="true">http://sumread.com/blog/book/2017/07/01/abel-proof.html</guid>
+        <link>http://www.sumread.com/blog/book/2017/07/01/abel-proof.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/blog/book/2017/07/01/abel-proof.html</guid>
         
         
         <category>book</category>
@@ -1507,8 +1507,8 @@
 &lt;p&gt;&lt;img src=&quot;/blog/img/chen-geo7.png&quot; alt=&quot;几何&quot;&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 21 Apr 1987 00:00:00 -0700</pubDate>
-        <link>http://sumread.com/blog/math/1987/04/21/what-is-geometry.html</link>
-        <guid isPermaLink="true">http://sumread.com/blog/math/1987/04/21/what-is-geometry.html</guid>
+        <link>http://www.sumread.com/blog/math/1987/04/21/what-is-geometry.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/blog/math/1987/04/21/what-is-geometry.html</guid>
         
         
         <category>math</category>
