@@ -6,8 +6,8 @@
 </description>
     <link>http://www.sumread.com/</link>
     <atom:link href="http://www.sumread.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Jul 2017 12:10:39 -0700</pubDate>
-    <lastBuildDate>Tue, 11 Jul 2017 12:10:39 -0700</lastBuildDate>
+    <pubDate>Tue, 11 Jul 2017 14:08:51 -0700</pubDate>
+    <lastBuildDate>Tue, 11 Jul 2017 14:08:51 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -199,381 +199,187 @@
       </item>
     
       <item>
-        <title>读书笔记--《无法解出的方程》</title>
-        <description>&lt;h2&gt;第一章　对称&lt;/h2&gt;
+        <title>What Is Math?</title>
+        <description>&lt;h2&gt;Mathematical definition&lt;/h2&gt;
+
+&lt;p&gt;What is math? In the Greek language, the word is &amp;quot;learning, mastering, knowledge&amp;quot;. Aristotle once defined mathematics as &amp;quot;&lt;strong&gt;on the quantity of science&lt;/strong&gt;&amp;quot;, this view has been very popular before the 19th century. At that time, the main number of maths / unknowns, the majority of the symbols used are not much different from today. Has been the &lt;a href=&quot;https://www.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95&quot;&gt;Euclidean geometry&lt;/a&gt; tutorial, Cartesian [analytic geometry], Caldano&amp;#39;s &lt;a href=&quot;https://www.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;cubic equation&lt;/a&gt; / [quadratic equation] Tong solution, Newton / Leibniz&amp;#39;s &lt;a href=&quot;https://www.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6&quot;&gt;calculus&lt;/a&gt; is mathematics Development made a series of great achievements. By the nineteenth century, mathematics had completed the perfect abstraction of log / unknowns. In fact, most people&amp;#39;s mathematical knowledge also stays at this stage. For the general public, Aristotle&amp;#39;s definition of mathematics is still not much deviation.&lt;/p&gt;
+
+&lt;div style = &quot;margin: 0 auto 15px; width: 60%; text-align: center;&quot;&gt;
+  &lt;img src = &quot;/img/Euclid.jpg&quot; alt = &quot;Euclid in the Athens Institute&quot; style = &quot;display: block;&quot;&gt;
+  Euclid in the &quot;Athens Institute&quot;
+&lt;/div&gt;
+
+&lt;p&gt;But from the beginning of the 19th century, mathematics began to study more abstract &amp;quot;&lt;a href=&quot;https://www.wikipedia.org/wiki/%E7%BE%A4&quot;&gt;group&lt;/a&gt;&amp;quot; and &amp;quot;&lt;a href=&quot;https://www.wikipedia.org/wiki/%E5%B0%84%E5%BD%B1%E5%87%A0%E4%BD%95&quot;&gt;projective geometry&lt;/a&gt;&amp;quot;, these new mathematical objects can not be directly measured. Mathematicians and philosophers are beginning to try to adapt the new definitions of mathematics to these changes. Their definition is different, such as some emphasis on deductive reasoning, some emphasis on &amp;quot;abstract&amp;quot;, and some focus on some topics that include mathematics. Because of the introduction of more abstract concepts, the debate on mathematical definitions has not been agreed so far: is mathematics itself &amp;quot;invented&amp;quot; or &amp;quot;found&amp;quot;? Mathematics in the end is &amp;quot;art&amp;quot; or &amp;quot;science&amp;quot;? Some people simply said, &amp;quot;Mathematical thing, that is, those things that mathematicians do.&amp;quot;&lt;/p&gt;
+
+&lt;h2&gt;Mathematical research content&lt;/h2&gt;
+
+&lt;p&gt;So what are the main problems of mathematicians? Can be divided into three main blocks:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;对称墨水斑具有某种迷人吸引力，早期用于精神分析，why?&lt;/p&gt;
+&lt;li&gt;theoretical mathematics: pure mathematics, according to Wikipedia into the number, structure, space, changes and other aspects of the content&lt;/li&gt;
+&lt;li&gt;Applied Mathematics: applying mathematics to specific problems such as physics, chemistry, computer, finance, game, etc.&lt;/li&gt;
+&lt;li&gt;Mathematical basis: axiomatic foundations such as set theory, category theory, and computability theory in computers (P = NP?), Etc.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;ul&gt;
-&lt;li&gt;与人类相同的两侧对称?何为对称?&lt;/li&gt;
-&lt;li&gt;对称的语言--群论，却戏剧性的诞生于方程不可解，而非对称研究上&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;引出本书主人公-伽罗瓦，以及探究创造力的真正本质&lt;/p&gt;
+&lt;p&gt;The study of these problems is to find the &amp;quot;model&amp;quot; of the objective world, to sum up the formula, and to make a reasonable guess. A good mathematical structure is a real-world model, based on mathematical derivation that can predict the real world. Some seemingly completely useless theoretical math / pure mathematics, in the future may be shine in a particular application areas, such as the number of applications in cryptography. The foundation of mathematics is to find the cornerstone of various theories, so that mathematical theory can be a solid development.
+The same time as the above-&lt;/p&gt;
+
+&lt;h2&gt;Mathematical research methods&lt;/h2&gt;
+
+&lt;p&gt;How can i know which mathematical guesses are correct? Mathematics uses two major weapons: &lt;strong&gt;abstract&lt;/strong&gt; and &lt;strong&gt;logical reasoning&lt;/strong&gt;, axiomatic way to construct a series of propositions.&lt;/p&gt;
+
+&lt;p&gt;Axiom in the traditional thought is &amp;quot;self-evident truth&amp;quot;, but this idea is problematic. In form, axiom is just a string of symbols that only make sense for the content of formulas that can be derived from axiomatic systems. The Hilbert plan is intended to put all the mathematics on a solid axiom basis, but according to [the Gödel&amp;#39;s incomplete theorem], every axiom system that is compatible with and can contain the Piano&amp;#39;s axiom must have an unresolvable So the final axiom of all mathematics is impossible. In spite of this, mathematics is often thought of as an axiomatic set theory, in which all mathematical narratives or proofs can be written as a set theory.&lt;/p&gt;
+
+&lt;p&gt;In fact, the axiomization of the four operations of nature - [the Piano Conception] system was established until the twentieth century. Therefore, the natural number of four operations inside the \(1 + 1 = 2 \), \(3 \times7 = 7 \times3 \) (exchange law) These can be in the Piagio axiom system to prove. Interested can look at Tao Zexang math gods wrote &amp;quot;real analysis&amp;quot;, which is from the Piano natural number of the beginning of the system.&lt;/p&gt;
+
+&lt;h2&gt;as a model of the real world&lt;/h2&gt;
+
+&lt;p&gt;With regard to mathematics as a model of the real world, the expectations of mathematicians at different stages are quite different:&lt;/p&gt;
+
+&lt;p&gt;Galileo (1564-1642):&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;理性的人让自己适应世界；不理性的人坚持让世界适应自己。因此，所有的进步取决于不理性的人。&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;不发生改变&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;symmetry: 同样的尺寸,现代意思: 一点都不改变&lt;/li&gt;
-&lt;li&gt;回文诗句,Y染色体,动物的两侧对称，植物或基本不移动动物的前后左右对称&lt;/li&gt;
-&lt;li&gt;有前后脸的艺术形象，外星人，镜面反射对称的字母&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;雪的欢乐建筑&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;旋转对称&lt;/li&gt;
-&lt;li&gt;海星,花，对称在艺术品占一定作用,对称实验&lt;/li&gt;
-&lt;li&gt;美学测度&lt;/li&gt;
-&lt;li&gt;圆的任意角度旋转对称,等边三角形的旋转变换和反射变换&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;莫里斯，莫扎特，公司&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;重复--平移对称变换&lt;/li&gt;
-&lt;li&gt;莫里斯设计的对称花纹&lt;/li&gt;
-&lt;li&gt;音乐片段的重复,莫扎特与数字的联系,巴赫在音乐中加入反射和平移&lt;/li&gt;
-&lt;li&gt;RICERCAR(利卡切尔) &lt;/li&gt;
-&lt;li&gt;平移+反射--&amp;gt;滑移反射: 走路的脚印&lt;/li&gt;
-&lt;li&gt;三维空间: 螺旋对称&lt;/li&gt;
-&lt;li&gt;其他: 置换&lt;/li&gt;
-&lt;li&gt;轮胎，拉丁方块&lt;/li&gt;
-&lt;li&gt;书架排列&lt;/li&gt;
-&lt;li&gt;数学公式&lt;/li&gt;
-&lt;li&gt;博彩中轮盘赌，21点的非对称&lt;/li&gt;
-&lt;li&gt;物理中原子的尺寸是相同的: 保利不相容原理,高中化学??
-
-&lt;ul&gt;
-&lt;li&gt;同一轨道中不能出现相同自旋的电子,概率函数的置换&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;颜色变换的对称: 艾瑟尔的画&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;第二章　想象中的对称&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;视觉感知
-
-&lt;ul&gt;
-&lt;li&gt;天体--背景--立体视觉--格式塔心理学&lt;/li&gt;
-&lt;li&gt;对称,接近性和相似性&lt;/li&gt;
-&lt;li&gt;结构信息学&lt;/li&gt;
-&lt;li&gt;两侧对称在视觉中重要位置&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;游戏规则
-
-&lt;ul&gt;
-&lt;li&gt;物理规律:　自然规律是旋转对称的&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;一切对称之母
-
-&lt;ul&gt;
-&lt;li&gt;抽象，群论语言&lt;/li&gt;
-&lt;li&gt;两侧对称,S3&lt;/li&gt;
-&lt;li&gt;任何系统的所有对称变换集总是形成一个群&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;群的发现源于方程的解&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;第三章 在你的方程式中永远不要忘记这一点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;爱因斯坦的&lt;a href=&quot;https://freewechat.com/a/MzI2NDE0NTg4Nw==/2650472446/1/&quot;&gt;《科学与幸福》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;代数的历史，大多数在另一本书中有详述
-
-&lt;ul&gt;
-&lt;li&gt;古巴比伦和丢番图都对线性方程不感兴趣&lt;/li&gt;
-&lt;li&gt;费罗，塔尔塔利亚,卡尔达诺,费拉里&lt;/li&gt;
-&lt;li&gt;邦贝利的《代数学》&lt;/li&gt;
-&lt;li&gt;韦达,欧拉(数学家的熨斗笑话)&lt;/li&gt;
-&lt;li&gt;布令化简: \(x^5+px+q=0\)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;根的置换
-
-&lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;/img/x1x2.png&quot; alt=&quot;x1x2&quot;&gt;&lt;/li&gt;
-&lt;li&gt;拉格朗日和范德蒙&lt;/li&gt;
-&lt;li&gt;高斯证明了代数基本定理，5次方程必有5个解&lt;/li&gt;
-&lt;li&gt;保罗·鲁非尼&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;第四章　穷困潦倒的数学家&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;阿贝尔
-
-&lt;ul&gt;
-&lt;li&gt;早年的阿贝尔&lt;/li&gt;
-&lt;li&gt;一个不断斗争的天才&lt;/li&gt;
-&lt;li&gt;五次方程&lt;/li&gt;
-&lt;li&gt;原始证明在Peter Pesic的书中《阿贝尔的证明》可以找到
-
-&lt;ul&gt;
-&lt;li&gt;仅有6页，对比鲁非尼的五百多页!&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;超越函数和椭圆函数都有贡献&lt;/li&gt;
-&lt;li&gt;游历欧洲&lt;/li&gt;
-&lt;li&gt;回家&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;第五章　浪漫的数学家&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;伽罗瓦&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;早年的伽罗瓦&lt;/li&gt;
-&lt;li&gt;一个数学家的诞生&lt;/li&gt;
-&lt;li&gt;拉格朗日的论文集和解析函数论影响很大&lt;/li&gt;
-&lt;li&gt;两次灾难打击&lt;/li&gt;
-&lt;li&gt;自由平等博爱&lt;/li&gt;
-&lt;li&gt;波澜起伏的生活&lt;/li&gt;
-&lt;li&gt;入狱&lt;/li&gt;
-&lt;li&gt;浪漫的爱&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;神秘的死&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;我没有时间，我的思想在那个领域未能得到充足的发展--那个领域是巨大的&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;众说纷纭话谋杀&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;浪漫的死&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;身死名扬&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;第六章　群&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;置换，14-15迷，魔方&lt;/li&gt;
-&lt;li&gt;群和置换
-
-&lt;ul&gt;
-&lt;li&gt;乘法表,置换群同构&lt;/li&gt;
-&lt;li&gt;拉格朗日定理&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;伽罗瓦的光辉证明
-
-&lt;ul&gt;
-&lt;li&gt;没有用到所谓&amp;quot;流行的东西&amp;quot; (狭义相对论vs. 广义相对论)&lt;/li&gt;
-&lt;li&gt;三个关键的因素&lt;/li&gt;
-&lt;li&gt;每个方程的&amp;quot;对称外形&amp;quot;--置换群--现称为伽罗瓦群&lt;/li&gt;
-&lt;li&gt;子群--&amp;gt;正规子群&lt;/li&gt;
-&lt;li&gt;使用一个公式解方程的条件是什么 -- 特定类型的伽罗瓦群
-
-&lt;ul&gt;
-&lt;li&gt;3次方程S3为素数,S5不可解&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;应用
-
-&lt;ul&gt;
-&lt;li&gt;约会中的37%原则,1/e&lt;/li&gt;
-&lt;li&gt;征兵抽签&lt;/li&gt;
-&lt;li&gt;抛硬币的非对称性导致概率分布不均匀&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;抽象的顶尖艺术
-
-&lt;ul&gt;
-&lt;li&gt;凯莱由置换群到抽象化的处理,并且完成了公理化&lt;/li&gt;
-&lt;li&gt;群的同构,澳洲土著的婚姻规则&lt;/li&gt;
-&lt;li&gt;与语言学的联系&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;何为几何学
-
-&lt;ul&gt;
-&lt;li&gt;克莱因证明，在很多方面，几何就是群论&lt;/li&gt;
-&lt;li&gt;欧几里得的5大公设&lt;/li&gt;
-&lt;li&gt;鲍耶的双曲几何&lt;/li&gt;
-&lt;li&gt;黎曼的椭圆几何
-
-&lt;ul&gt;
-&lt;li&gt;用于广义相对论&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;射影几何/保形几何/微分几何&lt;/li&gt;
-&lt;li&gt;23岁的克莱因提出的爱尔兰根纲领，统一了几何理论&lt;/li&gt;
-&lt;li&gt;李群和庞加来扩展了此思想&lt;/li&gt;
-&lt;li&gt;回到五次方程&lt;/li&gt;
-&lt;li&gt;克罗内克的椭圆函数论和代数数论,尝试解5次方程&lt;/li&gt;
-&lt;li&gt;赫米特用一类特殊的椭圆函数去解一般的五次方程&lt;/li&gt;
-&lt;li&gt;克罗内克理解为何椭圆函数可以去解,简化了阿贝尔的证明&lt;/li&gt;
-&lt;li&gt;克莱因对20面体研究，论证两个全然不同的群是同构的&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;第７章　对称法则&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;自然法则&lt;/li&gt;
-&lt;li&gt;时空
-
-&lt;ul&gt;
-&lt;li&gt;雪花的对称&lt;/li&gt;
-&lt;li&gt;DNA编码&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;引力对称
-
-&lt;ul&gt;
-&lt;li&gt;爱因斯坦: 引力和因加速度而形成的力事实上是相同的&lt;/li&gt;
-&lt;li&gt;微分几何&lt;/li&gt;
-&lt;li&gt;引力反映了时空的几何学&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;进入量子世界
-
-&lt;ul&gt;
-&lt;li&gt;对称变换&lt;/li&gt;
-&lt;li&gt;诺特定理&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;夸克,夸克,群
--　李群，西罗的学生，约当
-
-&lt;ul&gt;
-&lt;li&gt;嘉当，杨振宁的方程&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;弦之协调
-
-&lt;ul&gt;
-&lt;li&gt;统一广义相对论和量子力学&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;不仅是对称--超对称
-
-&lt;ul&gt;
-&lt;li&gt;玻色子&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;第8章 它们中哪个更对称&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;进化心理学&lt;/li&gt;
-&lt;li&gt;恐惧对称&lt;/li&gt;
-&lt;li&gt;喜好&lt;/li&gt;
-&lt;li&gt;对称性的统治&lt;/li&gt;
-&lt;li&gt;音乐&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 08 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/book/2017/07/08/book-unsolvable-equation.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/book/2017/07/08/book-unsolvable-equation.html</guid>
-        
-        
-        <category>book</category>
-        
-      </item>
-    
-      <item>
-        <title>读书笔记--《陈省身文集》</title>
-        <description>&lt;h3&gt;求学经历&lt;/h3&gt;
-
-&lt;p&gt;陈生平:&lt;a href=&quot;http://m.gzhphb.com/article/26/269042.html&quot;&gt;http://m.gzhphb.com/article/26/269042.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;陈省身颇受数学系老教授的青睐，常受邀到老教授家做客聊天，特别是家有碧玉的郑桐荪教授对他留有很好的印象。&lt;/p&gt;
+&lt;p&gt;We need to master the language of the universe and be familiar with the characters it writes, otherwise we can not interpret the universe. It is written in mathematical language, the letters are triangular, round and other geometric shapes. Without these, we can not understand even one of the words. Without these, mankind is wandering in the dark maze.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;杨振宁曾经这样比较华罗庚与陈省身:&lt;/p&gt;
+&lt;p&gt;Gauss (1777-1855):&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;华罗庚和陈省身都是我国重要的数学家，是我们中华民族聪明睿智的代表。假如有一个老师， 把两个人叫来， 出一道
-题目，华罗庚一听就做出来了，陈省身要一个月才能做出来，但是他把这个问题开拓为一个学科。
-伯林(Isaiah Berlin，1900-1997)普及了希腊关于哲学家的两种不同类型的观念： “狐狸掌握多门技艺， 而刺猬
-则精通一门绝技。” 我想这是一种极好的方式来描述华罗庚与陈省身的不同： 华罗庚兴趣广泛，对数学的几个不同分
-支做出了重要贡献；而陈省身则专注于微分几何一个分支， 但他革新了这个分支，并且这个革新后来对20世纪的几何、
-代数、分析、拓扑各个主要分支都有深远的影响，甚至深入影响了近40年来理论物理学的发展。&lt;/p&gt;
+&lt;p&gt;Mathematics is the queen of science. \(^ {number theory is the queen of mathematics} \)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;扩展: 类同于弗里曼•戴森的“&lt;a href=&quot;http://news.sciencenet.cn/htmlnews/2011/8/251096-1.shtm&quot;&gt;鸟和青蛙&lt;/a&gt;”的比喻&lt;/p&gt;
+&lt;p&gt;Hilbert (1862-1943):
+  We are not here any nonsense. Mathematics is not like a game of arbitrary rules, but a conceptual system with inherent necessity, so that there is no other way.&lt;/p&gt;
+
+&lt;p&gt;Einstein (1879-1955):&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Because mathematics is a reflection of reality, so they are uncertain; because mathematics is certain, so they are unrealistic.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div style = &quot;margin: 0 auto 15px; width: 60%; text-align: center;&quot;&gt;
+  &lt;img src = &quot;https://upload.wikimedia.org/wikipedia/commons/5/5b/Lorenz_attractor_yb.svg&quot; alt = &quot;Lorentz transformation in chaos theory&quot; style = &quot;display: block;&quot;&gt;
+  Lorentzian transformers in chaos theory
+&lt;/div&gt;
+
+&lt;p&gt;It can be seen that, to the last Einstein&amp;#39;s argument, mathematics as a real-world model has become increasingly uncertain. Beginning in the 1960s, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Chaos_theory&quot;&gt;chaos theory&lt;/a&gt;, developed by meteorological forecasts, also demonstrates this. In fact, physics is closely related to mathematics - quantum physics, also appeared in a similar situation. Quantum physics itself is deeply influenced by mathematics, and Eugene Wigner has published &amp;quot;[the irrational validity of mathematics in the natural sciences&amp;quot;), pointing out how mathematics can unbelievably lead the discovery of the natural sciences. The most surprising and most mysterious is that in the mathematical layers of the concept of non-material abstraction, contains the deepest and most secret of the material world. Such as π may appear in the demographic model, the existence of imaginary numbers in quantum mechanics.&lt;/p&gt;
+
+&lt;h2&gt;The history of mathematics&lt;/h2&gt;
+
+&lt;p&gt;Mathematics from the &amp;quot;count&amp;quot; and &amp;quot;measurement of land&amp;quot; two production activities evolved, which formed the algebra and geometry of the two pillars of development. Western mathematics focuses on the development of geometry, the use of Euclid&amp;#39;s axiomatic and logical derivation of the way, not only to promote the development of mathematics, but also profoundly affected the other natural disciplines.&lt;/p&gt;
+
+&lt;p&gt;For many abstract mathematical concepts, the geometric sense of understanding is more intuitive, such as the real multiplication of the exchange can be understood as geometric rectangular area unchanged. In some systems, element operations are not necessarily interchangeable, such as groups. Algebra and geometry correspond to two abstract concepts of time and space, which belong to different regions of the brain. Many great mathematicians use geometry to help themselves quickly grasp the core concepts of mathematics, such as 19-year-old proving that Hilbert&amp;#39;s thirteenth question of VI Arnold (1937-2010) &lt;a href=&quot;https://book.%20douban.com/subject/3202119/discussion/1364384/&quot;&gt;on mathematics education&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In recent years, with the development of computers, geometric graphics more easily displayed. Stanford Math graduate &lt;a href=&quot;http://www.3blue1brown.com/about/&quot;&gt;3blue1brown&lt;/a&gt; just on the use of bilibili graphical intuitive to explain the &amp;quot;&lt;a href=&quot;http://space.bilibili.com/88461692/#!/channel/detail?cid=13407&quot;&gt;the essence of calculus&lt;/a&gt; &amp;quot;and&amp;quot; &lt;a href=&quot;http://space.bilibili.com/88461692/#!/channel/detail?cid=94502&quot;&gt;linear algebra&lt;/a&gt; &amp;quot;and a series of Course, it is a great learning material, kind of meet the feeling of hate. And even highly abstract group theory / near algebra, Youtube also has a professor in a graphical way to explain, a short time to master the group theory of many core concepts: &lt;a href=&quot;http:%20//www.math.clemson.edu/%7Emacaule/classes/m17_math4120/index.html&quot;&gt;Visual Group Theory&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The history of algebra and geometric alternation of development, to the twenty-first century Klein all geometric unity in the algebra group theory, in the higher level of the formation of a unified abstraction. The history of algebra also covers the development of geometric trends. In the history of algebra, the author summarizes the three stages of algebra:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://imagine.enpc.fr/%7Eaubrym/publications/2009-metaphors-in-mathematics.pdf&quot;&gt;Metaphors in Mathematics&lt;/a&gt;
+&lt;li&gt;the first abstraction: the value
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.mathunion.org/ICM/ICM1990.2/Main/icm1990.2.1665.1672.ocr.pdf&quot;&gt;http://www.mathunion.org/ICM/ICM1990.2/Main/icm1990.2.1665.1672.ocr.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the transition from an instance to a value&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;the second abstraction: the word symbol system, that is, with the letter symbol to represent any number (the unknown \(x \))
+
+&lt;ul&gt;
+&lt;li&gt;Newton called &amp;quot;pan arithmetic&amp;quot;&lt;/li&gt;
+&lt;li&gt;the core for solving equations&lt;/li&gt;
+&lt;li&gt;and the symbols in the geometric concept are slowly differentiated&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;third abstraction: new math objects - group, matrix, manifold ...
+
+&lt;ul&gt;
+&lt;li&gt;new abstraction level&lt;/li&gt;
+&lt;li&gt;research logic, abstract algebra (modern algebra), group theory and so on&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;与张奠宙1991在MSRI的访谈&lt;/h3&gt;
+&lt;p&gt;A large number of mathematicians, Mr. Chen also has a &lt;a href=&quot;/%20math%20/%201987/04/21%20/%20what-is-geometry.html&quot;&gt;&amp;quot;what is geometry&amp;quot;&lt;/a&gt; wonderful lectures, summed up the geometric development process, Now read is still deeply inspired.&lt;/p&gt;
+
+&lt;h2&gt;math fields&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;回忆德国汉堡，法国求学经历
-&lt;img src=&quot;/img/chen-phd.png&quot; alt=&quot;嘉当求学&quot;&gt;&lt;/li&gt;
-&lt;li&gt;进入普林斯顿，研究好的数学
-&lt;img src=&quot;/img/chen-good-math.png&quot; alt=&quot;好的数学1&quot;&gt;&lt;/li&gt;
-&lt;li&gt;数学家和数学学派
-&lt;img src=&quot;/img/chen-insight.png&quot; alt=&quot;数学家和数学学派&quot;&gt;
-对比周炜良的淡泊，少为外人所知
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E5.9F.BA.E7.A4.8E.E8.88.87.E5%20.93.B2.E5.AD.B8&quot;&gt;Fundamentals and Philosophy&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;南开访问&lt;/li&gt;
+&lt;li&gt;Mathematical logic, set theory, category theory&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;彩票助学
-&lt;img src=&quot;/img/chen-lottery.png&quot; alt=&quot;彩票助学&quot;&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;什么是好的数学
-&lt;img src=&quot;/img/chen-good-math-2.png&quot; alt=&quot;什么是好的数学&quot;&gt;
-解方程对比拿破仑定理(三角形外接三角形)
-&lt;img src=&quot;/img/chen-good-math.png&quot; alt=&quot;好的数学&quot;&gt;
-&lt;img src=&quot;/img/chen-good-math3.png&quot; alt=&quot;好的数学3&quot;&gt;
-&lt;img src=&quot;/img/chen-good-math4.png&quot; alt=&quot;好的数学4&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;陶哲轩也专门写过一篇文章分析&amp;quot;&lt;a href=&quot;http://www.changhai.org/articles/translation/mathematics/good_maths1.php&quot;&gt;好的数学&lt;/a&gt;&amp;quot;，本质上也难简单定义:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/tao-good-math.png&quot; alt=&quot;好的数学4&quot;&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;大学数学丛书&lt;/h3&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E7.BA.AF.E7.B2.B9.E6.95.B0.E5.AD.A6&quot;&gt;pure mathematics&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;中国的数学
-&lt;img src=&quot;/img/chen-chinese-math.png&quot; alt=&quot;中国的数学&quot;&gt;
-
-&lt;ul&gt;
-&lt;li&gt;对中国数学的展望&lt;/li&gt;
+&lt;li&gt;quantity: natural number, integer, rational number, real number, complex number and so on&lt;/li&gt;
+&lt;li&gt;structure: number theory, group theory, graph theory, order theory
+Space: geometry, trigonometry, differential geometry, topology, fractal, measure theory&lt;/li&gt;
+&lt;li&gt;Variation: calculus, vector analysis, differential equations, dynamical systems, chaos theory, complex analysis&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;数学与人口,很有名的数学例子
-&lt;img src=&quot;/img/chen-math-people.png&quot; alt=&quot;数学与人口&quot;&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;研究数学史的重要性
-&lt;img src=&quot;/img/chen-china-math-history.png&quot; alt=&quot;数学史&quot;&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;其他&lt;/p&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E9.9B.A2.E6.95.A3.E6.95.B8.E5.AD.B8&quot;&gt;Discrete Mathematics&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;鼓励年轻人成立自己的学派&lt;/li&gt;
-&lt;li&gt;对联: 孙行者-胡适之-祖冲之&lt;/li&gt;
+&lt;li&gt;Combinatorial mathematics, computational theory, cryptography, graph theory&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E6.87.89.E7.94.A8.E6.95.B8.E5.AD.B8&quot;&gt;Applied Mathematics&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;physical mathematics, mathematical fluid mechanics, numerical analysis, optimization, probability theory, statistics, measurement finance, game theory, mathematical economics, bio-mathematics, homework research, cybernetics&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;数学文集&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/map-of-mathmatics.png&quot; alt=&quot;The Map of Mathematics&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;See Wikipedia&amp;#39;s &amp;quot;mathematics&amp;quot; item and the video &lt;a href=&quot;https://www.youtube.com/watch?v=OmJ-4B-mS-Y&quot;&gt;The Map of Mathematics&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Chinese mathematician&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;关于黎曼猜想
-&lt;img src=&quot;/img/chen-liman.png&quot; alt=&quot;黎曼猜想&quot;&gt;&lt;/li&gt;
-&lt;li&gt;关于几何
+&lt;li&gt;Fields Award
 
 &lt;ul&gt;
-&lt;li&gt;从三角形到流形
-
-&lt;ul&gt;
-&lt;li&gt;几何, 三角形,曲线旋转指数与正则同伦,三维欧氏空间,从坐标到流形&lt;/li&gt;
-&lt;li&gt;流形:局部工具,同调，向量场及推广,椭圆微分方程,欧拉实性数,规范场论，结束语&lt;/li&gt;
+&lt;li&gt;1982 Qiu Chengtong&lt;/li&gt;
+&lt;li&gt;2006 Tao Zhexuan&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;微分几何
+&lt;li&gt;Abel Award
 
 &lt;ul&gt;
-&lt;li&gt;与理论物理，广义相对论&lt;/li&gt;
+&lt;li&gt;No (2016 winner for the Fermat theorem Proved by Wiles)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Wolf Prize
+
+&lt;ul&gt;
+&lt;li&gt;1983 Shiing-Shen Chern&lt;/li&gt;
+&lt;li&gt;2010 Qiu Chengtong&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/math/1987/04/21/what-is-geometry.html&quot;&gt;什么是几何学&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cole algebra award and number award
+
+&lt;ul&gt;
+&lt;li&gt;2014 Zhang Yi Tang&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;The two most influential Chinese mathematicians: Hua Luogeng (1910-1985) and Shiing-Shen Chern (1911-2004), both with the Tsinghua University Department of Mathematics, and in the Southwest United Datong dormitory.&lt;/p&gt;
+
+&lt;p&gt;Yang Zhenning had this comparison Hua Luogeng and Shiing-Shen Chern:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hua Luogeng and Chern are the important mathematicians of our country, is our wisdom and wisdom of the Chinese nation on behalf of. If there is a teacher, the two called, a question, Hua Luogeng one to do it, Chern to a month to do it, but he opened the issue into a discipline.&lt;/p&gt;
+
+&lt;p&gt;Isaiah Berlin (1900-1997) popularizes the Greek concept of two different types of philosophers: &amp;quot;the fox has many skills, and the hedgehog is proficient in a stunt.&amp;quot; I think this is an excellent The way to describe Hua Luogeng is different from that of Chen: He has a wide range of interests and has made an important contribution to several different branches of mathematics; while Chen is focused on a branch of differential geometry, but he innovates this branch, and this innovation later on the 20th century Geometric, algebra, analysis, topology of the major branches have far-reaching impact, and even in-depth impact on the past 40 years the development of theoretical physics.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Similar to the metaphor of &amp;quot;&lt;a href=&quot;http://news.sciencenet.cn/htmlnews/2011/8/251096-1.shtm&quot;&gt;Birds and Frogs&lt;/a&gt;&amp;quot; by Freeman Dyson (1923-), and twenty Century great &amp;quot;bird&amp;quot; mathematician Hilbert, Chern pays more attention to the overall view, the formation of MSRI American Mathematical Institute, to expand the twentieth century differential geometry.&lt;/p&gt;
+
+&lt;h2&gt;The key development stage of mathematics&lt;/h2&gt;
+
+&lt;p&gt;The core concept of modern mathematics &amp;quot;group&amp;quot;, but it is only twenty years old that duel death &lt;strong&gt;Galois&lt;/strong&gt; developed from. &amp;quot;Unable to solve the equation&amp;quot; for the tragic heroes made a profound description of the characters, but also popular as a &amp;quot;symmetrical&amp;quot; description of the language &amp;quot;group&amp;quot; is how to penetrate into the physical, geometric, biological and other areas, the specific visible &lt;a href=&quot;/book/2017/07/08/book-unsolvable-equation.html&quot;&gt;Reading notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Twentieth Century &lt;a href=&quot;https://www.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E7%9A%8423%E4%B8%AA%E9%97%AE%E9%A2%98&quot;&gt;Hilbert&amp;#39;s 23 questions&lt;/a&gt;, still the climax of mathematicians dreaming of climbing. &lt;strong&gt;Gödel&lt;/strong&gt; on the mathematical axiomatic axiomatic proof, in the &amp;quot;Gödel&amp;#39;s proof&amp;quot; made a popular explanation, now everywhere in the discussion of artificial intelligence and creativity today, many of which are still profound insights Unique. Reading notes are being collated.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 08 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/book/2017/07/08/book-chen.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/book/2017/07/08/book-chen.html</guid>
+        <pubDate>Sun, 09 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://www.sumread.com/math/2017/07/09/what-is-math-en.html</link>
+        <guid isPermaLink="true">http://www.sumread.com/math/2017/07/09/what-is-math-en.html</guid>
         
         
-        <category>book</category>
+        <category>math</category>
         
       </item>
     
@@ -1269,214 +1075,6 @@ new definitions.&lt;/p&gt;
         <pubDate>Sat, 08 Jul 2017 00:00:00 -0700</pubDate>
         <link>http://www.sumread.com/book/2017/07/08/book-algebra-history.html</link>
         <guid isPermaLink="true">http://www.sumread.com/book/2017/07/08/book-algebra-history.html</guid>
-        
-        
-        <category>book</category>
-        
-      </item>
-    
-      <item>
-        <title>代数与几何</title>
-        <description>&lt;h2&gt;自然数域N&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;几何天生就是连续的，直线对应于R域，所以从几何上可以很容易得出有理数，无理数
-
-&lt;ul&gt;
-&lt;li&gt;超越数在几何上的表示: \(\pi\)定义成圆周长与直径的比例,e定义成曲率与数值相等&lt;/li&gt;
-&lt;li&gt;欧几里得时代，代数/方程仅仅为几何的一个章节；明朝翻译而来的&lt;code&gt;几何&lt;/code&gt;,本意为&amp;quot;数学&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;自然数的代数运算，可以近似用几何表示
-
-&lt;ul&gt;
-&lt;li&gt;加/减法: 虚线段的拼接与消除&lt;/li&gt;
-&lt;li&gt;减法非封闭，需要扩充到负数(几何反方向)&lt;/li&gt;
-&lt;li&gt;乘法: 定义了长宽的矩形&lt;/li&gt;
-&lt;li&gt;乘法交换律: 两个全等矩形不同的摆放方式&lt;/li&gt;
-&lt;li&gt;等差数列求和:&lt;/li&gt;
-&lt;li&gt;公差为1的数列&lt;/li&gt;
-&lt;li&gt;几何上三角形的面积，补全后矩形面积的一半&lt;/li&gt;
-&lt;li&gt;数列个数对应于矩形的高度&lt;/li&gt;
-&lt;li&gt;公差为2的奇数列&lt;/li&gt;
-&lt;li&gt;不停扩大的正方形&lt;/li&gt;
-&lt;li&gt;除法是非封闭的，需要扩充到有理数(几何上的相似)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;有理数的运算
-
-&lt;ul&gt;
-&lt;li&gt;所有数看成是比例数/分数,几何上的三角性相似&lt;/li&gt;
-&lt;li&gt;尺规作图1/2,1/3...
-
-&lt;ul&gt;
-&lt;li&gt;等分线段一般用等边三角形中垂线等分&lt;/li&gt;
-&lt;li&gt;通用作法可以采用相似三角形，作平行线得出&lt;/li&gt;
-&lt;li&gt;在尺规作图中，平行线公设是最不直观且在５大公理中要步骤最多的&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;而且尺规作图可操作出\(\sqrt 2, \sqrt 3, \sqrt 5, ...\)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;实数域R&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;实数的连续性与数轴是一致的&lt;/li&gt;
-&lt;li&gt;乘法等同于矩形面积
-
-&lt;ul&gt;
-&lt;li&gt;\((a+b)^2\)的几何表示&lt;/li&gt;
-&lt;li&gt;欧几里得证明勾股定理&lt;/li&gt;
-&lt;li&gt;最直观两个小正方形面积等于大正方形面积&lt;/li&gt;
-&lt;li&gt;出现了矩形化方&lt;/li&gt;
-&lt;li&gt;推论出三角形，平行四边形，梯形化方&lt;/li&gt;
-&lt;li&gt;圆形是否可以化方?&lt;/li&gt;
-&lt;li&gt;\(\pi\)为超越数，不可以用尺规作出
-
-&lt;ul&gt;
-&lt;li&gt;几何三大难题，用群论的扩域可以证明不可能&lt;/li&gt;
-&lt;li&gt;历史上声称解决了此问题的最有名民科:《利维坦》的作者霍布斯&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;实数域的函数可以用二维平面表示，笛卡尔的解析几何&lt;/li&gt;
-&lt;li&gt;抛物线，椭圆等&lt;/li&gt;
-&lt;li&gt;开方函数与抛物线的对应&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;复数域C&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;解决负数的开方，将数轴扩充成复平面&lt;/li&gt;
-&lt;li&gt;复数的加减乘除在复平面上有很好的几何解释
-
-&lt;ul&gt;
-&lt;li&gt;向量的加法，旋转&lt;/li&gt;
-&lt;li&gt;张量&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;复数域的函数该如何表示?
-
-&lt;ul&gt;
-&lt;li&gt;TODO:复变函数研究领域&lt;/li&gt;
-&lt;li&gt;可转化成实部和虚部的二元实函数&lt;/li&gt;
-&lt;li&gt;对应几何上的黎曼曲面,最有名的开方函数&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 06 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/math/2017/07/06/geo-alg.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/math/2017/07/06/geo-alg.html</guid>
-        
-        
-        <category>math</category>
-        
-      </item>
-    
-      <item>
-        <title>读书笔记--《阿贝尔的证明》</title>
-        <description>&lt;h2&gt;5次方程不可解的描述&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;二次方程&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;配平方的思想&lt;/li&gt;
-&lt;li&gt;韦达定理，包含了根的置换思想，后来的群理论发展很重要的一环&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;三次方程&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;包含了卡尔达诺(1545)的解法和例子&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B&quot;&gt;四次方程&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;包含了费拉里(卡尔达诺的学生)的解法&lt;/li&gt;
-&lt;li&gt;核心思想是配成完全平方数，转化为三次方程的解法&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Abel%E2%80%93Ruffini_theorem&quot;&gt;Abel–Ruffini theorem&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;基于后来的伽罗瓦群理论重新阐述&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.math.caltech.edu/%7Ejimlb/abel.pdf&quot;&gt;http://www.math.caltech.edu/~jimlb/abel.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.maa.org/sites/default/files/pdf/upload_library/22/Chauvenet/Rosen.pdf&quot;&gt;https://www.maa.org/sites/default/files/pdf/upload_library/22/Chauvenet/Rosen.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Peter Pesic的书本中包含原始未使用群论语言的证明&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;参考书目&lt;/h2&gt;
-
-&lt;h3&gt;《Abel&amp;#39;s Proof》by Peter Pesic&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;附录中有阿贝尔原始的6页论文及简要说明&lt;/li&gt;
-&lt;li&gt;利用初等代数证明&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;《ABEL’S THEOREM IN PROBLEMS AND SOLUTIONS》&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;副标题: Based on the lectures of Professor &lt;a href=&quot;https://en.wikipedia.org/wiki/Vladimir_Arnold&quot;&gt;V.I. Arnold&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;V.I. Arnold 19岁即证明了&lt;a href=&quot;https://en.wikipedia.org/wiki/Hilbert%27s_thirteenth_problem&quot;&gt;希尔伯特的第13道数学难题&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;和七次方程的解有关&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;给高中生的暑期数学讲义，介绍基本的群论和黎曼几何&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;利用几何来直观理解&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/3202119/discussion/1364384/&quot;&gt;V.I. Arnold 论数学教育&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;鼓励数学教育中的几何表示&lt;/li&gt;
-&lt;li&gt;警告数学建模解决现实问题的潜在危害(类比于Wigner原理和爱因斯坦的论断)&lt;/li&gt;
-&lt;li&gt;强调概念的直观理解:&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;这样的例子并不鲜见，作为数学中最迷人的性质之一，Jacobi曾指出：用同一个函数就既可以理解能表示为4个数平方和的整数的性质，又可以描述一个单摆的运动。 这些不同种类的数学对象之间联系的发现，就好比在物理学中电与磁之间联系的发现，也类同于地质学上对美洲大陆的东海岸与非洲大陆的西海岸之间相似性的发现。&lt;/p&gt;
-
-&lt;p&gt;这些发现对于教学所具有的令人激动的非凡意义是无法估量的。正是它们指引着我们去研究和发现宇宙中和谐而精彩的现象。&lt;/p&gt;
-
-&lt;p&gt;然而，数学教育的非几何化以及与物理学的分离却割断了这种联系。例如，不仅仅学习数学的学生而且绝大部分的代数几何学家都对以下提及的Jacobi 事实一无所知：一个第一类型的椭圆积分表示了相应的哈密顿系统中沿某个椭圆相曲线的运动所走的时间。&lt;/p&gt;
-
-&lt;p&gt;试图创造所谓的纯粹推导式的公理化数学的做法，使得我们不再运用物理学中的研究方法（观察-建模－模型的研究－得出结论－用更多的观察检验模型）取而代之的是这样的方法：定义－定理－证明。人们根本不可能理解一个毫无动机的定义，但我们却无法阻止这些有罪的“代数－公理学家”。例如，他们总是想用长乘规则的手段来定义自然数的乘积。但用这种方法乘法的交换性却难以证明，不过从一堆的公理中仍有可能推导出这样的定理。而且完全可能逼着那些可怜的学生们来学习这个定理以及它的证明（其目的不外乎是提升这门学科以及教授它的人的社会地位）。显然，这种定义和这样的证明对教学和实际工作有百害而无一益。&lt;/p&gt;
-
-&lt;p&gt;理解乘法交换性的唯一可能的方式，打个比方就是分别按行序和列序来数一个方阵里士兵的人数，或者说用两种方式来计算长方形的面积。任何试图只做不与物理和现实世界打交道的数学都属于宗派主义和孤立主义，这必将损毁在所有敏感的人们眼中把数学创造视为一项有用的人类活动的美好印象。&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;　其他&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;基于根置换和复平面几何解释: &lt;a href=&quot;https://news.ycombinator.com/item?id=14685466&quot;&gt;https://news.ycombinator.com/item?id=14685466&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Abel证明中用到的一个柯西1815年证明过的引理: &lt;a href=&quot;http://nonagon.org/ExLibris/cauchy-permutations-origin-group-theory&quot;&gt;http://nonagon.org/ExLibris/cauchy-permutations-origin-group-theory&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;群论/近世代数&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Modern Algebra(Visual Group Theory)
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.bentley.edu/empl/c/ncarter/vgt/&quot;&gt;http://web.bentley.edu/empl/c/ncarter/vgt/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.math.clemson.edu/%7Emacaule/classes/m17_math4120/index.html&quot;&gt;http://www.math.clemson.edu/~macaule/classes/m17_math4120/index.html&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;全课程Youtube讲解和讲义下载&lt;/li&gt;
-&lt;li&gt;形象直观，比普通教材更容易理解掌握&lt;/li&gt;
-&lt;li&gt;除了环基本学习完毕，很多概念还要再巩固&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Michael Artion&amp;#39;s &lt;a href=&quot;https://book.douban.com/subject/5496239/&quot;&gt;《Algebra》&lt;/a&gt;也是经典的好教材&lt;/li&gt;
-&lt;li&gt;胡冠章的《应用近世代数》也是不错的教材，入门，学习名词和做题&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 01 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://www.sumread.com/book/2017/07/01/abel-proof.html</link>
-        <guid isPermaLink="true">http://www.sumread.com/book/2017/07/01/abel-proof.html</guid>
         
         
         <category>book</category>
