@@ -2,7 +2,7 @@
 layout: post
 title: 读书笔记--《代数的历史》
 categories: book
-published: true
+published: false
 author: Tao
 ---
 

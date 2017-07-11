@@ -69,7 +69,7 @@ The history of algebra and geometric alternation of development, to the twenty-f
 
   - the first abstraction: the value
     - the transition from an instance to a value
-  - the second abstraction: the word symbol system, that is, with the letter symbol to represent any number (the unknown \\(x \\))
+  - the second abstraction: the word symbol system, that is, with the letter symbol to represent any number (the unknown \\( x \\))
     - Newton called "pan arithmetic"
     - the core for solving equations
     - and the symbols in the geometric concept are slowly differentiated
