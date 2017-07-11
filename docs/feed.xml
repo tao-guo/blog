@@ -6,8 +6,8 @@
 </description>
     <link>http://sumread.com/blog/</link>
     <atom:link href="http://sumread.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jul 2017 17:37:44 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2017 17:37:44 -0700</lastBuildDate>
+    <pubDate>Mon, 10 Jul 2017 17:51:43 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Jul 2017 17:51:43 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -796,12 +796,13 @@
 &lt;li&gt;伯努利的难题
 
 &lt;ul&gt;
-&lt;li&gt;匿名的答案--&amp;gt;看到了狮子的爪子&lt;/li&gt;
-&lt;li&gt;微积分，泛算术，牛顿定理
-&lt;code&gt;
-任意n变量对称多项式可以用n变量初等对称多项式表示
-&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;匿名的答案--&amp;gt;看到了狮子的爪子--牛顿&lt;/li&gt;
+&lt;li&gt;微积分，泛算术，牛顿定理&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;  任意n变量对称多项式可以用n变量初等对称多项式表示
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;很多成就似乎是从研究二项式开始的:
 
 &lt;ul&gt;
@@ -841,7 +842,7 @@
 &lt;li&gt;阿贝尔的证明里最开始就引用了这个定理&lt;/li&gt;
 &lt;li&gt;18世纪最伟大的数学天才(高斯-19世纪)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;范德蒙的&amp;quot;恒等置换&amp;quot; &lt;/p&gt;
+&lt;li&gt;范德蒙的&amp;quot;恒等置换&amp;quot; 
 
 &lt;ul&gt;
 &lt;li&gt;超越但不及拉格朗日的置换有名&lt;/li&gt;
@@ -856,33 +857,32 @@
 &lt;li&gt;U,V置换,６种可能结果&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;拉格朗日&lt;/p&gt;
+&lt;li&gt;拉格朗日
 
 &lt;ul&gt;
 &lt;li&gt;“关于方程代数解的思考”&lt;/li&gt;
 &lt;li&gt;“预解方程”TODO:??&lt;/li&gt;
 &lt;li&gt;拉格朗日定理: 多项式取值的个数整除于n!&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;保罗·拉菲尼的冗长证明&lt;/p&gt;
+&lt;li&gt;保罗·拉菲尼的冗长证明
 
 &lt;ul&gt;
 &lt;li&gt;引发了柯西的复合置换思想&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;阿贝尔的不可能之证明&lt;/p&gt;
+&lt;li&gt;阿贝尔的不可能之证明
 
 &lt;ul&gt;
 &lt;li&gt;用到了欧拉，拉格朗日和柯西的置换&lt;/li&gt;
 &lt;li&gt;利用反证求得&lt;/li&gt;
-&lt;li&gt;\(y^5-ay^4+by^3-cy^2+dy-e=0\)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/img/abel-proof.png&quot; alt=&quot;Abel&amp;#39;s proof&quot;&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;1815柯西的复合置换&lt;/p&gt;
+&lt;li&gt;\(y^5-ay^4+by^3-cy^2+dy-e=0\)
+&lt;img src=&quot;/blog/img/abel-proof.png&quot; alt=&quot;Abel&amp;#39;s proof&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;1815柯西的复合置换
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://nonagon.org/ExLibris/cauchy-permutations-origin-group-theory&quot;&gt;原始论文&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;19世纪中间的五十年，发现了群,环，域，向量空间，矩阵，布尔代数&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;19世纪中间的五十年，发现了群,环，域，向量空间，矩阵，布尔代数&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;数学知识 向量空间与代数&lt;/h3&gt;
@@ -1065,32 +1065,31 @@
 &lt;h3&gt;第14章 无所不在的代数&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;代数拓扑&lt;/p&gt;
+&lt;li&gt;代数拓扑
 
 &lt;ul&gt;
 &lt;li&gt;数学分析与组合的矛盾&lt;/li&gt;
 &lt;li&gt;布劳威尔不动点定理
 
 &lt;ul&gt;
-&lt;li&gt;直觉认知论,同时也受限于自己的哲学&lt;/li&gt;
+&lt;li&gt;直觉认知论,同时也受限于自己的哲学
+&lt;img src=&quot;/blog/img/ins.png&quot; alt=&quot;直觉认知论&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/img/ins.png&quot; alt=&quot;直觉认知论&quot;&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;代数数论&lt;/p&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;代数数论
 
 &lt;ul&gt;
 &lt;li&gt;代数数&lt;/li&gt;
 &lt;li&gt;群论，椭圆函数&lt;/li&gt;
 &lt;li&gt;p进数&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;代数几何&lt;/p&gt;
+&lt;li&gt;代数几何
 
 &lt;ul&gt;
 &lt;li&gt;提升几何的抽象度&lt;/li&gt;
 &lt;li&gt;希尔伯特对几何的公理化&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;俄国几何学家&lt;/p&gt;
+&lt;li&gt;俄国几何学家
 
 &lt;ul&gt;
 &lt;li&gt;莱夫谢茨: 代数拓扑(鱼叉)-&amp;gt;代数几何(鲸鱼)&lt;/li&gt;
@@ -1098,12 +1097,11 @@
 
 &lt;ul&gt;
 &lt;li&gt;韦伊: 利用希尔伯特和诺特的抽象代数重新研究代数几何&lt;/li&gt;
-&lt;li&gt;现代数论代数化的基础，费马大定理的证明基础&lt;/li&gt;
+&lt;li&gt;现代数论代数化的基础，费马大定理的证明基础
+&lt;img src=&quot;/blog/img/19cent.png&quot; alt=&quot;19世纪&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/img/19cent.png&quot; alt=&quot;19世纪&quot;&gt;&lt;/p&gt;
 
 &lt;h3&gt;第15章 从泛算术到泛代数&lt;/h3&gt;
 
@@ -1127,7 +1125,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;同调群?代数对象附属于流形&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;范畴论: 抽象再抽象&lt;/p&gt;
+&lt;li&gt;范畴论: 抽象再抽象
 
 &lt;ul&gt;
 &lt;li&gt;黎曼:函数论与拓扑之间的关系,同调代数--代数拓扑学家嘉当&lt;/li&gt;
@@ -1136,21 +1134,20 @@
 
 &lt;ul&gt;
 &lt;li&gt;p进数中的运算，范畴中的函子&lt;/li&gt;
-&lt;li&gt;忘却函子&lt;/li&gt;
+&lt;li&gt;忘却函子&lt;br&gt;
+&lt;img src=&quot;/blog/img/forgetful-functor.png&quot; alt=&quot;忘却函子&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/img/forgetful-functor.png&quot; alt=&quot;忘却函子&quot;&gt;
-- 与计算机科学的联系:&lt;a href=&quot;https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/&quot;&gt;写给程序员的范畴论&lt;/a&gt;
-- 《美丽心灵》中学生对纳什:&amp;quot;伽罗瓦扩张实际上与覆盖空间一样&amp;quot;在范畴论里面容易得到解答&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;高度抽象的反思&lt;/p&gt;
+&lt;li&gt;与计算机科学的联系:&lt;a href=&quot;https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/&quot;&gt;写给程序员的范畴论&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《美丽心灵》中学生对纳什:&amp;quot;伽罗瓦扩张实际上与覆盖空间一样&amp;quot;在范畴论里面容易得到解答&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;高度抽象的反思
 
 &lt;ul&gt;
 &lt;li&gt;迈克尔·阿廷的本科生课本《代数》没有提及范畴&lt;/li&gt;
 &lt;li&gt;支持者: 那些喜欢研究特殊，具体问题的人喜欢把范畴论说成是&amp;quot;笼统抽象的废话&amp;quot;&lt;/li&gt;
 &lt;li&gt;进入哲学范畴&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;格罗申迪克: 圣痴,疯子天才和隐居的虔心祈者&lt;/p&gt;
+&lt;li&gt;格罗申迪克: 圣痴,疯子天才和隐居的虔心祈者
 
 &lt;ul&gt;
 &lt;li&gt;继续了勒雷的代数拓扑--把同调理论注入到流形&lt;/li&gt;
@@ -1159,27 +1156,22 @@
 &lt;li&gt;悲惨的童年，最后到法国成为嘉当的学生&lt;/li&gt;
 &lt;li&gt;从IHES,巴黎到蒙彼利埃,山村隐居&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;代数与现实的接近与分离&lt;/p&gt;
+&lt;li&gt;代数与现实的接近与分离
 
 &lt;ul&gt;
-&lt;li&gt;尤金维格纳: &lt;a href=&quot;http://chuansong.me/n/1471990046429&quot;&gt;数学在自然科学中不合理的有效性&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/img/inf.png&quot; alt=&quot;代数影响力&quot;&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;相对论和量子力学的数学基础&lt;/p&gt;
+&lt;li&gt;尤金维格纳: &lt;a href=&quot;http://chuansong.me/n/1471990046429&quot;&gt;数学在自然科学中不合理的有效性&lt;/a&gt;
+&lt;img src=&quot;/blog/img/inf.png&quot; alt=&quot;代数影响力&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;相对论和量子力学的数学基础
 
 &lt;ul&gt;
 &lt;li&gt;狭义相对论:洛伦兹变换&lt;/li&gt;
 &lt;li&gt;广义相对论:代数几何中的张量演算&lt;/li&gt;
 &lt;li&gt;量子能级跳跃: 矩阵代数&lt;/li&gt;
 &lt;li&gt;强子的非线性模式: 复数坐标的三维空间中的等价李群&lt;/li&gt;
-&lt;li&gt;弦论: 卡拉比-邱流形1977-黎曼曲线-六维空间&lt;/li&gt;
+&lt;li&gt;弦论: 卡拉比-邱流形1977-黎曼曲线-六维空间
+&lt;img src=&quot;/blog/img/merge.png&quot; alt=&quot;代数融合&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/img/merge.png&quot; alt=&quot;代数融合&quot;&gt;&lt;/p&gt;
-
-&lt;ul&gt;
 &lt;li&gt;代数与几何的统一
 
 &lt;ul&gt;

@@ -17,6 +17,7 @@ author: Tao
       In these days the angel of topology and the devil of abstract algebra fight
       for the soul of each individual mathematical domain
       ```
+
       - 拓扑: 橡胶几何
         - 分辨不出甜甜圈和咖啡杯的人: [Doughnut and coffee mug topology joke](htts://en.wikipedia.org/wiki/Mathematical_joke#Doughnut_and_coffee_mug_topology_joke)
     - 代数的本质: **抽象**
@@ -134,11 +135,13 @@ author: Tao
 
 ### 第6章 狮子的爪子
   - 伯努利的难题
-    - 匿名的答案-->看到了狮子的爪子
+    - 匿名的答案-->看到了狮子的爪子--牛顿
     - 微积分，泛算术，牛顿定理
+
   ```
   任意n变量对称多项式可以用n变量初等对称多项式表示
   ```
+
   - 很多成就似乎是从研究二项式开始的:
     - [二项式定理](https://zh.wikipedia.org/wiki/%E4%BA%8C%E9%A1%B9%E5%BC%8F%E5%AE%9A%E7%90%86)
     - 牛顿的微积分，参见《微积分历史》中牛顿最初的推导
@@ -166,7 +169,6 @@ author: Tao
     ```
     范德蒙是一个有非法国名字的法国人，而拉格朗日是一个有法国式名字的意大利人
     ```
-
     - \\(x^3+px^2+q=0\\)
       - 省略一次项,阿贝尔的证明里运用了同样的处理
       - U,V置换,６种可能结果
@@ -180,9 +182,7 @@ author: Tao
     - 用到了欧拉，拉格朗日和柯西的置换
     - 利用反证求得
     - \\(y^5-ay^4+by^3-cy^2+dy-e=0\\)
-
     ![Abel's proof]({{site.baseurl}}/img/abel-proof.png)
-
   - 1815柯西的复合置换
     - [原始论文](http://nonagon.org/ExLibris/cauchy-permutations-origin-group-theory)
   - 19世纪中间的五十年，发现了群,环，域，向量空间，矩阵，布尔代数
@@ -292,9 +292,7 @@ author: Tao
     - 数学分析与组合的矛盾
     - 布劳威尔不动点定理
       - 直觉认知论,同时也受限于自己的哲学
-
       ![直觉认知论]({{site.baseurl}}/img/ins.png)
-
   - 代数数论
     - 代数数
     - 群论，椭圆函数
@@ -307,7 +305,6 @@ author: Tao
     - 扎里斯基: 拓扑->意大利学来的经典现代几何
       - 韦伊: 利用希尔伯特和诺特的抽象代数重新研究代数几何
         - 现代数论代数化的基础，费马大定理的证明基础
-
   ![19世纪]({{site.baseurl}}/img/19cent.png)
 
 ### 第15章 从泛算术到泛代数
@@ -326,10 +323,8 @@ author: Tao
     - 核心: 映射，置换也是一种映射
     - 代数结构的一般理论-->范畴，其中的映射称为态射
       - p进数中的运算，范畴中的函子
-      - 忘却函子
-
+      - 忘却函子  
       ![忘却函子]({{site.baseurl}}/img/forgetful-functor.png)
-
     - 与计算机科学的联系:[写给程序员的范畴论](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)
     - 《美丽心灵》中学生对纳什:"伽罗瓦扩张实际上与覆盖空间一样"在范畴论里面容易得到解答
   - 高度抽象的反思
@@ -344,18 +339,14 @@ author: Tao
     - 从IHES,巴黎到蒙彼利埃,山村隐居
   - 代数与现实的接近与分离
     - 尤金维格纳: [数学在自然科学中不合理的有效性](http://chuansong.me/n/1471990046429)
-
     ![代数影响力]({{site.baseurl}}/img/inf.png)
-
   - 相对论和量子力学的数学基础
     - 狭义相对论:洛伦兹变换
     - 广义相对论:代数几何中的张量演算
     - 量子能级跳跃: 矩阵代数
     - 强子的非线性模式: 复数坐标的三维空间中的等价李群
     - 弦论: 卡拉比-邱流形1977-黎曼曲线-六维空间
-
   ![代数融合]({{site.baseurl}}/img/merge.png)
-
   - 代数与几何的统一
     - "数学的两个形式支柱",它们属于我们大脑的不同区域
     - 空间与时间
