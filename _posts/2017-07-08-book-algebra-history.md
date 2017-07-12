@@ -74,17 +74,17 @@ author: Tao
       - 使用苏美尔人发明的楔形文字,保存有约55万块泥板
       - 1929年由维特根斯坦的同乡诺伊格鲍尔破译，同时发表了莱茵德纸草书论文(埃及)；1945年出版《楔形文字数学文献》
   - 代数成就
-      - 表格文献和问题文献
+      - 泥板分为表格文献和问题文献
       - 使用60进制
-      - 方程解法(一个数比它的倒数大7)
+      - 方程解法(比如一个数比它的倒数大7)
 
 ### 第2章 代数之父
   - 埃及-公元1/2/3世纪的丢番图
     - 《算术》中提出了很多代数方程问题
     - 使用符号系统
   - 希腊-公元前6世纪的几何
-    - 托勒密王朝-约公元前300年
-    - 欧几里得--几何原本中包含方程问题
+    - 托勒密王朝-约公元前300年,对比战国时期
+    - 欧几里得--几何原本中包含方程问题,几何形式表述
     - 阿基米德--几何著作
 
 ### 第3章 化简与还原
@@ -96,15 +96,15 @@ author: Tao
     - 融合了波斯，印度的数学成就
   - 1073-1092,海亚姆的《还原与化简问题示范》
     - 第一次讨论了三次方程，用几何方法
-    - 倚天屠龙记有出现
+    - 倚天屠龙记有出现:紫衫龙王师父辈
 
   ![代数成就]({{site.baseurl}}/img/simple.png)
 
 ### 数学知识: 三次方程和四次方程
   - 存在公式解
   - 熟悉二项式定理的有助于化简
-    - 三次方程x=u+v化简为二次
-    - 四次方程化简为完全平方数-->变为三次方程
+  - 三次方程x=u+v化简为二次
+  - 四次方程化简为完全平方数-->变为三次方程
     - 地方太小就不推导了:)
 
 ### 第4章 商业与竞争
@@ -119,7 +119,7 @@ author: Tao
       - 在《无法解出的方程》里面有更精彩的描述
 
 ### 第5章 放飞想象
-  - 卡尔达诺的方程通解1600年左右
+  - 卡尔达诺的方程通解--1600年左右
   - 邦别利对复数的贡献
   - 韦达对根交换的贡献
     - 牛顿进行了扩展
@@ -365,7 +365,7 @@ author: Tao
     - 直观形象: <http://www.bilibili.com/video/av8726217/>
     - 用复分析的语言表述
   - 丘成桐: [从清末与日本明治维新 到二次大战前后 数学人才培养之比较](http://slidesplayer.com/slide/11126276/)
-  - 数学变革(from [wikipedia](https://en.wikipedia.org/wiki/Mathematics))
+  - 数学定义变革(from [wikipedia:Mathematics](https://en.wikipedia.org/wiki/Mathematics))
 
     >Aristotle defined mathematics as "the science of quantity", and this definition
     >prevailed until the 18th century.[28] Starting in the 19th century, when the study
@@ -374,6 +374,6 @@ author: Tao
     >measurement, mathematicians and philosophers began to propose a variety of
     >new definitions.
 
-  - 现代数学不能给出一个精确的定义，对于数学到底属于艺术还是科学没有达成一致意见。最简单粗暴的定义: "数学就是数学家干的事情。"
-    - 数学是“被创造”（如艺术）或是“被发现”（如科学）的争议
-    - Logicist, intuitionist, and formalist
+    - 现代数学不能给出一个精确的定义，对于数学到底属于艺术还是科学没有达成一致意见。最简单粗暴的定义: "数学就是数学家干的事情。"
+        - 数学是“被创造”（如艺术）或是“被发现”（如科学）的争议
+        - Logicist, intuitionist, and formalist

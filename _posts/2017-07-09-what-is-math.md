@@ -1,149 +1,133 @@
 ---
 layout: post
-title: 什么是数学
+title: What Is Math?
 categories: math
-published: false
+published: yes
 author: Tao
 date: 2017-07-09
 ---
 
-## 数学的定义
+## Definitions of mathematics
 
-什么是数学？在希腊语言中，这个词表示的是“学习，掌握，知识”。亚里士多德曾经给数学定义成“**关于数量的科学**”，这个观点在19世纪以前一直都很盛行。在那个时候，数学主要研究数/未知量，使用的大多数符号与今天没有太多不同。一直以来的[欧几里得几何]学教程，笛卡尔的[解析几何]，卡尔达诺的[三次方程]/[四次方程]通解，牛顿/莱布尼兹的[微积分]是数学发展取得的一系列伟大成就。到19世纪为止，数学完成了对数/未知量的完美抽象。事实上，大多数人的数学知识也停留在这个阶段了。对于普通大众而言，亚里士多德给出的数学的定义依然没有太大偏差。
+What is math? In the Greek language, the word is "learning, mastering, knowledge". Aristotle defined mathematics as "**the science of quantity**", and  this definition prevailed until the 18th century. At that time, math is about quantity and measurement, and the majority of the symbols used are not much different from today. [Euclidean geometry], Cartesian's [analytic geometry], Caldano's [cubic equation] / [quadratic equation] solutions and Newton/Leibniz's [calculus] are a series of great mathematical achievements. By the nineteenth century, mathematics had completed the perfect abstraction of quantity/unknowns. In fact, most people's mathematical knowledge also stays at this stage. For the general public, Aristotle's definition of mathematics is still not much deviation.
 
-<div style="margin: 0 auto 15px;width:60%;text-align:center;">
-  <img src="{{site.baseurl}}/img/Euclid.jpg" alt="欧几里得在雅典学院"  style="display:block;">
-  欧几里得在《雅典学院》
+<div style = "margin: 0 auto 15px; width: 60%; text-align: center;">
+  <img src = "{{site.baseurl}}/img/Euclid.jpg" alt = "Euclid in the Athens Institute" style = "display: block;">
+  Euclid in the "Athens Institute"
 </div>
 
-但是从19世纪开始，数学开始研究更为抽象的“[群]”和“[射影几何]”，这些新的数学对象都不能直接被度量。数学家和哲学家们开始尝试给数学新的定义来适应这些变化。他们的定义侧重各不相同，比如有些强调演绎推理，有些强调"抽象"，有些侧重于包含数学的某些课题。由于更为抽象概念的引入，关于数学定义的争论至今没有达成一致： 数学本身是被"发明"，还是被"发现"?　数学到底是"艺术"还是"科学"? 有些人干脆就说了，"数学嘛，就是数学家干的那些事情"。
+But from the beginning of the 19th century, mathematics began to study more abstract "[group]" and "[projective geometry]", and these new mathematical objects can not be directly measured. Mathematicians and philosophers are beginning to try to adapt the new definitions of mathematics to these changes. Their definition is different, such as some emphasis on deductive reasoning, some emphasis on "abstract", and some focus on some specific mathematical topics. Because of the introduction of more abstract concepts, the debate on mathematical definitions has not been agreed so far: is mathematics itself "invented" or "found"? Mathematics in the end is "art" or "science"? Some people simply said, "Mathematics, that is, those things that mathematicians do."
 
-## 数学的研究内容
-那么数学家主要研究哪些方面的问题呢? 主要可以分为三大块：
+## Research content in mathematics
+So what are the main problems of mathematicians? Can be divided into three main blocks:
 
-- 理论数学： 即纯数学，按维基百科分为数量， 结构， 空间， 变化等方面的内容
-- 应用数学： 将数学应用到具体问题中，如物理，化学，计算机，金融，博弈等
-- 数学基础： 公理化的基础如集合论，范畴论，还有计算机中的可计算性理论(P=NP?)等
+- Pure mathematics: theoretical mathematics, according to Wikipedia including number, structure, space, changes and other aspects.
+- Applied mathematics: applying mathematics to specific problems such as physics, chemistry, computer, finance, game, etc.
+- Foundations and philosophy: axiomatic foundations such as set theory, category theory, and computability theory in computer science(P = NP?), etc.
 
-研究这些问题是为了找寻客观世界的"模式"出来，总结成公式，并且作出合理的猜想。一个好的数学结构是现实世界的模型，依据数学推导证明可以对现实世界作出预测。有些看似完全无用的理论数学/纯数学，日后可能在某一应用领域大放异彩，比如数论在密码学的应用。而数学基础是为了找出各种理论的基石，让数学理论可以稳固的发展。
-　
-## 数学的研究方法
-如何能知道哪些数学猜想是正确的呢？数学采用了两大武器： **抽象**和**逻辑推理**，公理化的方式建构一系列命题。
+The study of these problems is to find the "patterns" of the objective world, to sum up the formula, and to make a reasonable guess. A good mathematical structure is a real-world model, based on mathematical derivation that can predict the real world. Some seemingly completely useless theoretical math/pure mathematics, in the future may be shine in a particular application areas, such as the number theory applied in cryptography. The foundations and philosophy is to find the cornerstone of various theories, so that mathematical theory can be solidly developed.
 
-公理在传统的思想中是“不证自明的真理”，但这种想法是有问题的。在形式上，公理只是一串符号，其只对可以由公理系统导出的公式之内容有意义。希尔伯特计划即是想将所有的数学放在坚固的公理基础上，但依据[哥德尔不完备定理]，每一相容且能蕴涵皮亚诺公理的公理系统必含有一不可决定的公式；因而所有数学的最终公理化是不可能的。尽管如此，数学常常被想像成只是某种公理化的集合论，在此意义下，所有数学叙述或证明都可以写成集合论的公式。
+## Mathematical research methods
+How can I know which mathematical guesses are correct? Mathematics uses two major weapons: **abstract** and **logical reasoning**, in an axiomatic way to formulate a series of conjectures.
 
-事实上，自然数四则运算的公理化--[皮亚诺公理]系统，一直到二十世纪才建立起来。因此，自然数四则运算里面\\(1+1=2\\)， \\(3\times7=7\times3\\)(交换律)这些都是可以在皮亚诺公理系统下证明的。有兴趣的可以看一下陶哲轩数学大神写的《实分析》，里面就是从皮亚诺自然数公理系统开始的。
+Axioms in traditional thought were "self-evident truths", but that conception is problematic. At a formal level, an axiom is just a string of symbols, which has an intrinsic meaning only in the context of all derivable formulas of an axiomatic system. It was the goal of Hilbert's program to put all of mathematics on a firm axiomatic basis, but according to [Gödel's incompleteness theorem] every (sufficiently powerful) axiomatic system has undecidable formulas; and so a final axiomatization of mathematics is impossible. Nonetheless mathematics is often imagined to be (as far as its formal content) nothing but set theory in some axiomatization, in the sense that every mathematical statement or proof could be cast into formulas within set theory.
 
-## 作为现实世界的模型
-关于数学作为现实世界的模型，不同阶段数学家的期望也大为不同：
+In fact, the axiomization of elementary arithmetic - [Picano axiom] system was established until the twentieth century. Therefore, the elementary arithmetic operations such as \\(1 + 1 = 2 \\), \\(3 \times7 = 7 \times3 \\) (exchange law), can be proved in the Piagio axiom system. It has been discussed in Terence Tao's book "real analysis", which is from the introducation of Picano axiom.
 
-伽利略 (1564–1642)：
-  >我们需要掌握宇宙的语言并熟悉它写下的字符，否则我们无法解读宇宙。它是用数学语言编写的，字母是三角形、圆形和其他几何图形。没有这些，我们无法理解哪怕其中一个单词。没有这些，人类就如同在黑暗的迷宫里徘徊。
+## As a model of the real world
+With regard to mathematics as a model of the real world, the expectations of mathematicians at different stages are quite different:
 
-高斯 (1777–1855)：
-  >数学是科学的皇后。\\(^{(数论是数学的皇后)}\\)
+Galileo (1564-1642):
+  > The universe cannot be read until we have learned the language and become familiar with the characters in which it is written. It is written in mathematical language, and the letters are triangles, circles and other geometrical figures, without which means it is humanly impossible to comprehend a single word. Without these, one is wandering about in a dark labyrinth.
 
-希尔伯特 (1862-1943)：
-  >我们绝不是在这里任意胡说。数学并不像一个任意指定规则的游戏，而是一个具有内在必要性的概念体系，只能如此，没有其他方式。  
+Gauss (1777-1855):
+  > Mathematics is the Queen of the Sciences
 
-爱因斯坦 (1879–1955)：
-  >由于数学是反映现实的，所以他们是不确定的；由于数学是确定的，所以他们又是不现实的。
+Hilbert (1862-1943):
+  > We are not speaking here of arbitrariness in any sense. Mathematics is not like a game whose tasks are determined by arbitrarily stipulated rules. Rather, it is a conceptual system possessing internal necessity that can only be so and by no means otherwise.
 
-<div style="margin:0 auto 15px;width:60%;text-align:center;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Lorenz_attractor_yb.svg" alt="混沌理论中的洛伦兹变换"  style="display:block;">
-  混沌理论中的洛伦兹变换子
+Einstein (1879-1955):
+  > As far as the laws of mathematics refer to reality, they are not certain; and as far as they are certain, they do not refer to reality.
+
+<div style = "margin: 0 auto 15px; width: 60%; text-align: center;">
+  <img src = "https://upload.wikimedia.org/wikipedia/commons/5/5b/Lorenz_attractor_yb.svg" alt = "Lorentz transformation in chaos theory" style = "display: block;">
+   Lorenz attractor in Chaos theory
 </div>
 
-可以看到，到最后爱因斯坦的论述，数学作为现实世界的模型已经越来越不确定。始于二十世纪六十年代，由气象预报发展而来的"[混沌理论]"也论证了这一点。事实上，与数学密切相关的物理学科--量子物理，也出现了类似的情况。量子物理学本身受数学影响颇深，Eugene Wigner曾经发表"[数学在自然科学中不合理的有效性]"， 指出了数学如何不可思议地引领自然科学的新发现。最令人惊讶，也最神秘的是，在数学层层嵌套的非物质抽象概念中，包含着物质世界最深层、最本质的秘密。比如π可能出现在人口统计模型中，虚数在量子力学中的存在等。
+It can be seen that, to the last Einstein's argument, mathematics as a real-world model has become increasingly uncertain. Beginning in the 1960s, the [chaos theory], developed from meteorological forecasts, also demonstrates this. In fact, quantum physics which is closely related to mathematics, also appeared in a similar situation. Quantum physics itself is deeply influenced by mathematics, and Eugene Wigner has published "[The unreasonable effectiveness of mathematics]", pointing out how mathematics can unbelievably lead the discovery of the natural sciences. The most surprising and most mysterious is that in the mathematical layers of the concept of non-material abstraction, contains the deepest and most secret of the material world. Such as π may appear in the demographic model, and the existence of imaginary numbers in quantum mechanics etc.
 
-## 数学的历史
+## The history of mathematics
 
-数学由"计数"和"测量土地"两大生产活动演变而来，由此形成了代数和几何两大发展支柱。西方数学注重几何的发展，采用欧几里得公理化和逻辑推导的方式，不仅促进了数学的发展，也深刻地影响了其他自然学科。
+Mathematics is from "count" and "measurement of land" two production activities, which formed the algebra and geometry as the two pillars. Western mathematics focuses on the development of geometry, the use of Euclid's axiomatic and logical derivation, which not only promoted the development of mathematics, but also profoundly affected the other natural disciplines.
 
-对于很多抽象的数学观念，几何意义上的理解更为直观，比如实数乘法的交换性可以理解为几何学上长方形面积不变。在有些系统中，元素运算并不一定是可交换的，比如群。代数和几何对应了时间和空间的两种抽象概念，他们分属于大脑的不同区域。很多伟大的数学家都利用几何帮助自己快速掌握数学的核心观念，如19岁即证明希尔伯特第十三题的V.I. Arnold(1937-2010) [论数学教育](https://book.douban.com/subject/3202119/discussion/1364384/)。
+For many abstract mathematical concepts, the geometric sense of understanding is more intuitive, such as the commutative real multiplication can be understood as geometric rectangular area unchanged. In some systems, element operations are not necessarily interchangeable, such as in groups. Algebra and geometry correspond to two abstract concepts of time and space, which belong to different regions of the brain. Many great mathematicians use geometry to help themselves quickly grasp the core concepts of mathematics, such as VI Arnold (1937-2010), who proved that Hilbert's thirteenth question at 19, [on mathematics education] (https://book. douban.com/subject/3202119/discussion/1364384/).
 
-近些年随着计算机的发展，几何图形更容易显示出来。斯坦福数学系毕业的[3blue1brown](http://www.3blue1brown.com/about/)就刚刚在bilibili上利用图形化直观地讲解了"[微积分的本质](http://space.bilibili.com/88461692/#!/channel/detail?cid=13407)"和"[线性代数](http://space.bilibili.com/88461692/#!/channel/detail?cid=9450)"等一系列课程，实在是非常棒的学习材料，有种相见恨晚的感觉。甚至高度抽象的群论/近世代数，Youtube上也有教授用图形化的方式来讲解，短时间就能掌握群论的很多核心概念： [Visual Group Theory](http://www.math.clemson.edu/~macaule/classes/m17_math4120/index.html)。
+In recent years, with the development of computers, geometric graphics can be more easily displayed. Stanford Math graduate [3blue1brown] (http://www.3blue1brown.com/about/) just used graphical intuitive to explain the "[the essence of calculus] (http://space.bilibili.com/88461692/#!/channel/detail?cid=13407)" and "[linear algebra](http://space.bilibili.com/88461692/#!/channel/detail?cid=94502)" and a serie of courses, is a great learning material. And even as highly abstract group theory/modern algebra, a professor just explained in a graphical way on youtube: [Visual Group Theory] (http: //www.math.clemson.edu/~macaule/classes/m17_math4120/index.html).
 
-历史上代数和几何相互交替发展，到二十一世纪克莱因将所有几何统一在代数的群论之下，在更高一级的抽象上形成了统一。《代数的历史》中也涵盖了几何的这一发展趋势。在《代数的历史》中，作者总结了代数的三个阶段：
+The history of algebra and geometric alternation of development, to the twenty-first century Klein all geometric unity in the algebra group theory, in the higher level of the formation of a unified abstraction. The history of algebra also covers the development of geometric trends. In the history of algebra, the author summarizes the three stages of algebra:
 
-  - 第一次抽象： 数值
-    - 实例到数值的转变
-  - 第二次抽象： 文字符号体系，即用字母符号来表示任意数(未知数\\(x\\))
-    - 牛顿称之为”泛算术“
-    - 核心为求解方程
-    - 和几何概念中的符号缓慢分化
-  - 第三次抽象： 新数学对象--群，矩阵，流形...
-    - 新的抽象层次
-    - 研究逻辑，抽象代数(近世代数)，群论等
+  - the first abstraction: the value
+    - the transition from an instance to a value
+  - the second abstraction: the word symbol system, that is, with the letter symbol to represent any number (the unknown \\( x \\))
+    - Newton called "pan arithmetic"
+    - the core for solving equations
+    - and the symbols in the geometric concept are slowly differentiated
+  - third abstraction: new math objects - group, matrix, manifold ...
+    - new abstraction level
+    - research logic, abstract algebra (modern algebra), group theory and so on
 
-大数学家陈省身先生也有一篇[《什么是几何》]({{site.baseurl}}/math/1987/04/21/what-is-geometry.html)精彩讲演，总结了几何的发展历程，现在读来仍深受启发。
+Shiing-Shen Chern(陈省身) also had a ["what is geometry"] ({{site.baseurl}}/math/1987/04/21/what-is-geometry.html) wonderful lecture, summed up the geometric development process, which is still inspiring.
 
-## 数学各领域
-- [基础与哲学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E5.9F.BA.E7.A4.8E.E8.88.87.E5.93.B2.E5.AD.B8)
-  - 数学逻辑，集合论，范畴论
-- [纯粹数学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E7.BA.AF.E7.B2.B9.E6.95.B0.E5.AD.A6)
-    - 数量： 自然数，整数，有理数，实数，复数等
-    - 结构： 数论，群论，图论，序理论
-    - 空间： 几何，三角学，微分几何，拓扑学，分形，测度论
-    - 变化： 微积分，矢量分析，微分方程，动力系统，混沌理论，复分析
-- [离散数学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E9.9B.A2.E6.95.A3.E6.95.B8.E5.AD.B8)
-  - 组合数学，计算理论，密码学，图论
-- [应用数学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6#.E6.87.89.E7.94.A8.E6.95.B8.E5.AD.B8)
-  - 物理数学，数学流体力学，数值分析，最优化，概率论，统计学，计量金融，博弈论，数理经济学，生物数学，作业研究，控制论
+## Math fields
+- [Fundamentals and Philosophy](https://en.wikipedia.org/wiki/Mathematics#Foundations_and_philosophy)
+  - Mathematical logic, set theory, category theory
+- [pure mathematics](https://en.wikipedia.org/wiki/Mathematics#Pure_mathematics)
+    - quantity: natural number, integer, rational number, real number, complex number and so on
+    - structure: number theory, group theory, graph theory, order theory
+    - space: geometry, trigonometry, differential geometry, topology, fractal, measure theory
+    - change: calculus, vector analysis, differential equations, dynamical systems, chaos theory, complex analysis
+- [Applied Mathematics](https://en.wikipedia.org/wiki/Mathematics#Applied_mathematics)
+  - physical mathematics, mathematical fluid mechanics, numerical analysis, optimization, probability theory, statistics, measurement finance, game theory, mathematical economics, bio-mathematics, homework research, cybernetics
 
 ![The Map of Mathematics]({{site.baseurl}}/img/map-of-mathmatics.png)
 
-参见[维基百科](https://zh.wikipedia.org/zh-cn/%E6%95%B0%E5%AD%A6#.E6.95.B8.E5.AD.B8.E7.9A.84.E5.90.84.E9.A0.98.E5.9F.9F)和Youtube视频[The Map of Mathematics](https://www.youtube.com/watch?v=OmJ-4B-mS-Y)。
+See Wikipedia's "mathematics" item and the video [The Map of Mathematics](https://www.youtube.com/watch?v=OmJ-4B-mS-Y).
 
-## 华人数学家
-- 菲尔兹奖
-  - 1982 丘成桐
-  - 2006 陶哲轩
-- 阿贝尔奖
-  - 暂无 (2016获得者为费马大定理证明者怀尔斯)
-- 沃尔夫奖
-  - 1983 陈省身
-  - 2010 丘成桐
-- 科尔代数奖和数论奖
-  - 2014 张益唐
+## Chinese mathematician
+- Fields Award
+  - 1982 Shing-Tung Yau(丘成桐)
+  - 2006 Terence Tao(陶哲轩)
+- Abel Award
+  - No (2016 winner for the Fermat theorem Proved by Wiles)
+- Wolf Prize
+  - 1983 Shiing-Shen Chern(陈省身)
+  - 2010 Shing-Tung Yau(丘成桐)
+- Cole algebra award and number award
+  - 2014 Yitang Zhang(张益唐)
 
-影响力最大的两大华人数学家：华罗庚(1910-1985)和陈省身(1911-2004)， 两人同在清华大学数学系，并且在西南联大同宿舍。
+The two most influential Chinese mathematicians: Hua Luogeng (华罗庚 1910-1985) and Shiing-Shen Chern(陈省身 1911-2004), both were in the Tsinghua University Department of Mathematics, and in the Southwest United Datong dormitory.
 
-杨振宁曾经这样比较华罗庚与陈省身：
-  >华罗庚和陈省身都是我国重要的数学家，是我们中华民族聪明睿智的代表。假如有一个老师， 把两个人叫来，出一道题目，华罗庚一听就做出来了，陈省身要一个月才能做出来，但是他把这个问题开拓为一个学科。
+Yang Zhenning(杨振宁) had this comparison Hua Luogeng and Shiing-Shen Chern:
+  > Hua Luogeng and Chern are the important mathematicians of our country, is our wisdom and wisdom of the Chinese nation on behalf of. If there is a teacher, the two called, a question, Hua Luogeng one to do it, Chern to a month to do it, but he opened the issue into a discipline.
   >
-  >伯林(Isaiah Berlin，1900-1997)普及了希腊关于哲学家的两种不同类型的观念： “狐狸掌握多门技艺， 而刺猬则精通一门绝技。” 我想这是一种极好的方式来描述华罗庚与陈省身的不同： 华罗庚兴趣广泛，对数学的几个不同分支做出了重要贡献；而陈省身则专注于微分几何一个分支， 但他革新了这个分支，并且这个革新后来对20世纪的几何、代数、分析、拓扑各个主要分支都有深远的影响，甚至深入影响了近40年来理论物理学的发展。
+  > Isaiah Berlin (1900-1997) popularizes the Greek concept of two different types of philosophers: "the fox has many skills, and the hedgehog is proficient in a stunt." I think this is an excellent The way to describe Hua Luogeng is different from that of Chen: He has a wide range of interests and has made an important contribution to several different branches of mathematics; while Chen is focused on a branch of differential geometry, but he innovates this branch, and this innovation later on the 20th century Geometric, algebra, analysis, topology of the major branches have far-reaching impact, and even in-depth impact on the past 40 years the development of theoretical physics.
 
-类同于弗里曼•戴森(1923-)的“[鸟和青蛙](http://news.sciencenet.cn/htmlnews/2011/8/251096-1.shtm)”的比喻，和二十世纪伟大的”鸟“类数学家希尔伯特类似，陈省身更注重全局观，组建MSRI美国数学研究所，拓展了二十世纪的微分几何。
+Similar to the metaphor of "[Birds and Frogs](http://news.sciencenet.cn/htmlnews/2011/8/251096-1.shtm)" by Freeman Dyson (1923-), and twenty Century great "bird" mathematician Hilbert, Chern pays more attention to the overall view, the formation of MSRI American Mathematical Institute, to expand the twentieth century differential geometry.
 
-## 数学的关键发展阶段人物
-近代数学的核心概念“群”，却是由年仅二十岁即决斗而死的**伽罗瓦**发展而来的。《无法解出的方程》中对于这一悲情英雄人物作了深刻的描写，也普及了作为"对称"的描述语言"群"，是如何渗透到物理，几何，生物等其他领域的。
+## The key development stage of mathematics
+The core concept of modern mathematics "group", but it is only twenty years old that duel death **Galois** developed from. "Unable to solve the equation" for the tragic heroes made a profound description of the characters, but also popular as a "symmetrical" description of the language "group" is how to penetrate into the physical, geometric, biological and other areas, the specific visible [Reading notes]({{site.baseurl}}/book/2017/07/08/book-unsolvable-equation.html).
 
-二十世纪[希尔伯特的23个问题]，至今仍然是数学家梦想攀登的高峰。**哥德尔**对其中数学完全公理化的否证，在《哥德尔的证明》中作了通俗的讲解，在现在到处都在讨论人工智能和创造力的今天，其中的很多见解依然深刻独到。
+Twentieth Century [Hilbert's 23 questions], still the climax of mathematicians dreaming of climbing. **Gödel** on the mathematical axiomatic axiomatic proof, in the "Gödel's proof" made a popular explanation, now everywhere in the discussion of artificial intelligence and creativity today, many of which are still profound insights Unique. Reading notes are being collated.
 
-## 参考书目SUMREAD
-- 重要资源
-  - 维基百科"数学"条目
-  - 《陈省身文集》
-  - 《代数的历史》
-  - 《无法解出的方程》
-  - 《哥德尔的证明》
-  - [3blue1brown](https://space.bilibili.com/88461692)
-  - [Visual Group Theory](http://www.math.clemson.edu/~macaule/classes/m17_math4120/index.html)
-- 其他
-  - 《阿贝尔的证明》
-  - 《微积分的历程》
-  - 《华罗庚:天才出于积累，聪明在于勤奋》
-
-[欧几里得几何]: https://zh.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95
-[解析几何]: https://zh.wikipedia.org/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95
-[三次方程]: https://zh.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B
-[四次方程]: https://zh.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B
-[微积分]: https://zh.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6 
-[群]: https://zh.wikipedia.org/wiki/%E7%BE%A4
-[射影几何]: https://zh.wikipedia.org/wiki/%E5%B0%84%E5%BD%B1%E5%87%A0%E4%BD%95
-[哥德尔不完备定理]: https://zh.wikipedia.org/zh-hans/%E5%93%A5%E5%BE%B7%E5%B0%94%E4%B8%8D%E5%AE%8C%E5%A4%87%E5%AE%9A%E7%90%86
-[混沌理论]: https://en.wikipedia.org/wiki/Chaos_theory
-[数学在自然科学中不合理的有效性]: https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences
-[希尔伯特的23个问题]: https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E7%9A%8423%E4%B8%AA%E9%97%AE%E9%A2%98
-[皮亚诺公理]: https://zh.wikipedia.org/wiki/%E7%9A%AE%E4%BA%9A%E8%AF%BA%E5%85%AC%E7%90%86
+[Euclidean geometry]: https://www.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95
+[Parse geometry]: https://www.wikipedia.org/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95
+[Cubic equation]: https://www.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B
+[Quad equation]: https://www.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B
+[Calculus]: https://www.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6
+[Group]: https://www.wikipedia.org/wiki/%E7%BE%A4
+[Projective Geometry]: https://www.wikipedia.org/wiki/%E5%B0%84%E5%BD%B1%E5%87%A0%E4%BD%95
+[Gödel's incompleteness theorem]: https://www.wikipedia.org/zh-hans/%E5%93%A5%E5%BE%B7%E5%B0%94%E4%B8%8D%E5%AE%8C%E5%A4%87%E5%AE%9A%E7%90%86
+[Chaos theory]: https://en.wikipedia.org/wiki/Chaos_theory
+[The unreasonable effectiveness of mathematics]: https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences
+[Hilbert's 23 questions]: https://www.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E7%9A%8423%E4%B8%AA%E9%97%AE%E9%A2%98
+[Picano axiom]: https://www.wikipedia.org/wiki/%E7%9A%AE%E4%BA%9A%E8%AF%BA%E5%85%AC%E7%90%86
