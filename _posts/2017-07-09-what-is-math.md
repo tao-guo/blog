@@ -14,7 +14,7 @@ What is math? In the Greek language, the word is "knowledge, study, learning". A
   Euclid in the "Athens Institute"
 </div>
 
-But from the beginning of the 19th century, mathematics began to study more abstract "[group]" and "[projective geometry]", and these new mathematical objects can not be directly measured. Mathematicians and philosophers are beginning to try to adapt the new definitions of mathematics to these changes. Their definition is different, such as some emphasis on deductive reasoning, some emphasis on "abstract", and some focus on some specific mathematical topics. Because of the introduction of more abstract concepts, the debate on mathematical definitions has not been agreed so far: is mathematics itself "invented" or "found"? Mathematics in the end is "art" or "science"? Some people simply said, "Mathematics, that is, those things that mathematicians do."
+But from the beginning of the 19th century, mathematics began to study more abstract "[group]" and "[projective geometry]", and these new mathematical objects can not be directly measured. Mathematicians and philosophers are trying new definitions of mathematics to adapt these changes. Their definitions are different, such as some emphasis on deductive reasoning, some emphasis on "abstract", and some focus on some specific mathematical topics. Because of the introduction of more abstract concepts, the debate on mathematical definitions has not been agreed so far: is mathematics itself "invented" or "found"? Mathematics in the end is "art" or "science"? Some people simply said, "Mathematics, that is, those things that mathematicians do."
 
 ## An overview
 So what are the main problems of mathematicians? They can be divided into three areas:
