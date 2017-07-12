@@ -2,7 +2,7 @@
 layout: post
 title: 什么是数学
 categories: math
-published: true
+published: false
 author: Tao
 date: 2017-07-09
 ---
