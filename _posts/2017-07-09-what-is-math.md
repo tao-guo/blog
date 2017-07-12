@@ -58,9 +58,9 @@ It can be seen that, to the last Einstein's argument, mathematics as a real-worl
 
 Mathematics is from "counting" and "measurement of land" two production activities, which formed the algebra and geometry as the two pillars. Western mathematics focuses on the development of geometry, and the use of Euclid's axiomatic and logical derivation, not only promoted the development of mathematics, but also profoundly affected the other natural sciences.
 
-For many abstract mathematical concepts, the geometric sense of understanding is more intuitive, such as the commutative real multiplication can be understood as geometric rectangular area unchanged. In some systems, element operations are not necessarily commutative, such as in "groups". Algebra and geometry correspond to two abstract concepts: time and space, which belong to different regions of the brain. Many great mathematicians use geometry to help themselves quickly grasp the core concepts of mathematics, such as VI Arnold (1937-2010), who proved that Hilbert's thirteenth question at 19, [on mathematics education] (https://book. douban.com/subject/3202119/discussion/1364384/).
+For many abstract mathematical concepts, the geometric sense of understanding is more intuitive, such as the commutative real multiplication can be understood as geometric rectangular area unchanged. In some systems, element operations are not necessarily commutative, such as in "groups". Algebra and geometry correspond to two abstract concepts: time and space, which belong to different regions of the brain. Many great mathematicians use geometry to help themselves quickly grasp the core concepts of mathematics, such as VI Arnold (1937-2010), who proved that Hilbert's thirteenth question at 19: [On teaching mathematics 1997](https://www.uni-muenster.de/Physik.TP/~munsteg/arnold.html).
 
-In recent years, with the development of computers, geometric graphics can be more easily displayed. Stanford Math graduate [3blue1brown] (http://www.3blue1brown.com/about/) just used graphical intuitive to explain the "[the essence of calculus] (http://space.bilibili.com/88461692/#!/channel/detail?cid=13407)" and "[linear algebra](http://space.bilibili.com/88461692/#!/channel/detail?cid=94502)" and a serie of courses, which is a great learning material. And even as highly abstract group theory/modern algebra, Professor Macauley just explained in a graphical way on youtube: [Visual Group Theory](http://www.math.clemson.edu/~macaule/classes/m17_math4120/index.html).
+In recent years, with the development of computers, geometric graphics can be more easily displayed. Stanford Math graduate [3blue1brown] (http://www.3blue1brown.com/about/) just used graphical intuitive to explain the "[Essence of calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)" and "[Essence of linear algebra](http://space.bilibili.com/88461692/#!/channel/detail?cid=94502)" and a serie of courses, which is a great learning material. And even as highly abstract group theory/modern algebra, Professor Macauley just explained in a graphical way on youtube: [Visual Group Theory](http://www.math.clemson.edu/~macaule/classes/m17_math4120/index.html).
 
 In history algebra and geometric developed seperately and they usually have different theories, but Klein unified all geometries into algebra group theory in 20th centry, in the higher level of a unified abstraction. The book "the history of algebra" also covers the development of geometric trends. The author summarizes the three stages of algebra in the book:
 
@@ -74,12 +74,12 @@ In history algebra and geometric developed seperately and they usually have diff
     - new abstraction level
     - research logic, abstract algebra (modern algebra), group theory and so on
 
-Shiing-Shen Chern(陈省身) also had a wonderful lecture ["what is geometry"] ({{site.baseurl}}/math/1987/04/21/what-is-geometry.html), summed up the geometric development process. The lecture is still profoundly inspiring.
+Shiing-Shen Chern(陈省身) also had a wonderful lecture ["what is geometry 1987"] ({{site.baseurl}}/math/1987/04/21/what-is-geometry.html), summed up the geometric development process. The lecture is still profoundly inspiring.
 
 ## Math fields
 - [Fundamentals and Philosophy](https://en.wikipedia.org/wiki/Mathematics#Foundations_and_philosophy)
   - Mathematical logic, set theory, category theory
-- [pure mathematics](https://en.wikipedia.org/wiki/Mathematics#Pure_mathematics)
+- [Pure mathematics](https://en.wikipedia.org/wiki/Mathematics#Pure_mathematics)
     - quantity: natural number, integer, rational number, real number, complex number and so on
     - structure: number theory, group theory, graph theory, order theory
     - space: geometry, trigonometry, differential geometry, topology, fractal, measure theory
@@ -103,14 +103,14 @@ See Wikipedia's "mathematics" item and the video [The Map of Mathematics](https:
 - Cole algebra award and number award
   - 2014 Yitang Zhang(张益唐)
 
-The two most influential Chinese mathematicians: Hua Luogeng (华罗庚 1910-1985) and Shiing-Shen Chern(陈省身 1911-2004), both were in the Tsinghua University Department of Mathematics, and in the Southwest United Datong dormitory.
+The two most influential Chinese mathematicians: Hua Luogeng(华罗庚 1910-1985) and Shiing-Shen Chern(陈省身 1911-2004), both were in the Tsinghua University Department of Mathematics, and in the Southwest United Datong dormitory.
 
-Yang Zhenning(杨振宁) had this comparison between Hua Luogeng and Shiing-Shen Chern:
+Chen-Ning Yang(杨振宁) had this comparison between Hua and Chern:
   > Hua Luogeng and Shiing-Shen Chern are the important mathematicians of our country, that is our wisdom and wisdom of the Chinese nation on behalf of. If there is a teacher, asked them a question, Hua Luogeng could solve it immediately, but Chern would need a month to solve it. However, Chern would opened the issue into a discipline.
   >
   > Isaiah Berlin (1900-1997) popularizes the Greek concept of two different types of philosophers: "the fox has many skills, and the hedgehog is proficient in a stunt." I think this is an excellent The way to describe Hua Luogeng is different from that of Chen: He has a wide range of interests and has made an important contribution to several different branches of mathematics; while Chen is focused on a branch of differential geometry, but he innovates this branch, and this innovation later on the 20th century Geometric, algebra, analysis, topology of the major branches have far-reaching impact, and even in-depth impact on the past 40 years the development of theoretical physics.
 
-Similar to the metaphor of "[Birds and Frogs](http://news.sciencenet.cn/htmlnews/2011/8/251096-1.shtm)" by Freeman Dyson (1923-), and twenty Century great "bird" mathematician Hilbert, Chern paid more attention to the overall view, founded MSRI, and also expanded the scope of differential geometry.
+Similar to the metaphor of "[Birds and Frogs 2009](http://www.ams.org/notices/200902/rtx090200212p.pdf)" by Freeman Dyson (1923-), and twenty-century great "bird" mathematician Hilbert, Chern paid more attention to the overall view, founded MSRI, and also expanded the scope of differential geometry.
 
 ## Key mathematicians
 The core concept of modern math is "group", but it is devloped from **Galois** who died at only twenty years old in a legendary way. "The Equation that Couldn't Be Solved" made a profound description for the tragic heroes.  As the language of symmetry--"group", it penetrates into the physical, geometric, biological and other areas.
