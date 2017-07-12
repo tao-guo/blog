@@ -17,9 +17,9 @@ What is math? In the Greek language, the word is "knowledge, study, learning". A
 But from the beginning of the 19th century, mathematics began to study more abstract "[group]" and "[projective geometry]", and these new mathematical objects can not be directly measured. Mathematicians and philosophers are beginning to try to adapt the new definitions of mathematics to these changes. Their definition is different, such as some emphasis on deductive reasoning, some emphasis on "abstract", and some focus on some specific mathematical topics. Because of the introduction of more abstract concepts, the debate on mathematical definitions has not been agreed so far: is mathematics itself "invented" or "found"? Mathematics in the end is "art" or "science"? Some people simply said, "Mathematics, that is, those things that mathematicians do."
 
 ## An overview
-So what are the main problems of mathematicians? Can be divided into three main blocks:
+So what are the main problems of mathematicians? They can be divided into three areas:
 
-- Pure mathematics: theoretical mathematics, according to Wikipedia including number, structure, space, changes and other aspects.
+- Pure mathematics: theoretical mathematics, according to Wikipedia including number, structure, space, changes.
 - Applied mathematics: applying mathematics to specific problems such as physics, chemistry, computer, finance, game, etc.
 - Foundations and philosophy: axiomatic foundations such as set theory, category theory, and computability theory in computer science(P = NP?), etc.
 

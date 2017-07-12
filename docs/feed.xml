@@ -6,8 +6,8 @@
 </description>
     <link>http://www.sumread.com/</link>
     <atom:link href="http://www.sumread.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Jul 2017 11:36:18 -0700</pubDate>
-    <lastBuildDate>Wed, 12 Jul 2017 11:36:18 -0700</lastBuildDate>
+    <pubDate>Wed, 12 Jul 2017 11:48:15 -0700</pubDate>
+    <lastBuildDate>Wed, 12 Jul 2017 11:48:15 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -23,10 +23,10 @@
 
 &lt;h2&gt;An overview&lt;/h2&gt;
 
-&lt;p&gt;So what are the main problems of mathematicians? Can be divided into three main blocks:&lt;/p&gt;
+&lt;p&gt;So what are the main problems of mathematicians? They can be divided into three areas:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Pure mathematics: theoretical mathematics, according to Wikipedia including number, structure, space, changes and other aspects.&lt;/li&gt;
+&lt;li&gt;Pure mathematics: theoretical mathematics, according to Wikipedia including number, structure, space, changes.&lt;/li&gt;
 &lt;li&gt;Applied mathematics: applying mathematics to specific problems such as physics, chemistry, computer, finance, game, etc.&lt;/li&gt;
 &lt;li&gt;Foundations and philosophy: axiomatic foundations such as set theory, category theory, and computability theory in computer science(P = NP?), etc.&lt;/li&gt;
 &lt;/ul&gt;
