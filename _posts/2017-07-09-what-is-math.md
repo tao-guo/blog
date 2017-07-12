@@ -106,7 +106,7 @@ See Wikipedia's "mathematics" item and the video [The Map of Mathematics](https:
 The two most influential Chinese mathematicians: Hua Luogeng(华罗庚 1910-1985) and Shiing-Shen Chern(陈省身 1911-2004), both were in the Tsinghua University Department of Mathematics, and in the Southwest United Datong dormitory.
 
 Chen-Ning Yang(杨振宁) had this comparison between Hua and Chern:
-  > Hua Luogeng and Shiing-Shen Chern are the important mathematicians of our country, that is our wisdom and wisdom of the Chinese nation on behalf of. If there is a teacher, asked them a question, Hua Luogeng could solve it immediately, but Chern would need a month to solve it. However, Chern would opened the issue into a discipline.
+  > Hua Luogeng and Shiing-Shen Chern are the important mathematicians of our country, that is our wisdom and wisdom of the Chinese nation on behalf of. If there were a teacher, asked them a question, Hua Luogeng could solve it immediately, but Chern would need a month to solve it. However, Chern would developed a subject based on that question.
   >
   > Isaiah Berlin (1900-1997) popularizes the Greek concept of two different types of philosophers: "the fox has many skills, and the hedgehog is proficient in a stunt." I think this is an excellent The way to describe Hua Luogeng is different from that of Chern: He has a wide range of interests and has made an important contribution to several different branches of mathematics; while Chern is focused on a branch of differential geometry, but he innovates this branch, and this innovation later on the 20th century Geometric, algebra, analysis, topology of the major branches have far-reaching impact, and even in-depth impact on the past 40 years the development of theoretical physics.
 
