@@ -30,7 +30,7 @@ How can I know which mathematical guesses are correct? Mathematics uses two majo
 
 Axioms in traditional thought were "self-evident truths", but that conception is problematic. At a formal level, an axiom is just a string of symbols, which has an intrinsic meaning only in the context of all derivable formulas of an axiomatic system. It was the goal of Hilbert's program to put all of mathematics on a firm axiomatic basis, but according to [Gödel's incompleteness theorem] every (sufficiently powerful) axiomatic system has undecidable formulas; and so a final axiomatization of mathematics is impossible. Nonetheless mathematics is often imagined to be (as far as its formal content) nothing but set theory in some axiomatization, in the sense that every mathematical statement or proof could be cast into formulas within set theory.
 
-In fact, the axiomization of elementary arithmetic - [Picano axiom] system was established until the twentieth century. Therefore, the elementary arithmetic operations such as \\(1 + 1 = 2 \\), \\(3 \times7 = 7 \times3 \\) (exchange law), can be proved in the Piagio axiom system. It has been discussed in Terence Tao(陶哲轩)'s book "real analysis", which is from the introducation of Picano axiom.
+In fact, the axiomization of elementary arithmetic - [Peano axioms] system was established until the twentieth century. Therefore, the elementary arithmetic operations such as \\(1 + 1 = 2 \\), \\(3 \times7 = 7 \times3 \\) (exchange law), can be proved in the Piagio axiom system. It has been discussed in Terence Tao(陶哲轩)'s book "analysis", which is from the introducation of Picano axiom.
 
 ## As a model of the real world
 With regard to mathematics as a model of the real world, the expectations of mathematicians at different stages are quite different:
@@ -117,15 +117,15 @@ The core concept of modern math is "group", but it is devloped from **Galois** w
 
 [Hilbert's 23 questions], are still the climax of mathematicians dreaming of climbing. **Gödel**'s incompleteness theorem, is descripted in the book "Gödel's proof" in an easy way. Nowadays artificial intelligence and creativity are hot topics, and the discussion in that book is still profoundly insightful.
 
-[Euclidean geometry]: https://www.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95
-[Analytic geometry]: https://www.wikipedia.org/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95
-[Cubic equation]: https://www.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B
-[Quad equation]: https://www.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B
-[Calculus]: https://www.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6
-[Group]: https://www.wikipedia.org/wiki/%E7%BE%A4
-[Projective Geometry]: https://www.wikipedia.org/wiki/%E5%B0%84%E5%BD%B1%E5%87%A0%E4%BD%95
-[Gödel's incompleteness theorem]: https://www.wikipedia.org/zh-hans/%E5%93%A5%E5%BE%B7%E5%B0%94%E4%B8%8D%E5%AE%8C%E5%A4%87%E5%AE%9A%E7%90%86
+[Euclidean geometry]: https://en.wikipedia.org/wiki/Euclidean_geometry
+[Analytic geometry]: https://en.wikipedia.org/wiki/Analytic_geometry
+[Cubic equation]: https://en.wikipedia.org/wiki/Cubic_function
+[Quad equation]: https://en.wikipedia.org/wiki/Quadratic_equation
+[Calculus]: https://en.wikipedia.org/wiki/Calculus
+[Group]: https://en.wikipedia.org/wiki/Group_(mathematics)
+[Projective Geometry]: https://en.wikipedia.org/wiki/Projective_geometry
+[Gödel's incompleteness theorem]: https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems
 [Chaos theory]: https://en.wikipedia.org/wiki/Chaos_theory
 [The unreasonable effectiveness of mathematics]: https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences
-[Hilbert's 23 questions]: https://www.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E7%9A%8423%E4%B8%AA%E9%97%AE%E9%A2%98
-[Picano axiom]: https://www.wikipedia.org/wiki/%E7%9A%AE%E4%BA%9A%E8%AF%BA%E5%85%AC%E7%90%86
+[Hilbert's 23 questions]: https://en.wikipedia.org/wiki/Hilbert%27s_problems
+[Peano axioms]: https://en.wikipedia.org/wiki/Peano_axioms
