@@ -16,7 +16,7 @@ What is math? In the Greek language, the word is "knowledge, study, learning". A
 
 But from the beginning of the 19th century, mathematics began to study more abstract "[group]" and "[projective geometry]", and these new mathematical objects can not be directly measured. Mathematicians and philosophers are beginning to try to adapt the new definitions of mathematics to these changes. Their definition is different, such as some emphasis on deductive reasoning, some emphasis on "abstract", and some focus on some specific mathematical topics. Because of the introduction of more abstract concepts, the debate on mathematical definitions has not been agreed so far: is mathematics itself "invented" or "found"? Mathematics in the end is "art" or "science"? Some people simply said, "Mathematics, that is, those things that mathematicians do."
 
-## Research content in mathematics
+## An overview
 So what are the main problems of mathematicians? Can be divided into three main blocks:
 
 - Pure mathematics: theoretical mathematics, according to Wikipedia including number, structure, space, changes and other aspects.
@@ -25,7 +25,7 @@ So what are the main problems of mathematicians? Can be divided into three main 
 
 The study of these problems is to find the "patterns" of the objective world, to sum up the formula, and to make a reasonable guess. A good mathematical structure is a real-world model, based on mathematical derivation that can predict the real world. Some seemingly completely useless theoretical math/pure mathematics, in the future may be shine in a particular application areas, such as the number theory applied in cryptography. The foundations and philosophy is to find the cornerstone of various theories, so that mathematical theory can be solidly developed.
 
-## Mathematical research methods
+## Methodology
 How can I know which mathematical guesses are correct? Mathematics uses two major weapons: **abstract** and **logical reasoning**, in an axiomatic way to formulate a series of conjectures.
 
 Axioms in traditional thought were "self-evident truths", but that conception is problematic. At a formal level, an axiom is just a string of symbols, which has an intrinsic meaning only in the context of all derivable formulas of an axiomatic system. It was the goal of Hilbert's program to put all of mathematics on a firm axiomatic basis, but according to [Gödel's incompleteness theorem] every (sufficiently powerful) axiomatic system has undecidable formulas; and so a final axiomatization of mathematics is impossible. Nonetheless mathematics is often imagined to be (as far as its formal content) nothing but set theory in some axiomatization, in the sense that every mathematical statement or proof could be cast into formulas within set theory.
@@ -54,7 +54,7 @@ Einstein (1879-1955):
 
 It can be seen that, to the last Einstein's argument, mathematics as a real-world model has become increasingly uncertain. Beginning in the 1960s, the [chaos theory], developed from meteorological forecasts, also demonstrates this. In fact, quantum physics which is closely related to mathematics, also appeared in a similar situation. Quantum physics itself is deeply influenced by mathematics, and Eugene Wigner has published "[The unreasonable effectiveness of mathematics]", pointing out how mathematics can unbelievably lead the discovery of the natural sciences. The most surprising and most mysterious is that in the mathematical layers of the concept of non-material abstraction, contains the deepest and most secret of the material world. Such as π may appear in the demographic model, and the existence of imaginary numbers in quantum mechanics etc.
 
-## The history of mathematics
+## The history
 
 Mathematics is from "count" and "measurement of land" two production activities, which formed the algebra and geometry as the two pillars. Western mathematics focuses on the development of geometry, the use of Euclid's axiomatic and logical derivation, which not only promoted the development of mathematics, but also profoundly affected the other natural disciplines.
 
@@ -91,7 +91,7 @@ Shiing-Shen Chern(陈省身) also had a ["what is geometry"] ({{site.baseurl}}/m
 
 See Wikipedia's "mathematics" item and the video [The Map of Mathematics](https://www.youtube.com/watch?v=OmJ-4B-mS-Y).
 
-## Chinese mathematician
+## Chinese mathematicians
 - Fields Award
   - 1982 Shing-Tung Yau(丘成桐)
   - 2006 Terence Tao(陶哲轩)
@@ -110,12 +110,12 @@ Yang Zhenning(杨振宁) had this comparison Hua Luogeng and Shiing-Shen Chern:
   >
   > Isaiah Berlin (1900-1997) popularizes the Greek concept of two different types of philosophers: "the fox has many skills, and the hedgehog is proficient in a stunt." I think this is an excellent The way to describe Hua Luogeng is different from that of Chen: He has a wide range of interests and has made an important contribution to several different branches of mathematics; while Chen is focused on a branch of differential geometry, but he innovates this branch, and this innovation later on the 20th century Geometric, algebra, analysis, topology of the major branches have far-reaching impact, and even in-depth impact on the past 40 years the development of theoretical physics.
 
-Similar to the metaphor of "[Birds and Frogs](http://news.sciencenet.cn/htmlnews/2011/8/251096-1.shtm)" by Freeman Dyson (1923-), and twenty Century great "bird" mathematician Hilbert, Chern pays more attention to the overall view, the formation of MSRI American Mathematical Institute, to expand the twentieth century differential geometry.
+Similar to the metaphor of "[Birds and Frogs](http://news.sciencenet.cn/htmlnews/2011/8/251096-1.shtm)" by Freeman Dyson (1923-), and twenty Century great "bird" mathematician Hilbert, Chern paid more attention to the overall view, and also found MSRI, to expand the scope of differential geometry.
 
-## The key development stage of mathematics
-The core concept of modern mathematics "group", but it is only twenty years old that duel death **Galois** developed from. "Unable to solve the equation" for the tragic heroes made a profound description of the characters, but also popular as a "symmetrical" description of the language "group" is how to penetrate into the physical, geometric, biological and other areas, the specific visible [Reading notes]({{site.baseurl}}/book/2017/07/08/book-unsolvable-equation.html).
+## Key mathematicians
+The core concept of modern math is "group", but it is devloped from **Galois** who died only twenty years old in a legendary way. "The Equation that Couldn't Be Solved" made a profound description for the tragic heroes.  As the language of symmetry--"group", it penetrates into the physical, geometric, biological and other areas.
 
-Twentieth Century [Hilbert's 23 questions], still the climax of mathematicians dreaming of climbing. **Gödel** on the mathematical axiomatic axiomatic proof, in the "Gödel's proof" made a popular explanation, now everywhere in the discussion of artificial intelligence and creativity today, many of which are still profound insights Unique. Reading notes are being collated.
+[Hilbert's 23 questions], are still the climax of mathematicians dreaming of climbing. **Gödel**'s incompleteness theorem, is descripted in the book "Gödel's proof" in an easy way. Nowadays artificial intelligence and creativity are hot topics, and the discussion in that book is still profoundly insightful.
 
 [Euclidean geometry]: https://www.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95
 [Analytic geometry]: https://www.wikipedia.org/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95
