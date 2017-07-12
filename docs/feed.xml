@@ -6,8 +6,8 @@
 </description>
     <link>http://www.sumread.com/</link>
     <atom:link href="http://www.sumread.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Jul 2017 11:57:06 -0700</pubDate>
-    <lastBuildDate>Wed, 12 Jul 2017 11:57:06 -0700</lastBuildDate>
+    <pubDate>Wed, 12 Jul 2017 12:00:07 -0700</pubDate>
+    <lastBuildDate>Wed, 12 Jul 2017 12:00:07 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -39,7 +39,7 @@
 
 &lt;p&gt;Axioms in traditional thought were &amp;quot;self-evident truths&amp;quot;, but that conception is problematic. At a formal level, an axiom is just a string of symbols, which has an intrinsic meaning only in the context of all derivable formulas of an axiomatic system. It was the goal of Hilbert&amp;#39;s program to put all of mathematics on a firm axiomatic basis, but according to &lt;a href=&quot;https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems&quot;&gt;Gödel&amp;#39;s incompleteness theorem&lt;/a&gt; every (sufficiently powerful) axiomatic system has undecidable formulas; and so a final axiomatization of mathematics is impossible. Nonetheless mathematics is often imagined to be (as far as its formal content) nothing but set theory in some axiomatization, in the sense that every mathematical statement or proof could be cast into formulas within set theory.&lt;/p&gt;
 
-&lt;p&gt;In fact, the axiomization of elementary arithmetic - &lt;a href=&quot;https://en.wikipedia.org/wiki/Peano_axioms&quot;&gt;Peano axioms&lt;/a&gt; system was established until the twentieth century. Therefore, the elementary arithmetic operations such as \(1 + 1 = 2 \), \(3 \times7 = 7 \times3 \) (exchange law), can be proved in the Piagio axiom system. It has been discussed in Terence Tao(陶哲轩)&amp;#39;s book &amp;quot;analysis&amp;quot;, which is from the introducation of Picano axiom.&lt;/p&gt;
+&lt;p&gt;In fact, the axiomization of elementary arithmetic - &lt;a href=&quot;https://en.wikipedia.org/wiki/Peano_axioms&quot;&gt;Peano axioms&lt;/a&gt; system was established until the twentieth century. Therefore, the elementary arithmetic operations such as \(1 + 1 = 2 \), \(3 \times7 = 7 \times3 \) (exchange law), can be proved in the Piagio axiom system. It has been discussed in Terence Tao(陶哲轩)&amp;#39;s book &amp;quot;analysis&amp;quot;, which is from the introducation of Peano axioms.&lt;/p&gt;
 
 &lt;h2&gt;As a model of the real world&lt;/h2&gt;
 
