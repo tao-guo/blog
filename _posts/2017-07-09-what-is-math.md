@@ -9,7 +9,7 @@ date: 2017-07-09
 
 ## Definitions of mathematics
 
-What is math? In the Greek language, the word is "knowledge, study, learning". Aristotle defined mathematics as "**the science of quantity**", and  this definition prevailed until the 18th century. At that time, math is about quantity and measurement, and the majority of the symbols used are not much different from today. [Euclidean geometry], Cartesian's [analytic geometry], Caldano's [cubic equation] / [quadratic equation] solutions and Newton/Leibniz's [calculus] are a series of great mathematical achievements. By the nineteenth century, mathematics had completed the perfect abstraction of quantity/unknowns. In fact, most people's mathematical knowledge also stays at this stage. For the general public, Aristotle's definition of mathematics is still not much deviation.
+What is math? In the Greek language, the word is "knowledge, study, learning". Aristotle defined mathematics as "**the science of quantity**", and  this definition prevailed until the 18th century. At that time, math is about quantity and measurement, and the majority of the symbols used are not much different from today. [Euclidean geometry], Cartesian's [analytic geometry], Caldano's [cubic equation]/[quad equation] solutions and Newton-Leibniz's [calculus] are a series of great mathematical achievements. By the nineteenth century, mathematics had completed the perfect abstraction of quantity/unknowns. In fact, most people's mathematical knowledge also stays at this stage. For the general public, Aristotle's definition of mathematics is still valid.
 
 <div style = "margin: 0 auto 15px; width: 60%; text-align: center;">
   <img src = "{{site.baseurl}}/img/Euclid.jpg" alt = "Euclid in the Athens Institute" style = "display: block;">
@@ -120,7 +120,7 @@ The core concept of modern mathematics "group", but it is only twenty years old 
 Twentieth Century [Hilbert's 23 questions], still the climax of mathematicians dreaming of climbing. **Gödel** on the mathematical axiomatic axiomatic proof, in the "Gödel's proof" made a popular explanation, now everywhere in the discussion of artificial intelligence and creativity today, many of which are still profound insights Unique. Reading notes are being collated.
 
 [Euclidean geometry]: https://www.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95
-[Parse geometry]: https://www.wikipedia.org/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95
+[Analytic geometry]: https://www.wikipedia.org/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95
 [Cubic equation]: https://www.wikipedia.org/wiki/%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B
 [Quad equation]: https://www.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B
 [Calculus]: https://www.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6
