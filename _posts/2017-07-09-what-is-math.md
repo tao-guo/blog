@@ -7,8 +7,6 @@ author: Tao
 date: 2017-07-09
 ---
 
-## Definitions of mathematics
-
 What is math? In the Greek language, the word is "knowledge, study, learning". Aristotle defined mathematics as "**the science of quantity**", and  this definition prevailed until the 18th century. At that time, math is about quantity and measurement, and the majority of the symbols used are not much different from today. [Euclidean geometry], Cartesian's [analytic geometry], Caldano's [cubic equation]/[quad equation] solutions and Newton-Leibniz's [calculus] are a series of great mathematical achievements. By the nineteenth century, mathematics had completed the perfect abstraction of quantity/unknowns. In fact, most people's mathematical knowledge also stays at this stage. For the general public, Aristotle's definition of mathematics is still valid.
 
 <div style = "margin: 0 auto 15px; width: 60%; text-align: center;">
@@ -32,7 +30,7 @@ How can I know which mathematical guesses are correct? Mathematics uses two majo
 
 Axioms in traditional thought were "self-evident truths", but that conception is problematic. At a formal level, an axiom is just a string of symbols, which has an intrinsic meaning only in the context of all derivable formulas of an axiomatic system. It was the goal of Hilbert's program to put all of mathematics on a firm axiomatic basis, but according to [Gödel's incompleteness theorem] every (sufficiently powerful) axiomatic system has undecidable formulas; and so a final axiomatization of mathematics is impossible. Nonetheless mathematics is often imagined to be (as far as its formal content) nothing but set theory in some axiomatization, in the sense that every mathematical statement or proof could be cast into formulas within set theory.
 
-In fact, the axiomization of elementary arithmetic - [Picano axiom] system was established until the twentieth century. Therefore, the elementary arithmetic operations such as \\(1 + 1 = 2 \\), \\(3 \times7 = 7 \times3 \\) (exchange law), can be proved in the Piagio axiom system. It has been discussed in Terence Tao's book "real analysis", which is from the introducation of Picano axiom.
+In fact, the axiomization of elementary arithmetic - [Picano axiom] system was established until the twentieth century. Therefore, the elementary arithmetic operations such as \\(1 + 1 = 2 \\), \\(3 \times7 = 7 \times3 \\) (exchange law), can be proved in the Piagio axiom system. It has been discussed in Terence Tao(陶哲轩)'s book "real analysis", which is from the introducation of Picano axiom.
 
 ## As a model of the real world
 With regard to mathematics as a model of the real world, the expectations of mathematicians at different stages are quite different:
