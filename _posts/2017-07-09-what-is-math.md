@@ -74,7 +74,7 @@ In history algebra and geometric developed seperately and they usually have diff
     - new abstraction level
     - research logic, abstract algebra (modern algebra), group theory and so on
 
-Shiing-Shen Chern(陈省身) also had a ["what is geometry"] ({{site.baseurl}}/math/1987/04/21/what-is-geometry.html) wonderful lecture, summed up the geometric development process, which is still inspiring.
+Shiing-Shen Chern(陈省身) also had a wonderful lecture ["what is geometry"] ({{site.baseurl}}/math/1987/04/21/what-is-geometry.html), summed up the geometric development process. The lecture is still profoundly inspiring.
 
 ## Math fields
 - [Fundamentals and Philosophy](https://en.wikipedia.org/wiki/Mathematics#Foundations_and_philosophy)
