@@ -23,7 +23,7 @@ So what are the main problems that mathematicians are solving? They can be divid
 - Applied mathematics: applying mathematics to specific problems such as physics, chemistry, computer, finance, game, etc.
 - Foundations and philosophy: axiomatic foundations such as set theory, category theory, and computability theory in computer science(P = NP?), etc.
 
-The study of these problems is to find the "patterns" of the objective world, to sum up the formula, and to make a reasonable guess. A good mathematical structure is a real-world model, based on mathematical derivation that can predict the real world. Some seemingly completely useless theoretical math/pure mathematics, in the future may be shine in a particular application areas, such as the number theory applied in cryptography. The foundations and philosophy is to find the cornerstone of various theories, so that mathematical theory can be solidly developed.
+The study of these problems is to find the "patterns" of the objective world, to sum up the formula, and to make a reasonable guess. When mathematical structures are good models of real phenomena, then mathematical reasoning can provide insight or predictions about nature. Some seemingly completely useless theoretical math/pure mathematics, in the future may be shine in particular application areas, such as the number theory applied in cryptography. The foundations and philosophy is to find the cornerstone of various theories, so that mathematical theory can be solidly developed.
 
 ## Methodology
 How can I know which mathematical guesses are correct? Mathematics uses two major weapons: **abstract** and **logical reasoning**, in an axiomatic way to formulate a series of conjectures.
