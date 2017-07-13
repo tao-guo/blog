@@ -113,7 +113,7 @@ Chen-Ning Yang(杨振宁) had this comparison between Hua and Chern:
 Similar to the metaphor of "[Birds and Frogs(2009)](http://www.ams.org/notices/200902/rtx090200212p.pdf)" by Freeman Dyson (1923-), and twenty-century great "bird" mathematician Hilbert, Chern paid more attention to the overall view, founded MSRI, and also expanded the scope of differential geometry.
 
 ## Key mathematicians
-The core concept of modern math is "group", but it is devloped from **Galois** who died at only twenty years old in a legendary way. "The Equation that Couldn't Be Solved" made a profound description for the tragic heroes.  As the language of symmetry--"group", it penetrates into the physical, geometric, biological and other areas.
+The core concept of modern math is "group", but it is devloped from **Galois** who died at only twenty years old in a legendary way. "The Equation that Couldn't Be Solved" made a profound description for the tragic heroes.  Group theory, as the language of symmetry, has penetrated into the physical, geometric, biological and other areas.
 
 [Hilbert's 23 questions], are still the climax of mathematicians dreaming of climbing. **Gödel**'s incompleteness theorem, is descripted in the book "Gödel's proof" in an easy way. Nowadays artificial intelligence and creativity are hot topics, and the discussion in that book is still profoundly insightful.
 
