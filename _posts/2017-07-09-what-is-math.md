@@ -2,9 +2,10 @@
 layout: post
 title: What Is Math?
 categories: math
-published: yes
+published: true
 author: Tao
 date: 2017-07-09
+home_page: yes
 ---
 
 What is math? In the Greek language, the word is "knowledge, study, learning". Aristotle defined mathematics as "**the science of quantity**", and  this definition prevailed until the 18th century. At that time, math is about quantity and measurement, and the majority of the symbols used are not much different from today. [Euclidean geometry], Cartesian's [analytic geometry], Caldano's [cubic equation]/[quad equation] solutions and Newton-Leibniz's [calculus] are a series of great mathematical achievements. By the nineteenth century, mathematics had completed the perfect abstraction of quantity/unknowns. In fact, most people's mathematical knowledge also stays at this stage. For the general public, Aristotle's definition of mathematics is still valid.

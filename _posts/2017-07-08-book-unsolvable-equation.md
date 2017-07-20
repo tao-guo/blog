@@ -2,7 +2,7 @@
 layout: post
 title: 读书笔记--《无法解出的方程》
 categories: book
-published: false
+published: true
 author: Tao
 ---
 
