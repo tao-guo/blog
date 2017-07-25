@@ -79,7 +79,6 @@ author: Tao
   ![]({{site.baseurl}}/img/life-no-meaning1.png) 
   ![]({{site.baseurl}}/img/life-no-meaning2.png) 
   ![]({{site.baseurl}}/img/life-no-meaning3.png) 
-  ![]({{site.baseurl}}/img/life-no-meaning4.png) 
   ![]({{site.baseurl}}/img/life-no-meaning5.png) 
 
 - 生活的各种意义
