@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Summary Reading Notes</title>
-  <meta name="description" content="Some reading notes
-">
+  <title>Communication Notes</title>
+  <meta name="description" content="Communication">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.sumread.com/">
+  <link rel="canonical" href="http://www.sumread.com/math/2017/07/22/communication.html">
   <link rel="alternate" type="application/rss+xml" title="Summary Reading Notes" href="http://www.sumread.com/feed.xml" />
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
@@ -63,41 +62,86 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Communication Notes</h1>
+    <p class="post-meta">Jul 22, 2017 • Tao</p>
+  </header>
 
-  <h1 class="page-heading">Posts</h1>
+  <article class="post-content">
+    <h2>Communication</h2>
 
-  <ul class="post-list">
-    
-    
-    
-    
-    
-    
-      <li>
-        <span class="post-meta">Jul 9, 2017</span>
+<ul>
+<li>In computer itself, it is through computer bus. One of the simpliest ways is through \(I^2C\).</li>
+<li>In JESD245(jedec nvdimm) spec, read single register and block read
 
-        <h2>
-          <a class="post-link" href="/math/2017/07/09/what-is-math.html">What Is Math?</a>
-        </h2>
-      </li>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  </ul>
+<ul>
+<li>Start-Slave Address-Rd/Wr-Ack-Data Byte-Ack-P(stop)</li>
+<li>The sequences are protocols between hardware and motherboard</li>
+<li>计算机的外设接口和通信定义的一样的道理,不过对于前段开发而言，基本都定义成文本格式</li>
+<li>offset只有一个字节，最大偏移量只能表示成256，所以如果要访问更远的地址，需要采用多页面</li>
+<li>类似于存储系统中，多卷地址的表示</li>
+<li>批量读写时候，需要有一个seq id(block ID, region ID)</li>
+</ul></li>
+<li>SPD(串行存在检测)
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<ul>
+<li>自动配置当前存在的硬件。SPD是一项内存硬件特性，可使计算机了解存在的内存以及访问内存要使用的时序。</li>
+<li>JEDEC标准要求在内存模块的一个EEPROM上的低128字节中存有特定参数</li>
+<li>SPD EEPROM采用SMBus访问，这是I²C协议的一个变种。这将模块上的通信引脚数量减少到两个：时钟信号和数据信号。</li>
+<li>tools: dmidecode, decode-dimms, i2c-tools</li>
+<li>Jedec规范中主要是表示EEPROM的格式</li>
+</ul></li>
+<li>Catastrophic Save
+
+<ul>
+<li>疑问: Spec中提出了要求所有buffer必须回刷，但是如果操作系统正好崩溃了如果处理？比如突然掉电，那么存在于cpu缓存中的数据就丢失了吗?</li>
+<li>Examples of these scenarios include fatal platform errors such as NMI or memory controller errors.</li>
+</ul></li>
+<li>SAVE Pin
+
+<ul>
+<li>module detects the SAVE pin is low for 1usec.</li>
+</ul></li>
+<li>Restore</li>
+</ul>
+
+<blockquote>
+<p>The Restore operation is initiated through the START<em>RESTORE bit in the NVDIMM</em>FUNC<em>CMD0
+register in page 0. At the completion of the Restore operation, the module shall put the SDRAM into self-
+refresh mode and update the RESTORE</em>STATUS0 register in page 0.</p>
+</blockquote>
+
+<ul>
+<li>Erase</li>
+</ul>
+
+<blockquote>
+<p>Modules shall support the Erase operation. During the Erase operation, the last saved SDRAM contents in
+non-volatile memory is erase and the NVM<em>Data</em>Valid bit in CSAVE_INFO register in page 0 is set to
+0.</p>
+</blockquote>
+
+<ul>
+<li>疑问: 如果设备本身出现异常，是否可以主动报告给host？还是需要host一直进行polling?
+
+<ul>
+<li>Set Event Notification: module set the status?</li>
+<li>Could interrupt CPU?</li>
+</ul></li>
+<li>Atomic Arm and Erase
+
+<ul>
+<li>可以保证数据要么成功要么失败</li>
+</ul></li>
+<li>Shared Energy Source
+
+<ul>
+<li>共享电源</li>
+</ul></li>
+</ul>
+
+  </article>
 
 </div>
 
