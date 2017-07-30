@@ -548,94 +548,93 @@ author: Tao
 - 5.9 SUMMARY
  
 ## 6. THE OPERATING SYSTEM
-
-### 6.1 VIRTUAL MEMORY
-- 6.1.1 Paging
-- 6.1.2 Implementation of Paging
-- 6.1.3 Demand Paging and the Working Set Model
-- 6.1.4 Page Replacement Policy
-- 6.1.5 Page Size and Fragmentation
-- 6.1.6 Segmentation
-- 6.1.7 Implementation of Segmentation
-- 6.1.8 Virtual Memory on the Core i7
-- 6.1.9 Virtual Memory on the OMAP4430 ARM CPU
-- 6.1.10 Virtual Memory and Caching
+- 6.1 VIRTUAL MEMORY
+  - 6.1.1 Paging
+  - 6.1.2 Implementation of Paging
+  - 6.1.3 Demand Paging and the Working Set Model
+  - 6.1.4 Page Replacement Policy
+  - 6.1.5 Page Size and Fragmentation
+  - 6.1.6 Segmentation
+  - 6.1.7 Implementation of Segmentation
+  - 6.1.8 Virtual Memory on the Core i7
+  - 6.1.9 Virtual Memory on the OMAP4430 ARM CPU
+  - 6.1.10 Virtual Memory and Caching
 - 6.2 VIRTUAL I/O INSTRUCTIONS
-- 6.2.1 Files
-- 6.2.2 Implementation of Virtual I/O Instructions
-- 6.2.3 Directory Management Instructions
+  - 6.2.1 Files
+  - 6.2.2 Implementation of Virtual I/O Instructions
+  - 6.2.3 Directory Management Instructions
 - 6.3 VIRTUAL INSTRUCTIONS FOR PARALLEL PROCESSING
-- 6.3.1 Process Creation
-- 6.3.2 Race Conditions
-- 6.3.3 Process Synchronization Using Semaphores
+  - 6.3.1 Process Creation
+  - 6.3.2 Race Conditions
+  - 6.3.3 Process Synchronization Using Semaphores
 - 6.4 EXAMPLE OPERATING SYSTEMS
-- 6.4.1 Introduction
-- 6.4.2 Examples of Virtual Memory
-- 6.4.3 Examples of Virtual I/O
-- 6.4.4 Examples of Process Management
+  - 6.4.1 Introduction
+  - 6.4.2 Examples of Virtual Memory
+  - 6.4.3 Examples of Virtual I/O
+  - 6.4.4 Examples of Process Management
 - 6.5 SUMMARY
 
 ## 7. THE ASSEMBLY LANGUAGE LEVEL
 - 7.1 INTRODUCTION TO ASSEMBLY LANGUAGE
-- 7.1.1 What Is an Assembly Language?
-- 7.1.2 Why Use Assembly Language?
-- 7.1.3 Format of an Assembly Language Statement
-- 7.1.4 Pseudoinstructions
+  - 7.1.1 What Is an Assembly Language?
+  - 7.1.2 Why Use Assembly Language?
+  - 7.1.3 Format of an Assembly Language Statement
+  - 7.1.4 Pseudoinstructions
 - 7.2 MACROS
-- 7.2.1 Macro Definition, Call, and Expansion
-- 7.2.2 Macros with Parameters
-- 7.2.3 Advanced Features
-- 7.2.4 Implementation of a Macro Facility in an Assembler
+  - 7.2.1 Macro Definition, Call, and Expansion
+  - 7.2.2 Macros with Parameters
+  - 7.2.3 Advanced Features
+  - 7.2.4 Implementation of a Macro Facility in an Assembler
 - 7.3 THE ASSEMBLY PROCESS
-- 7.3.1 Two-Pass Assemblers
-- 7.3.2 Pass One
-- 7.3.3 Pass Two
-- 7.3.4 The Symbol Table
+  - 7.3.1 Two-Pass Assemblers
+  - 7.3.2 Pass One
+  - 7.3.3 Pass Two
+  - 7.3.4 The Symbol Table
 - 7.4 LINKING AND LOADING
-- 7.4.1 Tasks Performed by the Linker
-- 7.4.2 Structure of an Object Module
-- 7.4.3 Binding Time and Dynamic Relocation
-- 7.4.4 Dynamic Linking
+  - 7.4.1 Tasks Performed by the Linker
+  - 7.4.2 Structure of an Object Module
+  - 7.4.3 Binding Time and Dynamic Relocation
+  - 7.4.4 Dynamic Linking
 - 7.5 SUMMARY
 
 ## 8. PARALLEL COMPUTER ARCHITECTURES
 - 8.1 ON-CHIP PARALELLISM
-- 8.1.1 Instruction-Level Parallelism
-- 8.1.2 On-Chip Multithreading
-- 8.1.3 Single-Chip Multiprocessors
+  - 8.1.1 Instruction-Level Parallelism
+  - 8.1.2 On-Chip Multithreading
+  - 8.1.3 Single-Chip Multiprocessors
 - 8.2 COPROCESSORS
-- 8.2.1 Network Processors
-- 8.2.2 Media Processors
-- 8.2.3 Cryptoprocessors
+  - 8.2.1 Network Processors
+  - 8.2.2 Media Processors
+  - 8.2.3 Cryptoprocessors
 - 8.3 SHARED-MEMORYMULTIPROCESSORS
-- 8.3.1 Multiprocessors vs. Multicomputers
-- 8.3.2 Memory Semantics
-- 8.3.3 UMA Symmetric Multiprocessor Architectures
-- 8.3.4 NUMA Multiprocessors
-- 8.3.5 COMA Multiprocessors
+  - 8.3.1 Multiprocessors vs. Multicomputers
+  - 8.3.2 Memory Semantics
+  - 8.3.3 UMA Symmetric Multiprocessor Architectures
+  - 8.3.4 NUMA Multiprocessors
+  - 8.3.5 COMA Multiprocessors
 - 8.4 MESSAGE-PASSING MULTICOMPUTERS
-- 8.4.1 Interconnection Networks
-- 8.4.2 MPPs–Massively Parallel Processors
-- 8.4.3 Cluster Computing
-- 8.4.4 Communication Software for Multicomputers
-- 8.4.5 Scheduling
-- 8.4.6 Application-Level Shared Memory
-- 8.4.7 Performance
+  - 8.4.1 Interconnection Networks
+  - 8.4.2 MPPs–Massively Parallel Processors
+  - 8.4.3 Cluster Computing
+  - 8.4.4 Communication Software for Multicomputers
+  - 8.4.5 Scheduling
+  - 8.4.6 Application-Level Shared Memory
+  - 8.4.7 Performance
 - 8.5 GRID COMPUTING
 - 8.6 SUMMARY
 
 ## 9. SUGGESTIONS
 - 9.1 SUGGESTIONS FOR FURTHER READING
-- 9.1.1 Introduction and General Works
-- 9.1.2 Computer Systems Organization
-- 9.1.3 The Digital Logic Level
-- 9.1.4 The Microarchitecture Level
-- 9.1.5 The Instruction Set Architecture Level
-- 9.1.6 The Operating System Machine Level
-- 9.1.7 The Assembly Language Level
-- 9.1.8 Parallel Computer Architectures
-- 9.1.9 Binary and Floating-Point Numbers
-- 9.1.10 Assembly Language Programming
+  - 9.1.1 Introduction and General Works
+  - 9.1.2 Computer Systems Organization
+  - 9.1.3 The Digital Logic Level
+  - 9.1.4 The Microarchitecture Level
+  - 9.1.5 The Instruction Set Architecture Level
+  - 9.1.6 The Operating System Machine Level
+  - 9.1.7 The Assembly Language Level
+  - 9.1.8 Parallel Computer Architectures
+  - 9.1.9 Binary and Floating-Point Numbers
+  - 9.1.10 Assembly Language Programming
 - 9.2 ALPHABETICAL BIBLIOGRAPHY
 
 ## Appendix
@@ -648,36 +647,36 @@ author: Tao
 - B.1 PRINCIPLES OF FLOATING POINT
 - B.2 IEEE FLOATING-POINT STANDARD 754
 - C.1 OVERVIEW
-- C.1.1 Assembly Language
-- C.1.2 A Small Assembly Language Program
+  - C.1.1 Assembly Language
+  - C.1.2 A Small Assembly Language Program
 - C.2 THE 8088 PROCESSOR
-- C.2.1 The Processor Cycle
-- C.2.2 The General Registers
-- C.2.3 Pointer Registers
+  - C.2.1 The Processor Cycle
+  - C.2.2 The General Registers
+  - C.2.3 Pointer Registers
 - C.3 MEMORY AND ADDRESSING
-- C.3.1 Memory Organization and Segments
-- C.3.2 Addressing
+  - C.3.1 Memory Organization and Segments
+  - C.3.2 Addressing
 - C.4 THE 8088 INSTRUCTION SET
-- C.4.1 Move, Copy and Arithmetic
-- C.4.2 Logical, Bit and Shift Operations
-- C.4.3 Loop and Repetitive String Operations
-- C.4.4 Jump and Call Instructions
-- C.4.5 Subroutine Calls
-- C.4.6 System Calls and System Subroutines
-- C.4.7 Final Remarks on the Instruction Set
+  - C.4.1 Move, Copy and Arithmetic
+  - C.4.2 Logical, Bit and Shift Operations
+  - C.4.3 Loop and Repetitive String Operations
+  - C.4.4 Jump and Call Instructions
+  - C.4.5 Subroutine Calls
+  - C.4.6 System Calls and System Subroutines
+  - C.4.7 Final Remarks on the Instruction Set
 - C.5 THE ASSEMBLER
-- C.5.1 Introduction
-- C.5.2 The ACK-Based Assembler, as88
-- C.5.3 Some Differences with Other 8088 Assemblers
+  - C.5.1 Introduction
+  - C.5.2 The ACK-Based Assembler, as88
+  - C.5.3 Some Differences with Other 8088 Assemblers
 - C.6 THE TRACER
-- C.6.1 Tracer Commands
+  - C.6.1 Tracer Commands
 - C.7 GETTING STARTED
 - C.8 EXAMPLES
-- C.8.1 Hello World Example
-- C.8.2 General Registers Example
-- C.8.3 Call Command and Pointer Registers
-- C.8.4 Debugging an Array Print Program
-- C.8.5 String Manipulation and String Instructions
-- C.8.6 Dispatch Tables
-- C.8.7 Buffered and Random File Access
+  - C.8.1 Hello World Example
+  - C.8.2 General Registers Example
+  - C.8.3 Call Command and Pointer Registers
+  - C.8.4 Debugging an Array Print Program
+  - C.8.5 String Manipulation and String Instructions
+  - C.8.6 Dispatch Tables
+  - C.8.7 Buffered and Random File Access
 
