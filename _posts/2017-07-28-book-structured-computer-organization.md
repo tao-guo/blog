@@ -9,20 +9,20 @@ author: Tao
 ## 0. PREFACE
 
 - core idea: computer = a hierarchy of levels
-  - *digital logic level*
-  - microarchitecture level
-  - *instruction set architecture level*
-  - operating-system machine level
-  - assembly language level
+  - *digital logic level* -- Memory
+  - microarchitecture level -- CPU-internal
+  - *instruction set architecture level* -- CPU-external
+  - operating-system machine level -- Virtualized (Mem,CPU, I/O)
+  - assembly language level -- App
 - what's new in sixth:
   - up to date
-    - Intel Core i7: X86-based CPU, laptops, desktops and server machines
+    - Intel Core i7: X86-based CPU, laptops, desktops and server machines 2008-code-name Nehalem
     - Texas Instrument OMAP4430: ARM-based CPU, smartphones and tablets
     - Atmel ATmegal68: AVR-based microcontroller, clock radios to microwave ovens
       - number much bigger than i3, i5, i7
       - in Arduino single-board embedded computer (pizza dinner cost)
   - assembly language programming
-    - 8088, on website
+    - 8088, on website vs 6502
     - could try on laptop, with tools
   - longer (443-769 pages)
 - chapter-by-chapter rundown, and also changes from fifth
@@ -56,17 +56,26 @@ author: Tao
   - register
 
   > Hardware and software are logically equivalent.
+- L5: high level languages like python, java, C++ ...
+- Computer architecture vs. computer organization
+  - one layer vs. more parts
+  - mostly the same
 
 #### 1.1.3 Evolution of Multilevel Machines 8
 - Two levels at first: ISA and digital logic level
+- Hardware: rather than **abstract ideas**, algorithms, or instructions.
 - inventions
   - microprogramming: to make hardware design simple
+    - two levels --> three levels
   - OS: reduce manual processes, keep it running all the time
-      - FMS: compile and read data
-      - only run two programs at first
-      - then I/O calls, system calls
-      - batch systems --> timesharing, terminal
-      - this book only focus on differences from ISA
+    - FMS(Fortune Monitor): compile and read data
+        - only run two programs at first
+        - then I/O calls, system calls
+        - batch systems --> timesharing, terminal
+        - this book only focus on differences from ISA
+    - As library: system calls
+    - Timesharing
+    - Like a society, it finally formed a goverment
   - The Migration of Functionality to Microcode
       - more microprograms: INC, MUL, STR ...
       - more features: relocation, interrupt, switching
@@ -122,8 +131,9 @@ author: Tao
 - TX-0: first transistorized computer was built at M.I.T.’s Lincoln Laboratory
 - DEC
   - PDP-1
-  - [PDP-8](https://en.wikipedia.org/wiki/PDP-8): bus, DMA, minicomputer
+  - [PDP-8](https://en.wikipedia.org/wiki/PDP-8): **bus**, **DMA**, minicomputer
 - CDC 6600, 1964 - with small computers
+  - Seymour Cray: buying car algorithm
 - Burroughs B5000: in algol 60
 
 #### 1.2.4 The Third Generation–Integrated Circuits (1965—1980) 21
@@ -168,8 +178,8 @@ author: Tao
   - *codesign* software and hardware
   - paradigm shift
   - ubiquitous computing, but the term *pervasive computing*
-  - not too much information in this book
-  - <https://zhuanlan.zhihu.com/p/22965003>
+    - not too much information in this book
+    - <https://zhuanlan.zhihu.com/p/22965003>
 
 #### 1.3 THE COMPUTER ZOO 28
 
