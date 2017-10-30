@@ -20,7 +20,7 @@ author: Tao
     - 经典的科普著作，包含了数学物理和生物，作者还写过很有名的《物理世界奇遇记》不过我还没看过
   - [Surely You're Joking, Mr. Feynman!](https://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041)
     - 物理大师费曼的故事，影响了很多人
-  - A Brief History of Time
+  - [A Brief History of Time](https://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/0553380168)
     - 时间简史，太有名，我身边有朋友因为这本书成为了天体物理博士，最后转行了做大数据分析<摊手>
 
 ## 数学
@@ -36,7 +36,7 @@ author: Tao
     - 黑塞的书，主题多为少年寻找自身之路，个人比较喜欢
   - [The Big Questions](https://www.amazon.com/Big-Questions-Short-Introduction-Philosophy/dp/0495595152)
     - 作为了很多大学的入门教材
-  - Sophie's World
+  - [Sophie's World](https://www.amazon.com/Sophies-World-History-Philosophy-Classics/dp/0374530718)
     - 比较有名的，写给青少年的入门读物
 
 ## 方法论
