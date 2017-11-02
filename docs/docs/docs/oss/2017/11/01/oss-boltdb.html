@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>BoltDB Review</title>
-  <meta name="description" content="">
+  <meta name="description" content="Bolt-db">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://www.sumread.com/oss/2017/11/01/oss-boltdb.html">
@@ -69,40 +69,17 @@
   </header>
 
   <article class="post-content">
-    <!-- TOC -->
+    <h2><a href="https://github.com/boltdb/bolt">Bolt-db</a></h2>
 
-<ul>
-<li><a href="#architecture">Architecture</a></li>
-<li><a href="#data-structures">Data Structures</a>
-
-<ul>
-<li><a href="#db">DB</a></li>
-<li><a href="#meta-page">meta page</a></li>
-<li><a href="#freelist">freelist</a></li>
-<li><a href="#leafpage">leafpage</a></li>
-<li><a href="#bucket">bucket</a></li>
-<li><a href="#nodes--inodes">nodes &amp; inodes</a></li>
-<li><a href="#cursor">cursor</a></li>
-</ul></li>
-<li><a href="#io-path">IO Path</a></li>
-<li><a href="#transactions">Transactions</a></li>
-<li><a href="#limitations">Limitations</a></li>
-<li><a href="#further-readings">Further Readings</a></li>
-</ul>
-
-<!-- /TOC -->
-
-<h2>Architecture</h2>
-
-<p><a href="https://github.com/boltdb/bolt">Bolt-db</a> is a minimal kv DB with MVCC and transactions, 4K golang LOC, based on <a href="http://www.lmdb.tech/doc/">lmdb</a>. It is being used in Shopify and Heruko production systems.</p>
-
-<p>The architecture is like below, based on my own understanding:</p>
+<p>Minimal kv DB with MVCC and transactions, 4K golang LOC, based on <a href="http://www.lmdb.tech/doc/">lmdb</a>.</p>
 
 <p><img src="/img/boltdb.svg" alt="boltdb"></p>
 
-<h2>Data Structures</h2>
+<h3>Data Structures</h3>
 
-<h3>DB</h3>
+<ul>
+<li>DB (mem)</li>
+</ul>
 <div class="highlight"><pre><code class="language-go" data-lang="go"><span class="c">// DB represents a collection of buckets persisted to a file on disk.</span><span class="x">
 </span><span class="k">type</span><span class="x"> </span><span class="n">DB</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x">
     </span><span class="n">meta0</span><span class="x">    </span><span class="o">*</span><span class="n">meta</span><span class="x">
@@ -120,26 +97,30 @@
   </span><span class="o">...</span><span class="x">
 </span><span class="p">}</span><span class="x">
 </span></code></pre></div>
-<h3>meta page</h3>
+<ul>
+<li>meta page
 
 <ul>
 <li>Two roots: page 0 and page 1</li>
-<li>The page with higer txid wins</li>
+<li>The higer txid wins</li>
+</ul></li>
 </ul>
 <div class="highlight"><pre><code class="language-go" data-lang="go"><span class="x">  </span><span class="k">type</span><span class="x"> </span><span class="n">page</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x">
-    </span><span class="n">id</span><span class="x">       </span><span class="n">pgid</span><span class="x"> </span><span class="o">--&gt;</span><span class="x"> </span><span class="n">prevent</span><span class="x"> </span><span class="n">mis</span><span class="o">-</span><span class="n">directed</span><span class="x"> </span><span class="n">writes</span><span class="p">,</span><span class="x"> </span><span class="n">similar</span><span class="x"> </span><span class="n">to</span><span class="x"> </span><span class="n">RAID</span><span class="x">
+    </span><span class="n">id</span><span class="x">       </span><span class="n">pgid</span><span class="x">
     </span><span class="n">flags</span><span class="x">    </span><span class="kt">uint16</span><span class="x">
     </span><span class="n">count</span><span class="x">    </span><span class="kt">uint16</span><span class="x"> </span><span class="o">--&gt;</span><span class="x"> </span><span class="n">items</span><span class="p">,</span><span class="x"> </span><span class="n">means</span><span class="x"> </span><span class="n">different</span><span class="x"> </span><span class="n">things</span><span class="x"> </span><span class="k">for</span><span class="x"> </span><span class="n">different</span><span class="x"> </span><span class="n">types</span><span class="x">
     </span><span class="n">overflow</span><span class="x"> </span><span class="kt">uint32</span><span class="x"> </span><span class="o">--&gt;</span><span class="x"> </span><span class="n">count</span><span class="o">-</span><span class="m">1</span><span class="p">,</span><span class="x"> </span><span class="n">so</span><span class="x"> </span><span class="n">it</span><span class="x"> </span><span class="n">can</span><span class="x"> </span><span class="n">hold</span><span class="x"> </span><span class="n">big</span><span class="x"> </span><span class="n">keys</span><span class="x">
-    </span><span class="n">ptr</span><span class="x">      </span><span class="kt">uintptr</span><span class="x"> </span><span class="o">--&gt;</span><span class="x"> </span><span class="n">point</span><span class="x"> </span><span class="n">to</span><span class="x"> </span><span class="n">meta</span><span class="x">
+    </span><span class="n">ptr</span><span class="x">      </span><span class="kt">uintptr</span><span class="x"> </span><span class="o">---&gt;</span><span class="x"> </span><span class="n">point</span><span class="x"> </span><span class="n">to</span><span class="x"> </span><span class="n">meta</span><span class="x">
   </span><span class="p">}</span><span class="x">
-</span></code></pre></div><div class="highlight"><pre><code class="language-go" data-lang="go"><span class="x">  </span><span class="k">type</span><span class="x"> </span><span class="n">meta</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x">
+</span></code></pre></div>
+<p>pgid to prevent mis-directed writes, similar to RAID</p>
+<div class="highlight"><pre><code class="language-go" data-lang="go"><span class="x">  </span><span class="k">type</span><span class="x"> </span><span class="n">meta</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x">
     </span><span class="n">magic</span><span class="x">    </span><span class="kt">uint32</span><span class="x">
     </span><span class="n">version</span><span class="x">  </span><span class="kt">uint32</span><span class="x">
     </span><span class="n">pageSize</span><span class="x"> </span><span class="kt">uint32</span><span class="x">
-    </span><span class="n">flags</span><span class="x">    </span><span class="kt">uint32</span><span class="x"> </span><span class="o">--&gt;</span><span class="x"> </span><span class="m">0x04</span><span class="x">
+    </span><span class="n">flags</span><span class="x">    </span><span class="kt">uint32</span><span class="x">  </span><span class="o">--&gt;</span><span class="x"> </span><span class="m">0x04</span><span class="x">
 
-    </span><span class="n">root</span><span class="x">     </span><span class="n">bucket</span><span class="x"> </span><span class="o">--&gt;</span><span class="x"> </span><span class="n">root</span><span class="o">+</span><span class="n">sequence</span><span class="x"> </span><span class="m">16</span><span class="n">bytes</span><span class="p">,</span><span class="x"> </span><span class="n">seq</span><span class="x"> </span><span class="k">for</span><span class="x"> </span><span class="n">bucket</span><span class="x"> </span><span class="n">uniq</span><span class="x"> </span><span class="n">id</span><span class="x">
+    </span><span class="n">root</span><span class="x">     </span><span class="n">bucket</span><span class="o">:</span><span class="x"> </span><span class="n">root</span><span class="o">+</span><span class="n">sequence</span><span class="x"> </span><span class="m">16</span><span class="n">types</span><span class="p">,</span><span class="x"> </span><span class="n">seq</span><span class="x"> </span><span class="k">for</span><span class="x"> </span><span class="n">bucket</span><span class="x"> </span><span class="n">uniq</span><span class="x"> </span><span class="n">id</span><span class="x">
 
     </span><span class="n">freelist</span><span class="x"> </span><span class="n">pgid</span><span class="x">
     </span><span class="n">pgid</span><span class="x">     </span><span class="n">pgid</span><span class="x"> </span><span class="o">--&gt;</span><span class="x"> </span><span class="n">last</span><span class="x"> </span><span class="n">available</span><span class="x"> </span><span class="n">pgid</span><span class="x">
@@ -147,11 +128,13 @@
     </span><span class="n">checksum</span><span class="x"> </span><span class="kt">uint64</span><span class="x">
   </span><span class="p">}</span><span class="x">
 </span></code></pre></div>
-<h3>freelist</h3>
+<ul>
+<li>freelist
 
 <ul>
 <li>page, flags: 0x10</li>
 <li>mem:</li>
+</ul></li>
 </ul>
 <div class="highlight"><pre><code class="language-go" data-lang="go"><span class="x">  </span><span class="c">// freelist represents a list of all pages that are available for allocation.</span><span class="x">
   </span><span class="c">// It also tracks pages that have been freed but are still in use by open transactions.</span><span class="x">
@@ -162,20 +145,16 @@
   </span><span class="p">}</span><span class="x">
 </span></code></pre></div>
 <ul>
-<li>on disk:
+<li><p>on disk:</p>
 
 <ul>
 <li>p.count: # of pgids</li>
 <li>pgids: uint64[] -- sorted</li>
 <li>or 0xFFFF, first as count</li>
+<li>leafpage</li>
 </ul></li>
-</ul>
-
-<h3>leafpage</h3>
-
-<ul>
-<li>page, flags: 0x02</li>
-<li>p.count: keyN</li>
+<li><p>page, flags: 0x02</p></li>
+<li><p>p.count: keyN</p></li>
 </ul>
 <div class="highlight"><pre><code class="language-go" data-lang="go"><span class="x">  </span><span class="c">// leafPageElement represents a node on a leaf page.</span><span class="x">
   </span><span class="k">type</span><span class="x"> </span><span class="n">leafPageElement</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x">
@@ -185,73 +164,49 @@
       </span><span class="n">vsize</span><span class="x"> </span><span class="kt">uint32</span><span class="x">  </span><span class="m">0x20</span><span class="o">--</span><span class="x"> </span><span class="m">32</span><span class="err">?</span><span class="x">
   </span><span class="p">}</span><span class="x">
 </span></code></pre></div>
-<h3>bucket</h3>
+<ul>
+<li>bucket
 
 <ul>
 <li>leafPageElement</li>
 <li>vsize: bucket</li>
+</ul></li>
 </ul>
 <div class="highlight"><pre><code class="language-go" data-lang="go"><span class="x">  </span><span class="k">type</span><span class="x"> </span><span class="n">bucket</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x">
     </span><span class="n">root</span><span class="x">     </span><span class="n">pgid</span><span class="x">   </span><span class="c">// page id of the bucket's root-level page</span><span class="x">
     </span><span class="n">sequence</span><span class="x"> </span><span class="kt">uint64</span><span class="x"> </span><span class="c">// monotonically incrementing, used by NextSequence()</span><span class="x">
   </span><span class="p">}</span><span class="x">
 </span></code></pre></div>
-<h3>nodes &amp; inodes</h3>
-<div class="highlight"><pre><code class="language-go" data-lang="go"><span class="x">  </span><span class="c">// node represents an in-memory, deserialized page.</span><span class="x">
-  </span><span class="k">type</span><span class="x"> </span><span class="n">node</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x">
-      </span><span class="n">bucket</span><span class="x">     </span><span class="o">*</span><span class="n">Bucket</span><span class="x">
-      </span><span class="n">isLeaf</span><span class="x">     </span><span class="kt">bool</span><span class="x">
-      </span><span class="n">unbalanced</span><span class="x"> </span><span class="kt">bool</span><span class="x">
-      </span><span class="n">spilled</span><span class="x">    </span><span class="kt">bool</span><span class="x">
-      </span><span class="n">key</span><span class="x">        </span><span class="p">[]</span><span class="kt">byte</span><span class="x">
-      </span><span class="n">pgid</span><span class="x">       </span><span class="n">pgid</span><span class="x">
-      </span><span class="n">parent</span><span class="x">     </span><span class="o">*</span><span class="n">node</span><span class="x">
-      </span><span class="n">children</span><span class="x">   </span><span class="n">nodes</span><span class="x">
-      </span><span class="n">inodes</span><span class="x">     </span><span class="n">inodes</span><span class="x">
-  </span><span class="p">}</span><span class="x">
-
-  </span><span class="c">// inode represents an internal node inside of a node.</span><span class="x">
+<ul>
+<li>nodes &amp; inodes</li>
+</ul>
+<div class="highlight"><pre><code class="language-go" data-lang="go"><span class="x">  </span><span class="c">// inode represents an internal node inside of a node.</span><span class="x">
   </span><span class="c">// It can be used to point to elements in a page or point</span><span class="x">
   </span><span class="c">// to an element which hasn't been added to a page yet.</span><span class="x">
-  </span><span class="k">type</span><span class="x"> </span><span class="n">inode</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x"> </span><span class="c">//--&gt; not the same as file system's inode</span><span class="x">
+  </span><span class="k">type</span><span class="x"> </span><span class="n">inode</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x">
       </span><span class="n">flags</span><span class="x"> </span><span class="kt">uint32</span><span class="x">
       </span><span class="n">pgid</span><span class="x">  </span><span class="n">pgid</span><span class="x">
       </span><span class="n">key</span><span class="x">   </span><span class="p">[]</span><span class="kt">byte</span><span class="x">
       </span><span class="n">value</span><span class="x"> </span><span class="p">[]</span><span class="kt">byte</span><span class="x">
   </span><span class="p">}</span><span class="x">
 </span></code></pre></div>
-<ul>
-<li>bucket is a b+tree
+<p>not the same as file system&#39;s inode
+  - bucket is a b+tree
+    - node level, in memeory
+    - reblance, spill, split during tx commit</p>
 
 <ul>
-<li>node level, in memeory</li>
-<li>reblance, spill, split during tx commit</li>
-</ul></li>
-</ul>
+<li>cursor
 
-<h3>cursor</h3>
-<div class="highlight"><pre><code class="language-go" data-lang="go"><span class="c">// Cursor represents an iterator that can traverse over all key/value pairs in</span><span class="x">
-</span><span class="c">// a bucket in sorted order.</span><span class="x">
-</span><span class="c">//</span><span class="x">
-</span><span class="c">// Keys and values returned from the cursor are only valid for the life of the</span><span class="x">
-</span><span class="c">// transaction.</span><span class="x">
-</span><span class="c">//</span><span class="x">
-</span><span class="c">// Changing data while traversing with a cursor may cause it to be invalidated</span><span class="x">
-</span><span class="c">// and return unexpected keys and/or values. You must reposition your cursor</span><span class="x">
-</span><span class="c">// after mutating data.</span><span class="x">
-</span><span class="k">type</span><span class="x"> </span><span class="n">Cursor</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x">
-    </span><span class="n">bucket</span><span class="x"> </span><span class="o">*</span><span class="n">Bucket</span><span class="x">
-    </span><span class="n">stack</span><span class="x">  </span><span class="p">[]</span><span class="n">elemRef</span><span class="x">
-</span><span class="p">}</span><span class="x">
-</span></code></pre></div>
 <ul>
 <li><code>stack []elemRef</code> to record btree path to peticular node</li>
 <li><code>bucket</code> is similar to file directory</li>
+</ul></li>
 </ul>
 
 <h2>IO Path</h2>
 
-<p>From Howard Chu&#39;s <a href="https://www.slideshare.net/InfoQ/ldap-at-lightning-speed">slides</a>:</p>
+<p>From Howard Chu&#39;s slides:</p>
 
 <div style = "text-align: center;">
   <img src = "/img/btree-0.png" alt = "" style = "display: inline-block; width:45%">
@@ -265,28 +220,24 @@
 
 <ul>
 <li>read with mmap, buf--&gt;unsafe pointer--&gt;go structure</li>
-<li>write:
-
-<ul>
+<li>write:</li>
 <li>write data pages, writeAt</li>
 <li>write meta page, writeAt</li>
 <li>fdatasync</li>
 </ul></li>
-</ul></li>
 <li>space management
 
 <ul>
-<li>allocate pages (tx --&gt; db)
-
-<ol>
-<li>from freelist --&gt; array of free pages (lmdb is using another b+tree)</li>
-<li>from db end: [ meta.pgid, count ]</li>
-</ol></li>
-<li>free pages
+<li>allocate pages
+(tx --&gt; db)</li>
+<li>from freelist --&gt; array of free pages
+(lmdb is using another b+tree)</li>
+<li>from end: [ meta.pgid, count ]</li>
+<li>free pages</li>
+<li>freelist&#39;s pending list</li>
+<li>read pages still being used by read transactions
 
 <ul>
-<li>freelist&#39;s pending list</li>
-<li>read pages still being used by read transactions</li>
 <li>so avoid long-lived read transactions</li>
 </ul></li>
 <li>freelist pages also needs to be managed</li>
@@ -308,7 +259,7 @@
 
 <ul>
 <li>space free/allocated</li>
-<li>node path links</li>
+<li>path links</li>
 </ul></li>
 </ul>
 
@@ -349,16 +300,10 @@
 <li><a href="https://www.slideshare.net/InfoQ/ldap-at-lightning-speed">https://www.slideshare.net/InfoQ/ldap-at-lightning-speed</a>
 
 <ul>
-<li>better than BDB in all aspects</li>
-<li>solving caching problems</li>
-<li>lmdb support <code>reserve mode</code>, similar to fs allocation</li>
-<li><code>fixed mapping</code></li>
-</ul></li>
-<li>mmap makes cache management easier
-
-<ul>
-<li>without it, it should still be fine, like in kernel</li>
-<li>but need to implement readPage() and LRU by db itself</li>
+<li>Compare with BDB a lot</li>
+<li>Solving caching problems</li>
+<li>lmdb support reserve mode, similar to fs allocation</li>
+<li>fixed mapping</li>
 </ul></li>
 </ul>
 
