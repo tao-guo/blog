@@ -6,15 +6,35 @@ published: true
 author: Tao
 ---
 
-## [Bolt-db](https://github.com/boltdb/bolt)
+<!-- TOC -->
 
-Minimal kv DB with MVCC and transactions, 4K golang LOC, based on [lmdb](http://www.lmdb.tech/doc/).
+- [Architecture](#architecture)
+- [Data Structures](#data-structures)
+    - [DB](#db)
+    - [meta page](#meta-page)
+    - [freelist](#freelist)
+    - [leafpage](#leafpage)
+    - [bucket](#bucket)
+    - [nodes & inodes](#nodes--inodes)
+    - [cursor](#cursor)
+- [IO Path](#io-path)
+- [Transactions](#transactions)
+- [Limitations](#limitations)
+- [Further Readings](#further-readings)
+
+<!-- /TOC -->
+
+## Architecture
+
+[Bolt-db](https://github.com/boltdb/bolt) is a minimal kv DB with MVCC and transactions, 4K golang LOC, based on [lmdb](http://www.lmdb.tech/doc/). It is being used in Shopify and Heruko production systems.
+
+The architecture is like below, based on my own understanding:
 
 ![boltdb]({{site.baseurl}}/img/boltdb.svg)
 
-### Data Structures
+## Data Structures
 
-- DB (mem)
+### DB
 
 ```go
 // DB represents a collection of buckets persisted to a file on disk.
@@ -35,29 +55,28 @@ type DB struct {
 }
 ```
 
-- meta page
+### meta page
   - Two roots: page 0 and page 1
-  - The higer txid wins
+  - The page with higer txid wins
 
   ```go
   type page struct {
-    id       pgid
+    id       pgid --> prevent mis-directed writes, similar to RAID
     flags    uint16
     count    uint16 --> items, means different things for different types
     overflow uint32 --> count-1, so it can hold big keys
-    ptr      uintptr ---> point to meta
+    ptr      uintptr --> point to meta
   }
   ```
-  pgid to prevent mis-directed writes, similar to RAID
 
   ```go
   type meta struct {
     magic    uint32
     version  uint32
     pageSize uint32
-    flags    uint32  --> 0x04
+    flags    uint32 --> 0x04
 
-    root     bucket: root+sequence 16types, seq for bucket uniq id
+    root     bucket --> root+sequence 16bytes, seq for bucket uniq id
 
     freelist pgid
     pgid     pgid --> last available pgid
@@ -66,7 +85,7 @@ type DB struct {
   }
   ```
 
-- freelist
+### freelist
   - page, flags: 0x10
   - mem:
 
@@ -84,7 +103,7 @@ type DB struct {
     - pgids: uint64[] -- sorted
     - or 0xFFFF, first as count
 
-- leafpage
+### leafpage
   - page, flags: 0x02
   - p.count: keyN
 
@@ -98,7 +117,7 @@ type DB struct {
   }
   ```
 
-- bucket
+### bucket
   - leafPageElement
   - vsize: bucket
 
@@ -109,13 +128,26 @@ type DB struct {
   }
   ```
 
-  - nodes & inodes
+### nodes & inodes
 
   ```go
+  // node represents an in-memory, deserialized page.
+  type node struct {
+      bucket     *Bucket
+      isLeaf     bool
+      unbalanced bool
+      spilled    bool
+      key        []byte
+      pgid       pgid
+      parent     *node
+      children   nodes
+      inodes     inodes
+  }
+
   // inode represents an internal node inside of a node.
   // It can be used to point to elements in a page or point
   // to an element which hasn't been added to a page yet.
-  type inode struct {
+  type inode struct { //--> not the same as file system's inode
       flags uint32
       pgid  pgid
       key   []byte
@@ -123,18 +155,34 @@ type DB struct {
   }
   ```
 
-  not the same as file system's inode
   - bucket is a b+tree
     - node level, in memeory
     - reblance, spill, split during tx commit
 
-- cursor
+### cursor
+
+```go
+// Cursor represents an iterator that can traverse over all key/value pairs in
+// a bucket in sorted order.
+//
+// Keys and values returned from the cursor are only valid for the life of the
+// transaction.
+//
+// Changing data while traversing with a cursor may cause it to be invalidated
+// and return unexpected keys and/or values. You must reposition your cursor
+// after mutating data.
+type Cursor struct {
+    bucket *Bucket
+    stack  []elemRef
+}
+```
+
   - `stack []elemRef` to record btree path to peticular node
   - `bucket` is similar to file directory
 
 ## IO Path
 
-From Howard Chu's slides:
+From Howard Chu's [slides](https://www.slideshare.net/InfoQ/ldap-at-lightning-speed):
 
 <div style = "text-align: center;">
   <img src = "{{site.baseurl}}/img/btree-0.png" alt = "" style = "display: inline-block; width:45%">
@@ -146,19 +194,17 @@ From Howard Chu's slides:
 - read/write
   - read with mmap, buf-->unsafe pointer-->go structure
   - write:
-    - write data pages, writeAt
-    - write meta page, writeAt
-    - fdatasync
+      - write data pages, writeAt
+      - write meta page, writeAt
+      - fdatasync
 - space management
-  - allocate pages
-    (tx --> db)
-    1. from freelist --> array of free pages
-    (lmdb is using another b+tree)
-    2. from end: [ meta.pgid, count ]
+  - allocate pages (tx --> db)
+      1. from freelist --> array of free pages (lmdb is using another b+tree)
+      1. from db end: [ meta.pgid, count ]
   - free pages
-    - freelist's pending list
-    - read pages still being used by read transactions
-      - so avoid long-lived read transactions
+      - freelist's pending list
+      - read pages still being used by read transactions
+        - so avoid long-lived read transactions
   - freelist pages also needs to be managed
   - no gc or compaction
 - dbfile remap
@@ -169,7 +215,7 @@ From Howard Chu's slides:
   - only needs to fine the right meta page
 - check
   - space free/allocated
-  - path links
+  - node path links
 
 ## Transactions
 - two ping-pong b+trees, similar to `software update`
@@ -189,7 +235,10 @@ From Howard Chu's slides:
 
 ## Further Readings
 - <https://www.slideshare.net/InfoQ/ldap-at-lightning-speed>
-  - Compare with BDB a lot
-  - Solving caching problems
-  - lmdb support reserve mode, similar to fs allocation
-  - fixed mapping
+  - better than BDB in all aspects
+  - solving caching problems
+  - lmdb support `reserve mode`, similar to fs allocation
+  - `fixed mapping`
+- mmap makes cache management easier
+  - without it, it should still be fine, like in kernel
+  - but need to implement readPage() and LRU by db itself
