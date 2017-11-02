@@ -57,3 +57,6 @@ author: Tao
     - 各学科领域入门书籍: <https://www.douban.com/doulist/1246984/>，很多没有看过不好评价
     - <https://www.douban.com/doulist/3465409/>
 
+<div style = "height:50%;text-align: center;">
+  <img src = "http://westernreservepublicmedia.org/images/plant-the-seed-logo.png" alt = "">
+</div>
