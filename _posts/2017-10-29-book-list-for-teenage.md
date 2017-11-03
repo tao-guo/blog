@@ -6,7 +6,9 @@ published: true
 author: Tao
 ---
 
-<img src = "http://www.deliciousobsessions.com/wp-content/uploads/2011/12/BookList1.jpg" alt = "" style="display:none">
+<div>
+  <img src = "http://www.deliciousobsessions.com/wp-content/uploads/2011/12/BookList1.jpg" alt = "" style="display:none">
+</div>
 
 ## 计算机
   - [Code: The Hidden Language of Computer Hardware and Software]
