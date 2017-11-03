@@ -6,6 +6,8 @@ published: true
 author: Tao
 ---
 
+<img src = "http://www.deliciousobsessions.com/wp-content/uploads/2011/12/BookList1.jpg" alt = "" style="display:none">
+
 ## 计算机
   - [Code: The Hidden Language of Computer Hardware and Software]
   (https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
