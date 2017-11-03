@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Reading Notes -- 《Structured Computer Organization》</title>
+  <meta name="description" content="0. PREFACE">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.sumread.com/computer/2017/07/28/book-structured-computer-organization.html">
+  <link rel="alternate" type="application/rss+xml" title="Summary Reading Notes" href="http://www.sumread.com/feed.xml" />
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script src="https://txtpen.com/embed.js?site=sumread"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Summary Reading Notes</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Reading Notes -- 《Structured Computer Organization》</h1>
+    <p class="post-meta">Jul 28, 2017 • Tao</p>
+  </header>
+
+  <article class="post-content">
+    <h2>0. PREFACE</h2>
+
+<ul>
+<li>core idea: computer = a hierarchy of levels
+
+<ul>
+<li><em>digital logic level</em> -- Memory</li>
+<li>microarchitecture level -- CPU-internal</li>
+<li><em>instruction set architecture level</em> -- CPU-external</li>
+<li>operating-system machine level -- Virtualized (Mem,CPU, I/O)</li>
+<li>assembly language level -- App</li>
+</ul></li>
+<li>what&#39;s new in sixth:
+
+<ul>
+<li>up to date</li>
+<li>Intel Core i7: X86-based CPU, laptops, desktops and server machines 2008-code-name Nehalem</li>
+<li>Texas Instrument OMAP4430: ARM-based CPU, smartphones and tablets</li>
+<li>Atmel ATmegal68: AVR-based microcontroller, clock radios to microwave ovens
+
+<ul>
+<li>number much bigger than i3, i5, i7</li>
+<li>in Arduino single-board embedded computer (pizza dinner cost)</li>
+</ul></li>
+<li>assembly language programming</li>
+<li>8088, on website vs 6502</li>
+<li>could try on laptop, with tools</li>
+<li>longer (443-769 pages)</li>
+</ul></li>
+<li>chapter-by-chapter rundown, and also changes from fifth
+
+<ul>
+<li>ch1: history, with more to cover: FPGAs, smartphones, tablets ...</li>
+<li>ch2: with GPUs, flash-based storage devices, game controllers, touch screens</li>
+<li>ch3: FPGAs</li>
+<li>ch4: with new CPUs</li>
+<li>ch5: ARM and AVR ISAs</li>
+<li>ch6: windows7</li>
+<li>ch7: no change</li>
+<li>ch8: i7 multiprocessor, NVIDIA Fermi GPU, BlueGene, Red Storm</li>
+<li>ch9: gone, suggested readings moved to website</li>
+<li><a href="http://www.pearsonhighered.com/tanenbaum">http://www.pearsonhighered.com/tanenbaum</a>
+
+<ul>
+<li>assembler/tracer software</li>
+<li>ch4 graphical simulator</li>
+<li>suggested readings</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h2>1. INTRODUCTION</h2>
+
+<ul>
+<li>program, machine language, structured computer organization</li>
+</ul>
+
+<h3>1.1 STRUCTURED COMPUTER ORGANIZATION 2</h3>
+
+<h4>1.1.1 Languages, Levels, and Virtual Machines 2</h4>
+
+<ul>
+<li>translation vs. interpretation</li>
+<li>levels, cost</li>
+</ul>
+
+<h4>1.1.2 Contemporary Multilevel Machines 5</h4>
+
+<ul>
+<li>L0: gates from transistors
+
+<ul>
+<li>below: solid-state physics, CMOS</li>
+<li>register</li>
+</ul></li>
+</ul>
+
+<blockquote>
+<p>Hardware and software are logically equivalent.
+- L5: high level languages like python, java, C++ ...
+- Computer architecture vs. computer organization
+  - one layer vs. more parts
+  - mostly the same</p>
+</blockquote>
+
+<h4>1.1.3 Evolution of Multilevel Machines 8</h4>
+
+<ul>
+<li>Two levels at first: ISA and digital logic level</li>
+<li>Hardware: rather than <strong>abstract ideas</strong>, algorithms, or instructions.</li>
+<li><p>inventions</p>
+
+<ul>
+<li>microprogramming: to make hardware design simple</li>
+<li>two levels --&gt; three levels</li>
+<li>OS: reduce manual processes, keep it running all the time</li>
+<li>FMS(Fortune Monitor): compile and read data
+
+<ul>
+<li>only run two programs at first</li>
+<li>then I/O calls, system calls</li>
+<li>batch systems --&gt; timesharing, terminal</li>
+<li>this book only focus on differences from ISA</li>
+</ul></li>
+<li>As library: system calls</li>
+<li>Timesharing</li>
+<li>Like a society, it finally formed a goverment</li>
+<li>The Migration of Functionality to Microcode
+
+<ul>
+<li>more microprograms: INC, MUL, STR ...</li>
+<li>more features: relocation, interrupt, switching</li>
+</ul></li>
+<li><p>the elimination of microprograms</p>
+
+<ul>
+<li>mordern processors still do translation to internal microcode</li>
+</ul>
+
+<blockquote>
+<p>Today’s software may be
+tomorrow’s hardware, and vice versa. Furthermore, the boundaries between the
+various levels are also fluid. From the programmer’s point of view, how an instruc-
+tion is actually implemented is unimportant (except perhaps for its speed). A per-
+son programming at the ISA level can use its multiply instruction as though it were
+a hardware instruction without having to worry about it, or even be aware of
+whether it really is a hardware instruction. One person’s hardware is another per-
+son’s software.</p>
+</blockquote></li>
+</ul></li>
+</ul>
+
+<h4>1.2 MILESTONES IN COMPUTER ARCHITECTURE 13</h4>
+
+<ul>
+<li>brief sketch of some of the key historical developments</li>
+<li>Potrit book: <a href="https://archive.org/details/wizardstheirwonder00morg">https://archive.org/details/wizardstheirwonder00morg</a></li>
+</ul>
+
+<h4>1.2.1 The Zeroth Generation–Mechanical Computers (1642—1945) 13</h4>
+
+<ul>
+<li>Pascal (1623–1662) at age 19: with gears and crank, to do add/substraction</li>
+<li>Leibniz (1646–1716): multiply and divide, <a href="http://www.computerhistory.org/revolution/calculators/1/49">four-function pocket calculator</a></li>
+<li>Babbage (1792–1871)
+
+<ul>
+<li>difference engine: one algorithm for naval navigation</li>
+<li>analytical engine:</li>
+<li>the store (memory)</li>
+<li>the mill (computation unit)</li>
+<li>the input section (punched-card reader)</li>
+<li>the output section (punched and printed output)</li>
+<li>Ada as the first programmer</li>
+</ul></li>
+<li>Konrad Zuse 1930
+
+<ul>
+<li>engineering student</li>
+<li>automatic calculating machines using electromagnetic relays</li>
+</ul></li>
+<li>Shannon 1938 master thesis: A Symbolic Analysis of Relay and Switching Circuits</li>
+<li>John Vincent Atanasoff at Iowa State College and Stibbitz at Bell Labs 1940
+
+<ul>
+<li>binary arithmetic, capacitors for memory (refresh like DRAM)</li>
+</ul></li>
+</ul>
+
+<h4>1.2.2 The First Generation–Vacuum Tubes (1945—1955) 16</h4>
+
+<ul>
+<li>ENIGMA vs. COLOSSUS</li>
+<li>ENIAC, not finished (1943-1946), summer school, decimal </li>
+<li>EDVAC, unisys corp.</li>
+<li>von Neumann: program in the computer’s memory
+
+<ul>
+<li>EDSAC, the first stored-program computer, with Goldstine</li>
+<li>The von Neumann machine</li>
+<li>accumulator</li>
+</ul></li>
+<li>MIT IAS
+
+<ul>
+<li>real-time control</li>
+<li>magnetic core memory</li>
+</ul></li>
+<li>IBM 701 (1953), 704</li>
+</ul>
+
+<h4>1.2.3 The Second Generation–Transistors (1955—1965) 19</h4>
+
+<ul>
+<li>Bell Labs in 1948 by John Bardeen, Walter Brattain, and William Shockley</li>
+<li>TX-0: first transistorized computer was built at M.I.T.’s Lincoln Laboratory</li>
+<li>DEC
+
+<ul>
+<li>PDP-1</li>
+<li><a href="https://en.wikipedia.org/wiki/PDP-8">PDP-8</a>: <strong>bus</strong>, <strong>DMA</strong>, minicomputer</li>
+</ul></li>
+<li>CDC 6600, 1964 - with small computers
+
+<ul>
+<li>Seymour Cray: buying car algorithm</li>
+</ul></li>
+<li>Burroughs B5000: in algol 60</li>
+</ul>
+
+<h4>1.2.4 The Third Generation–Integrated Circuits (1965—1980) 21</h4>
+
+<ul>
+<li>IBM System/360
+
+<ul>
+<li>compatible</li>
+<li>multiprogramming</li>
+<li>emulate(simulate) old systems: Wilkes&#39;s microprogramming</li>
+<li>huge address space 2^24, but still requires upgrade later</li>
+</ul></li>
+<li>DEC&#39;s PDP-11</li>
+</ul>
+
+<h4>1.2.5 The Fourth Generation–Very Large Scale Integration (1980—?) 23</h4>
+
+<ul>
+<li>VLSI (Very Large Scale Integration), PC era</li>
+<li>used for word processing, spreadsheets, and numerous highly interactive applications (such as games)</li>
+<li>Intel 8080, some cables, a power supply, and perhaps an 8-inch floppy disk
+
+<ul>
+<li>CP/M operating system</li>
+</ul></li>
+<li>Apple
+
+<ul>
+<li>later with GUI</li>
+</ul></li>
+<li>IBM: quite uncharacteristic
+
+<ul>
+<li>bag of money to build PC</li>
+<li>published the complete plans, including all the circuit diagrams only caused <em>clones</em></li>
+<li>helped Intel and Microsoft</li>
+</ul></li>
+<li>RISC in mid-1980
+
+<ul>
+<li>superscalar CPUs</li>
+</ul></li>
+<li>FPGA in mid-1980
+
+<ul>
+<li>Ross Freeman at Xilinx</li>
+<li>hardware malleable as software</li>
+</ul></li>
+<li>DEC 1992
+
+<ul>
+<li>64-bit Alpha, a true 64-bit RISC machine</li>
+</ul></li>
+<li>slow down
+
+<ul>
+<li>architects were running out of tricks to make programs faster</li>
+<li>the processors were getting too expensive to cool</li>
+<li>turning toward parallel architectures</li>
+<li>in 2001 IBM introduced the POWER4 dual-core architecture</li>
+<li>require programmers to explicitly parallelize programs, which is a difficult and error-prone task.</li>
+</ul></li>
+</ul>
+
+<h4>1.2.6 The Fifth Generation–Low-Power and Invisible Computers 26</h4>
+
+<ul>
+<li>Japanese: based on artificial intelligence and represent a quantum leap
+
+<ul>
+<li>failed and was quietly abandoned</li>
+<li>a visionary idea but so far ahead of its time</li>
+</ul></li>
+<li>PDAs, smartphones</li>
+<li>&quot;invisible&quot; computers
+
+<ul>
+<li><em>codesign</em> software and hardware</li>
+<li>paradigm shift</li>
+<li>ubiquitous computing, but the term <em>pervasive computing</em></li>
+<li>not too much information in this book</li>
+<li><a href="https://zhuanlan.zhihu.com/p/22965003">https://zhuanlan.zhihu.com/p/22965003</a></li>
+</ul></li>
+</ul>
+
+<h4>1.3 THE COMPUTER ZOO 28</h4>
+
+<h4>1.3.1 Technological and Economic Forces 28</h4>
+
+<ul>
+<li>Moore’s law and virtuous circle</li>
+<li>Nathan’s first law of software</li>
+<li>telecommunication and networking</li>
+</ul>
+
+<h4>1.3.2 The Computer Spectrum 30</h4>
+
+<h4>1.3.3 Disposable Computers 31</h4>
+
+<ul>
+<li>RFID chip
+
+<ul>
+<li>powered by the incoming radio signal long enough to transmit their number back to the antenna</li>
+<li>applications</li>
+<li>removing bar codes from products</li>
+<li>identify the specific item</li>
+<li>vehicle tracking<br></li>
+<li>Airline baggage systems and others</li>
+<li>can contain permanent storage</li>
+<li>not only passive</li>
+</ul></li>
+</ul>
+
+<h4>1.3.4 Microcontrollers 33</h4>
+
+<ul>
+<li>cars with 50 microcontrollers easily</li>
+<li>complete computer</li>
+<li>in real time</li>
+<li>physical constraints</li>
+<li>cheap: Arduino system, open-source
+
+<ul>
+<li>programming language called Wiring</li>
+<li>example: a moisture detector that sends email when a plant needs to be watered</li>
+</ul></li>
+</ul>
+
+<h4>1.3.5 Mobile and Game Computers 35</h4>
+
+<h4>1.3.6 Personal Computers 36</h4>
+
+<h4>1.3.7 Servers 36</h4>
+
+<ul>
+<li>clusters
+
+<ul>
+<li>consist of standard server-class systems connected by gigabit/sec networks</li>
+<li>running special software that allow all the machines to work together on a single problem</li>
+<li>often in business, science or engineering.</li>
+</ul></li>
+<li>cloud computing, which is mainframe computing V2.0</li>
+<li>new revolution?</li>
+</ul>
+
+<h4>1.3.8 Mainframes 38</h4>
+
+<ul>
+<li>e-commerce transactions per second, particularly in businesses with huge databases.</li>
+<li>supercomputers</li>
+</ul>
+
+<blockquote>
+<p>in recent years, data centers constructed from commodity components
+have come to offer as much computing power at much lower prices, and the true
+supercomputers are now a dying breed.</p>
+</blockquote>
+
+<h4>1.4 EXAMPLE COMPUTER FAMILIES 39</h4>
+
+<h4>1.4.1 Introduction to the x86 Architecture 39</h4>
+
+<h4>1.4.2 Introduction to the ARM Architecture 45</h4>
+
+<ul>
+<li>Nvidia Tegra 2</li>
+</ul>
+
+<h4>1.4.3 Introduction to the AVR Architecture 47</h4>
+
+<ul>
+<li>an 8-bit CPU, basic digital I/O support, and analog input support</li>
+<li>with flash, EEPROM, and RAM
+
+<ul>
+<li>Flash memory is programmable using an external interface and high voltages</li>
+<li>store program code and data</li>
+<li>EEPROM: user configuration information</li>
+</ul></li>
+</ul>
+
+<h4>1.5 METRIC UNITS 49</h4>
+
+<h4>1.6 OUTLINE OF THIS BOOK 50</h4>
+
+<h2>2. COMPUTER SYSTEMS ORGANIZATION</h2>
+
+<h3>2.1 PROCESSORS 55</h3>
+
+<ul>
+<li>Program Counter (PC)</li>
+<li>Instruction Register (IR)</li>
+</ul>
+
+<h3>2.1.1 CPU Organization 56</h3>
+
+<ul>
+<li>data path</li>
+<li>ALU (Arithmetic Logic Unit)</li>
+<li>instructions
+
+<ul>
+<li>register-memory or register-register</li>
+<li>fast: data path cycle</li>
+</ul></li>
+</ul>
+
+<h3>2.1.2 Instruction Execution 58</h3>
+
+<ul>
+<li>fetch-decode-execute cycle</li>
+<li>interpreter was popular
+
+<ul>
+<li>DEC VAX: 200 ways, fatal</li>
+<li>fast read-only memories, called control stores</li>
+</ul></li>
+</ul>
+
+<h3>2.1.3 RISC versus CISC 62</h3>
+
+<ul>
+<li>RISC
+
+<ul>
+<li>David Patterson, 1980</li>
+<li>John Hennessy, MIPS, 1984</li>
+</ul></li>
+<li>battle not won?
+
+<ul>
+<li>backward compatibility</li>
+<li>hybrid approach</li>
+</ul></li>
+</ul>
+
+<h3>2.1.4 Design Principles for Modern Computers 63</h3>
+
+<ul>
+<li>All Instructions Are Directly Executed by Hardware</li>
+<li>Maximize the Rate at Which Instructions Are Issued</li>
+<li>Instructions Should Be Easy to Decode</li>
+<li>Only Loads and Stores Should Reference Memory</li>
+<li>Provide Plenty of Registers</li>
+</ul>
+
+<h3>2.1.5 Instruction-Level Parallelism 65</h3>
+
+<ul>
+<li>instruction-level parallelism and processor-level parallelism</li>
+<li>pipelining
+
+<ul>
+<li>fetching of instructions from memory is a major bottleneck</li>
+<li>prefetch buffer</li>
+<li>five stages</li>
+<li>trade-off between latency and processor bandwidth</li>
+</ul></li>
+<li>Superscalar Architectures
+
+<ul>
+<li>either the compiler must guarantee this situation to hold</li>
+<li>or conflicts must be detected and eliminated during execution using extra hardware</li>
+<li>Intel</li>
+<li>486 learned from RISC: one pipeline</li>
+<li>Pentium: two pipeline</li>
+<li>single pipeline but give it multiple functional units</li>
+<li>superscalar: multiple instructions in a single clock</li>
+<li>speedup S4, multiple ALUs</li>
+</ul></li>
+</ul>
+
+<h3>2.1.6 Processor-Level Parallelism 69</h3>
+
+<ul>
+<li>Data parallel computers
+
+<ul>
+<li>loops and arrays</li>
+<li>SIMD processors</li>
+<li>ILLIAC IV, UIUC 1972</li>
+<li>GPUs: 512 operations per cycle</li>
+<li>vector processors: extension to single processor</li>
+<li>Cray 1974</li>
+<li>vector register</li>
+<li>Intel SSE</li>
+<li>Multiprocessors</li>
+<li>more than one CPU sharing a common memory</li>
+<li>coordinate memory access</li>
+<li>with local cache</li>
+<li>easier to program</li>
+<li>Multicomputers</li>
+<li>private memory, loosely coupled</li>
+<li>communicate by sending each other messages</li>
+<li>IBM’s Blue Gene</li>
+<li>easier to build</li>
+<li>hybrid systems: illusion of shared memory</li>
+</ul></li>
+</ul>
+
+<h3>2.2 PRIMARY MEMORY 73</h3>
+
+<h3>2.2.1 Bits 74</h3>
+
+<h3>2.2.2 Memory Addresses 74</h3>
+
+<ul>
+<li>bit, byte, word</li>
+<li>most instructions operate on entire word</li>
+</ul>
+
+<h3>2.2.3 Byte Ordering 76</h3>
+
+<ul>
+<li>little endian, small edian</li>
+</ul>
+
+<h3>2.2.4 Error-Correcting Codes 78</h3>
+
+<ul>
+<li>ECC, codeword</li>
+<li><strong>Hamming distance</strong>
+
+<ul>
+<li>to correct d single-bit errors, you need a distance 2d + 1 code</li>
+<li>2^n for correct bits</li>
+</ul></li>
+</ul>
+
+<h3>2.2.5 Cache Memory 82</h3>
+
+<ul>
+<li>compiler is forced to insert NOP</li>
+<li>having a small amount of fast memory or a large amount of slow memory</li>
+<li>locality principle</li>
+<li>hit ratio/ miss ratio</li>
+<li>caches are divided up into fixed-size blocks: cache lines</li>
+<li>performance
+
+<ol>
+<li>cache size</li>
+<li>cache line size</li>
+<li>how to organize?</li>
+<li>unified cache or split cache</li>
+<li>number of caches</li>
+</ol></li>
+</ul>
+
+<h3>2.2.6 Memory Packaging and Types 85</h3>
+
+<ul>
+<li>SIMM, DIMM, SO-DIMM (laptop)</li>
+</ul>
+
+<h3>2.3 SECONDARYMEMORY 86</h3>
+
+<h3>2.3.1 Memory Hierarchies 86</h3>
+
+<h3>2.3.2 Magnetic Disks 87</h3>
+
+<ul>
+<li>ECC or RS code, 15%</li>
+<li>preambles</li>
+<li>disk controller, a chip that controls the drive</li>
+<li>Some controllers also handle
+
+<ul>
+<li>buffering of multiple sectors</li>
+<li>caching sectors read for potential future use</li>
+<li>remapping bad sectors</li>
+</ul></li>
+</ul>
+
+<h3>2.3.3 IDE Disks 91</h3>
+
+<ul>
+<li>LBA, ATA, SATA</li>
+</ul>
+
+<h3>2.3.4 SCSI Disks 92</h3>
+
+<ul>
+<li>SCSI (Small Computer System Interface)</li>
+<li>SCSI controllers and peripherals can operate either as initiators or as targets.</li>
+<li>SAS: Serial SCSI
+
+<ul>
+<li>expander</li>
+<li>layers</li>
+</ul></li>
+</ul>
+
+<h3>2.3.5 RAID 94</h3>
+
+<ul>
+<li>Thinking Machines CM-2: 38-bit Hamming word</li>
+</ul>
+
+<h3>2.3.6 Solid-State Disks 97</h3>
+
+<ul>
+<li>transistors slowly wear out as they are used</li>
+<li>Fujio Masuoka 1980, flash memory</li>
+<li>wear leveling</li>
+<li>multilevel flash cells
+
+<ul>
+<li>typical: four charge levels, yielding two bits per flash cell</li>
+</ul></li>
+</ul>
+
+<h3>2.3.7 CD-ROMs 99</h3>
+
+<ul>
+<li>distributing software</li>
+<li>making backups of hard disks</li>
+</ul>
+
+<h3>2.3.8 CD-Recordables 103</h3>
+
+<h3>2.3.9 CD-Rewritables 105</h3>
+
+<ul>
+<li>CD-R cannot be accidentally erased is a feature, not a bug</li>
+</ul>
+
+<h3>2.3.10 DVD 106</h3>
+
+<h3>2.3.11 Blu-ray 108</h3>
+
+<h3>2.4 INPUT/OUTPUT 108</h3>
+
+<h3>2.4.1 Buses 108</h3>
+
+<ul>
+<li>Each I/O device consists of two parts
+
+<ul>
+<li>controller</li>
+<li>I/O device itself</li>
+</ul></li>
+<li>DMA
+
+<ul>
+<li>bypass CPU</li>
+<li>interrupt handler</li>
+</ul></li>
+<li>bus arbiter
+
+<ul>
+<li>cycle stealing</li>
+</ul></li>
+<li>PCI bus
+
+<ul>
+<li>designed by Intel, opened</li>
+<li>seperate from memory bus</li>
+</ul></li>
+<li>PCIe
+
+<ul>
+<li>not even a bus at all. It is point-to-point network using bit-serial lines and packet switching</li>
+<li>Similar to SAS</li>
+<li>avoid skew issue</li>
+<li>wire pairs, called lanes</li>
+<li>PCIe 3.0: 16GB/s</li>
+<li>point to point: use PCIe switch</li>
+</ul></li>
+</ul>
+
+<h3>2.4.2 Terminals 113</h3>
+
+<ul>
+<li>keyboard, screens</li>
+</ul>
+
+<h3>2.4.3 Mice 118</h3>
+
+<h3>2.4.4 Game Controllers 120</h3>
+
+<ul>
+<li>Kinet: based on a depth camera combined with a video camera</li>
+</ul>
+
+<h3>2.4.5 Printers 122</h3>
+
+<h3>2.4.6 Telecommunications Equipment 127</h3>
+
+<h3>2.4.7 Digital Cameras 135</h3>
+
+<h3>2.4.8 Character Codes 137</h3>
+
+<h3>2.5 SUMMARY 142</h3>
+
+<h2>3. THE DIGITAL LOGIC LEVEL</h2>
+
+<ul>
+<li>3.1 GATES AND BOOLEAN ALGEBRA 147
+
+<ul>
+<li>3.1.1 Gates 148</li>
+<li>3.1.2 Boolean Algebra 150</li>
+<li>3.1.3 Implementation of Boolean Functions 152</li>
+<li>3.1.4 Circuit Equivalence 153</li>
+</ul></li>
+<li>3.2 BASIC DIGITAL LOGIC CIRCUITS 158
+
+<ul>
+<li>3.2.1 Integrated Circuits 158</li>
+<li>3.2.2 Combinational Circuits 159</li>
+<li>3.2.3 Arithmetic Circuits 163</li>
+<li>3.2.4 Clocks 168</li>
+</ul></li>
+<li>3.3 MEMORY 169
+
+<ul>
+<li>3.3.1 Latches 169</li>
+<li>3.3.2 Flip-Flops 172</li>
+<li>3.3.3 Registers 174</li>
+<li>3.3.4 Memory Organization 174</li>
+<li>3.3.5 Memory Chips 178</li>
+<li>3.3.6 RAMs and ROMs 180</li>
+</ul></li>
+<li>3.4 CPU CHIPS AND BUSES 185
+
+<ul>
+<li>3.4.1 CPU Chips 185</li>
+<li>3.4.2 Computer Buses 187</li>
+<li>3.4.3 Bus Width 190</li>
+<li>3.4.4 Bus Clocking 191</li>
+<li>3.4.5 Bus Arbitration 196</li>
+<li>3.4.6 Bus Operations 198</li>
+</ul></li>
+<li>3.5 EXAMPLE CPU CHIPS 201
+
+<ul>
+<li>3.5.1 The Intel Core i7 201</li>
+<li>3.5.2 The Texas Instruments OMAP4430 System-on-a-Chip 208</li>
+<li>3.5.3 The Atmel ATmega168 Microcontroller 212</li>
+</ul></li>
+<li>3.6 EXAMPLE BUSES 214
+
+<ul>
+<li>3.6.1 The PCI Bus 215</li>
+<li>3.6.2 PCI Express 223</li>
+<li>3.6.3 The Universal Serial Bus 228</li>
+</ul></li>
+<li>3.7 INTERFACING 232
+
+<ul>
+<li>3.7.1 I/O Interfaces 232</li>
+<li>3.7.2 Address Decoding 233</li>
+</ul></li>
+<li>3.8 SUMMARY 235</li>
+</ul>
+
+<h2>4. THE MICROARCHITECTURE LEVEL</h2>
+
+<ul>
+<li>4.1 AN EXAMPLE MICROARCHITECTURE 243
+
+<ul>
+<li>4.1.1 The Data Path 244</li>
+<li>4.1.2 Microinstructions 251</li>
+<li>4.1.3 Microinstruction Control: The Mic-1 253</li>
+</ul></li>
+<li>4.2 AN EXAMPLE ISA: IJVM 258
+
+<ul>
+<li>4.2.1 Stacks 258</li>
+<li>4.2.2 The IJVM Memory Model 260</li>
+<li>4.2.3 The IJVM Instruction Set 262</li>
+<li>4.2.4 Compiling Java to IJVM 266</li>
+</ul></li>
+<li>4.3 AN EXAMPLE IMPLEMENTATION 267
+
+<ul>
+<li>4.3.1 Microinstructions and Notation 267</li>
+<li>4.3.2 Implementation of IJVM Using the Mic-1 272</li>
+</ul></li>
+<li>4.4 DESIGN OF THE MICROARCHITECTURE LEVEL 283
+
+<ul>
+<li>4.4.1 Speed versus Cost 283</li>
+<li>4.4.2 Reducing the Execution Path Length 286</li>
+<li>4.4.3 A Design with Prefetching: The Mic-2 293</li>
+<li>4.4.4 A Pipelined Design: The Mic-3 293</li>
+<li>4.4.5 A Seven-Stage Pipeline: The Mic-4 301</li>
+</ul></li>
+<li>4.5 IMPROVING PERFORMANCE 305
+
+<ul>
+<li>4.5.1 Cache Memory 306</li>
+<li>4.5.2 Branch Prediction 312</li>
+<li>4.5.3 Out-of-Order Execution and Register Renaming 317</li>
+<li>4.5.4 Speculative Execution 322</li>
+</ul></li>
+<li>4.6 EXAMPLES OF THE MICROARCHITECTURE LEVEL 324
+
+<ul>
+<li>4.6.1 The Microarchitecture of the Core i7 CPU 325</li>
+<li>4.6.2 The Microarchitecture of the OMAP4430 CPU 331</li>
+<li>4.6.3 The Microarchitecture of the ATmega168 Microcontroller 336</li>
+</ul></li>
+<li>4.7 COMPARISON OF THE I7, OMAP4430, AND ATMEGA168 338</li>
+<li>4.8 SUMMARY 339</li>
+</ul>
+
+<h2>5. THE INSTRUCTION SET</h2>
+
+<ul>
+<li>5.1 OVERVIEW OF THE ISA LEVEL
+
+<ul>
+<li>5.1.1 Properties of the ISA Level</li>
+<li>5.1.2 Memory Models</li>
+<li>5.1.3 Registers</li>
+<li>5.1.4 Instructions</li>
+<li>5.1.5 Overview of the Core i7 ISA Level</li>
+<li>5.1.6 Overview of the OMAP4430 ARM ISA Level</li>
+<li>5.1.7 Overview of the ATmega168 AVR ISA Level</li>
+</ul></li>
+<li>5.2 DATA TYPES
+
+<ul>
+<li>5.2.1 Numeric Data Types</li>
+<li>5.2.2 Nonnumeric Data Types</li>
+<li>5.2.3 Data Types on the Core i7</li>
+<li>5.2.4 Data Types on the OMAP4430 ARM CPU</li>
+<li>5.2.5 Data Types on the ATmega168 AVR CPU</li>
+</ul></li>
+<li>5.3 INSTRUCTION FORMATS
+
+<ul>
+<li>5.3.1 Design Criteria for Instruction Formats</li>
+<li>5.3.2 Expanding Opcodes</li>
+<li>5.3.3 The Core i7 Instruction Formats</li>
+<li>5.3.4 The OMAP4430 ARM CPU Instruction Formats</li>
+<li>5.3.5 The ATmega168 AVR Instruction Formats</li>
+</ul></li>
+<li>5.4 ADDRESSING
+
+<ul>
+<li>5.4.1 Addressing Modes</li>
+<li>5.4.2 Immediate Addressing</li>
+<li>5.4.3 Direct Addressing</li>
+<li>5.4.4 Register Addressing</li>
+<li>5.4.5 Register Indirect Addressing</li>
+<li>5.4.6 Indexed Addressing</li>
+<li>5.4.7 Based-Indexed Addressing</li>
+<li>5.4.8 Stack Addressing</li>
+<li>5.4.9 Addressing Modes for Branch Instructions</li>
+<li>5.4.10 Orthogonality of Opcodes and Addressing Modes</li>
+<li>5.4.11 The Core i7 Addressing Modes</li>
+<li>5.4.12 The OMAP4440 ARM CPU Addressing Modes</li>
+<li>5.4.13 The ATmega168 AVR Addressing Modes</li>
+<li>5.4.14 Discussion of Addressing Modes</li>
+</ul></li>
+<li>5.5 INSTRUCTION TYPES
+
+<ul>
+<li>5.5.1 Data Movement Instructions</li>
+<li>5.5.2 Dyadic Operations</li>
+<li>5.5.3 Monadic Operations</li>
+<li>5.5.4 Comparisons and Conditional Branches</li>
+<li>5.5.5 Procedure Call Instructions</li>
+<li>5.5.6 Loop Control</li>
+<li>5.5.7 Input/Output</li>
+<li>5.5.8 The Core i7 Instructions</li>
+<li>5.5.9 The OMAP4430 ARM CPU Instructions</li>
+<li>5.5.10 The ATmega168 AVR Instructions</li>
+<li>5.5.11 Comparison of Instruction Sets</li>
+</ul></li>
+<li>5.6 FLOWOF CONTROL
+
+<ul>
+<li>5.6.1 Sequential Flow of Control and Branches</li>
+<li>5.6.2 Procedures</li>
+<li>5.6.3 <strong>Coroutines</strong></li>
+<li>5.6.4 <strong>Traps</strong></li>
+<li>5.6.5 <strong>Interrupts</strong></li>
+</ul></li>
+<li>5.7 A DETAILED EXAMPLE: THE TOWERS OF HANOI
+
+<ul>
+<li>5.7.1 The Towers of Hanoi in Core i7 Assembly Language</li>
+<li>5.7.2 The Towers of Hanoi in OMAP4430 ARM Assembly Language</li>
+</ul></li>
+<li>5.8 THE IA-64 ARCHITECTURE AND THE ITANIUM 2
+
+<ul>
+<li>5.8.1 The Problem with the IA-32 ISA</li>
+<li>5.8.2 The IA-64 Model: Explicitly Parallel Instruction Computing</li>
+<li>5.8.3 Reducing Memory References</li>
+<li>5.8.4 Instruction Scheduling</li>
+<li>5.8.5 Reducing Conditional Branches: Predication</li>
+<li>5.8.6 Speculative Loads</li>
+</ul></li>
+<li>5.9 SUMMARY</li>
+</ul>
+
+<h2>6. THE OPERATING SYSTEM</h2>
+
+<ul>
+<li>6.1 VIRTUAL MEMORY
+
+<ul>
+<li>6.1.1 Paging</li>
+<li>6.1.2 Implementation of Paging</li>
+<li>6.1.3 Demand Paging and the Working Set Model</li>
+<li>6.1.4 Page Replacement Policy</li>
+<li>6.1.5 Page Size and Fragmentation</li>
+<li>6.1.6 Segmentation</li>
+<li>6.1.7 Implementation of Segmentation</li>
+<li>6.1.8 Virtual Memory on the Core i7</li>
+<li>6.1.9 Virtual Memory on the OMAP4430 ARM CPU</li>
+<li>6.1.10 Virtual Memory and Caching</li>
+</ul></li>
+<li>6.2 VIRTUAL I/O INSTRUCTIONS
+
+<ul>
+<li>6.2.1 Files</li>
+<li>6.2.2 Implementation of Virtual I/O Instructions</li>
+<li>6.2.3 Directory Management Instructions</li>
+</ul></li>
+<li>6.3 VIRTUAL INSTRUCTIONS FOR PARALLEL PROCESSING
+
+<ul>
+<li>6.3.1 Process Creation</li>
+<li>6.3.2 Race Conditions</li>
+<li>6.3.3 Process Synchronization Using Semaphores</li>
+</ul></li>
+<li>6.4 EXAMPLE OPERATING SYSTEMS
+
+<ul>
+<li>6.4.1 Introduction</li>
+<li>6.4.2 Examples of Virtual Memory</li>
+<li>6.4.3 Examples of Virtual I/O</li>
+<li>6.4.4 Examples of Process Management</li>
+</ul></li>
+<li>6.5 SUMMARY</li>
+</ul>
+
+<h2>7. THE ASSEMBLY LANGUAGE LEVEL</h2>
+
+<ul>
+<li>7.1 INTRODUCTION TO ASSEMBLY LANGUAGE
+
+<ul>
+<li>7.1.1 What Is an Assembly Language?</li>
+<li>7.1.2 Why Use Assembly Language?</li>
+<li>7.1.3 Format of an Assembly Language Statement</li>
+<li>7.1.4 Pseudoinstructions</li>
+</ul></li>
+<li>7.2 MACROS
+
+<ul>
+<li>7.2.1 Macro Definition, Call, and Expansion</li>
+<li>7.2.2 Macros with Parameters</li>
+<li>7.2.3 Advanced Features</li>
+<li>7.2.4 Implementation of a Macro Facility in an Assembler</li>
+</ul></li>
+<li>7.3 THE ASSEMBLY PROCESS
+
+<ul>
+<li>7.3.1 Two-Pass Assemblers</li>
+<li>7.3.2 Pass One</li>
+<li>7.3.3 Pass Two</li>
+<li>7.3.4 The Symbol Table</li>
+</ul></li>
+<li>7.4 LINKING AND LOADING
+
+<ul>
+<li>7.4.1 Tasks Performed by the Linker</li>
+<li>7.4.2 Structure of an Object Module</li>
+<li>7.4.3 Binding Time and Dynamic Relocation</li>
+<li>7.4.4 Dynamic Linking</li>
+</ul></li>
+<li>7.5 SUMMARY</li>
+</ul>
+
+<h2>8. PARALLEL COMPUTER ARCHITECTURES</h2>
+
+<ul>
+<li>8.1 ON-CHIP PARALELLISM
+
+<ul>
+<li>8.1.1 Instruction-Level Parallelism</li>
+<li>8.1.2 On-Chip Multithreading</li>
+<li>8.1.3 Single-Chip Multiprocessors</li>
+</ul></li>
+<li>8.2 COPROCESSORS
+
+<ul>
+<li>8.2.1 Network Processors</li>
+<li>8.2.2 Media Processors</li>
+<li>8.2.3 Cryptoprocessors</li>
+</ul></li>
+<li>8.3 SHARED-MEMORYMULTIPROCESSORS
+
+<ul>
+<li>8.3.1 Multiprocessors vs. Multicomputers</li>
+<li>8.3.2 Memory Semantics</li>
+<li>8.3.3 UMA Symmetric Multiprocessor Architectures</li>
+<li>8.3.4 NUMA Multiprocessors</li>
+<li>8.3.5 COMA Multiprocessors</li>
+</ul></li>
+<li>8.4 MESSAGE-PASSING MULTICOMPUTERS
+
+<ul>
+<li>8.4.1 Interconnection Networks</li>
+<li>8.4.2 MPPs–Massively Parallel Processors</li>
+<li>8.4.3 Cluster Computing</li>
+<li>8.4.4 Communication Software for Multicomputers</li>
+<li>8.4.5 Scheduling</li>
+<li>8.4.6 Application-Level Shared Memory</li>
+<li>8.4.7 Performance</li>
+</ul></li>
+<li>8.5 GRID COMPUTING</li>
+<li>8.6 SUMMARY</li>
+</ul>
+
+<h2>9. SUGGESTIONS</h2>
+
+<ul>
+<li>9.1 SUGGESTIONS FOR FURTHER READING
+
+<ul>
+<li>9.1.1 Introduction and General Works</li>
+<li>9.1.2 Computer Systems Organization</li>
+<li>9.1.3 The Digital Logic Level</li>
+<li>9.1.4 The Microarchitecture Level</li>
+<li>9.1.5 The Instruction Set Architecture Level</li>
+<li>9.1.6 The Operating System Machine Level</li>
+<li>9.1.7 The Assembly Language Level</li>
+<li>9.1.8 Parallel Computer Architectures</li>
+<li>9.1.9 Binary and Floating-Point Numbers</li>
+<li>9.1.10 Assembly Language Programming</li>
+</ul></li>
+<li>9.2 ALPHABETICAL BIBLIOGRAPHY</li>
+</ul>
+
+<h2>Appendix</h2>
+
+<ul>
+<li>A.1 FINITE-PRECISION NUMBERS</li>
+<li>A.2 RADIX NUMBER SYSTEMS</li>
+<li>A.3 CONVERSION FROM ONE RADIX TO ANOTHER</li>
+<li>A.4 NEGATIVE BINARY NUMBERS</li>
+<li>A.5 BINARY ARITHMETIC</li>
+<li>B.1 PRINCIPLES OF FLOATING POINT</li>
+<li>B.2 IEEE FLOATING-POINT STANDARD 754</li>
+<li>C.1 OVERVIEW
+
+<ul>
+<li>C.1.1 Assembly Language</li>
+<li>C.1.2 A Small Assembly Language Program</li>
+</ul></li>
+<li>C.2 THE 8088 PROCESSOR
+
+<ul>
+<li>C.2.1 The Processor Cycle</li>
+<li>C.2.2 The General Registers</li>
+<li>C.2.3 Pointer Registers</li>
+</ul></li>
+<li>C.3 MEMORY AND ADDRESSING
+
+<ul>
+<li>C.3.1 Memory Organization and Segments</li>
+<li>C.3.2 Addressing</li>
+</ul></li>
+<li>C.4 THE 8088 INSTRUCTION SET
+
+<ul>
+<li>C.4.1 Move, Copy and Arithmetic</li>
+<li>C.4.2 Logical, Bit and Shift Operations</li>
+<li>C.4.3 Loop and Repetitive String Operations</li>
+<li>C.4.4 Jump and Call Instructions</li>
+<li>C.4.5 Subroutine Calls</li>
+<li>C.4.6 System Calls and System Subroutines</li>
+<li>C.4.7 Final Remarks on the Instruction Set</li>
+</ul></li>
+<li>C.5 THE ASSEMBLER
+
+<ul>
+<li>C.5.1 Introduction</li>
+<li>C.5.2 The ACK-Based Assembler, as88</li>
+<li>C.5.3 Some Differences with Other 8088 Assemblers</li>
+</ul></li>
+<li>C.6 THE TRACER
+
+<ul>
+<li>C.6.1 Tracer Commands</li>
+</ul></li>
+<li>C.7 GETTING STARTED</li>
+<li>C.8 EXAMPLES
+
+<ul>
+<li>C.8.1 Hello World Example</li>
+<li>C.8.2 General Registers Example</li>
+<li>C.8.3 Call Command and Pointer Registers</li>
+<li>C.8.4 Debugging an Array Print Program</li>
+<li>C.8.5 String Manipulation and String Instructions</li>
+<li>C.8.6 Dispatch Tables</li>
+<li>C.8.7 Buffered and Random File Access</li>
+</ul></li>
+</ul>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Summary Reading Notes</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Summary Reading Notes</li>
+          <li><a href="mailto:glorioustao@gmail.com">glorioustao@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/tao-guo">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">tao-guo</span>
+            </a>
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Some reading notes
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
